@@ -1,0 +1,31 @@
+button_id,button_name,icon_file,function,description
+mw2_clear_all,Clear All Formatting,mw2_clear_all.png,clearAllFormatting(),Remove all formatting from selected text
+mw2_format_painter,Format Painter,mw2_format_painter.png,activateFormatPainter(),Copy and apply comprehensive formatting
+mw2_subscript,Subscript,mw2_subscript.png,applySubscript(),Make text subscript
+mw2_superscript,Superscript,mw2_superscript.png,applySuperscript(),Make text superscript
+mw2_cloud_sync,Cloud Sync,mw2_cloud_sync.png,openCloudSync(),Sync documents to cloud storage
+mw2_share,Share Document,mw2_share.png,openShareDocument(),Share document with others
+mw2_template_library,Template Library,mw2_template_library.png,openTemplateLibrary(),Access document templates
+mw2_columns,Columns,mw2_columns.png,createColumns(),Create multi-column layouts
+mw2_page_setup,Page Setup,mw2_page_setup.png,openPageSetup(),Configure page settings
+mw2_header_footer,Header & Footer,mw2_header_footer.png,openHeaderFooter(),Add headers and footers
+mw2_section_break,Section Break,mw2_section_break.png,insertSectionBreak(),Insert section breaks
+mw2_margin,Margins,mw2_margin.png,adjustMargins(),Adjust page margins
+mw2_line_spacing,Line Spacing,mw2_line_spacing.png,adjustLineSpacing(),Adjust line spacing
+mw2_paragraph,Paragraph,mw2_paragraph.png,formatParagraph(),Format paragraphs
+mw2_table_merge,Merge Cells,mw2_table_merge.png,mergeTableCells(),Merge table cells
+mw2_table_split,Split Cells,mw2_table_split.png,splitTableCells(),Split table cells
+mw2_sidebar_toggle,Sidebar Toggle,mw2_sidebar_toggle.png,toggleSidebar(),Toggle sidebar visibility
+mw2_ruler_toggle,Ruler Toggle,mw2_ruler_toggle.png,toggleRuler(),Toggle ruler visibility
+mw2_show_invisibles,Show Invisibles,mw2_show_invisibles.png,toggleInvisibles(),Show invisible characters
+mw2_focus_mode,Focus Mode,mw2_focus_mode.png,toggleFocusMode(),Enable distraction-free writing
+mw2_night_mode,Night Mode,mw2_night_mode.png,toggleNightMode(),Toggle dark mode
+mw2_char_count,Character Count,mw2_char_count.png,showCharCount(),Count characters in document
+mw2_word_count,Word Count,mw2_word_count.png,showWordCount(),Count words in document
+mw2_protect_doc,Protect Document,mw2_protect_doc.png,protectDocument(),Protect document from editing
+mw2_password,Password Protection,mw2_password.png,setPassword(),Add password protection
+mw2_track_on,Track Changes On,mw2_track_on.png,enableTrackChanges(),Enable change tracking
+mw2_track_off,Track Changes Off,mw2_track_off.png,disableTrackChanges(),Disable change tracking
+mw2_accept_change,Accept Changes,mw2_accept_change.png,acceptChanges(),Accept tracked changes
+mw2_reject_change,Reject Changes,mw2_reject_change.png,rejectChanges(),Reject tracked changes
+mw2_styles,Styles,mw2_styles.png,openStyles(),Apply document styles

@@ -1,0 +1,107 @@
+# MiniWord HTML Pages List
+
+## Main Pages
+- home - Home page
+- tools - Tools page
+- format - Format page
+- view - View page
+- help - Help page
+
+## File Operations
+- file_new - New Document
+- file_open - Open Document
+- file_save - Save Document
+- file_print - Print Document
+- file_close - Close Document
+
+## Edit Operations
+- edit_undo - Undo
+- edit_redo - Redo
+- edit_cut - Cut
+- edit_copy - Copy
+- edit_paste - Paste
+- find - Find
+- replace - Replace
+- clear_format - Clear Format
+
+## Format Operations
+- bold - Bold
+- italic - Italic
+- underline - Underline
+- strikethrough - Strikethrough
+- superscript - Superscript
+- subscript - Subscript
+- text_color - Text Color
+- highlight - Highlight
+- format_painter - Format Painter
+
+## Alignment Operations
+- align_left - Align Left
+- align_center - Align Center
+- align_right - Align Right
+- align_justify - Align Justify
+
+## Layout Operations
+- layout_columns - Columns
+- layout_page_break - Page Break
+- layout_page_setup - Page Setup
+- layout_header_footer - Header & Footer
+
+## List Operations
+- bulleted_list - Bulleted List
+- numbered_list - Numbered List
+- indent_increase - Increase Indent
+- indent_decrease - Decrease Indent
+
+## Insert Operations
+- insert_image - Insert Image
+- insert_link - Insert Link
+- insert_table - Insert Table
+- insert_chart - Insert Chart
+- insert_symbol - Insert Symbol
+- insert_equation - Insert Equation
+
+## Review Operations
+- review_comment - New Comment
+- review_spelling - Spelling Check
+
+## View Operations
+- view_zoom_in - Zoom In
+- view_zoom_out - Zoom Out
+- view_preview - Preview
+- help - Help
+
+## Application Settings
+- app_settings - Application Settings
+
+## Advanced Features (Set 2)
+- mw2_clear_all - Clear All Formatting
+- mw2_format_painter - Format Painter
+- mw2_subscript - Subscript
+- mw2_superscript - Superscript
+- mw2_cloud_sync - Cloud Sync
+- mw2_share - Share Document
+- mw2_template_library - Template Library
+- mw2_columns - Columns
+- mw2_page_setup - Page Setup
+- mw2_header_footer - Header & Footer
+- mw2_section_break - Section Break
+- mw2_margin - Margins
+- mw2_line_spacing - Line Spacing
+- mw2_paragraph - Paragraph
+- mw2_table_merge - Merge Cells
+- mw2_table_split - Split Cells
+- mw2_sidebar_toggle - Sidebar Toggle
+- mw2_ruler_toggle - Ruler Toggle
+- mw2_show_invisibles - Show Invisibles
+- mw2_focus_mode - Focus Mode
+- mw2_night_mode - Night Mode
+- mw2_char_count - Character Count
+- mw2_word_count - Word Count
+- mw2_protect_doc - Protect Document
+- mw2_password - Password Protection
+- mw2_track_on - Track Changes On
+- mw2_track_off - Track Changes Off
+- mw2_accept_change - Accept Changes
+- mw2_reject_change - Reject Changes
+- mw2_styles - Styles

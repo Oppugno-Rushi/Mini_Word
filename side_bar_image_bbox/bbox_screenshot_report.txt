@@ -1,0 +1,107 @@
+MiniWord Complete Bbox Screenshot Report
+==================================================
+Generated: 2025-10-16 12:39:22
+
+MENU BAR SCREENSHOTS:
+-------------------------
+Total Menu Items: 7
+Successful Captures: 7
+Failed Captures: 0
+Success Rate: 100.0%
+
+TOOLBAR BUTTON SCREENSHOTS:
+------------------------------
+Total Toolbars: 7
+Successful Captures: 7
+Failed Captures: 0
+Success Rate: 100.0%
+
+SIDEBAR SCREENSHOTS:
+-------------------------
+Total Functions: 62
+Successful Captures: 56
+Failed Captures: 6
+Success Rate: 90.3%
+
+OUTPUT STRUCTURE:
+--------------------
+Full screenshots with bbox: /shared/nas/data/m1/jiateng5/Mini_Word/side_bar_image_bbox/full_screenshots_with_bbox
+Cropped sidebars: /shared/nas/data/m1/jiateng5/Mini_Word/side_bar_image_bbox/cropped_sidebars
+Individual button bbox screenshots: /shared/nas/data/m1/jiateng5/Mini_Word/side_bar_image_bbox/button_image_bbox
+Sidebar elements bbox screenshots: /shared/nas/data/m1/jiateng5/Mini_Word/side_bar_image_bbox/sidebar_elements_bbox
+Menu bar bbox screenshots: /shared/nas/data/m1/jiateng5/Mini_Word/side_bar_image_bbox/menu_bar_bbox
+
+FUNCTION LIST:
+--------------------
+- New Document (file_new) - file
+- Open Document (file_open) - file
+- Save Document (file_save) - file
+- Print Document (file_print) - file
+- Refresh Page (web_refresh) - file
+- Close Page (web_close) - file
+- Open New Tab (new_tab) - file
+- Toggle Pagination (toggle_pagination) - file
+- Undo Operation (edit_undo) - edit
+- Redo Operation (edit_redo) - edit
+- Cut Content (edit_cut) - edit
+- Direct Copy (edit_copy) - edit
+- Formatted Copy (edit_copy) - edit
+- Paste (edit_paste) - edit
+- Find Text (find) - edit
+- Find and Replace (replace) - edit
+- Clear All Formatting (mw2_clear_all) - edit
+- Format Painter (mw2_format_painter) - edit
+- Zoom In View (view_zoom_in) - view
+- Zoom Out View (view_zoom_out) - view
+- Print Preview (view_preview) - view
+- Page Setup (layout_page_setup) - view
+- Toggle Sidebar (mw2_sidebar_toggle) - view
+- Toggle Ruler (mw2_ruler_toggle) - view
+- Show Hidden Characters (mw2_show_invisibles) - view
+- Focus Mode (mw2_focus_mode) - view
+- Night Mode (mw2_night_mode) - view
+- Insert Image (insert_image) - insert
+- Insert Table (insert_table) - insert
+- Insert Chart (insert_chart) - insert
+- Insert Link (insert_link) - insert
+- Insert Equation (insert_equation) - insert
+- Insert Symbol (insert_symbol) - insert
+- Section Break (mw2_section_break) - insert
+- Template Library (mw2_template_library) - insert
+- Bold Format (bold) - format
+- Italic Format (italic) - format
+- Underline Format (underline) - format
+- Strikethrough (strikethrough) - format
+- Left Align  (align_left) - format
+- Center Align (align_center) - format
+- Right Align (align_right) - format
+- Justify Align (align_justify) - format
+- Text Color (text_color) - format
+- Highlight (highlight) - format
+- Format Painter (format_painter) - format
+- Clear Format (clear_format) - format
+- Superscript (mw2_superscript) - format
+- Subscript (mw2_subscript) - format
+- Line Spacing (mw2_line_spacing) - format
+- Page Setup (mw2_page_setup) - format
+- Header & Footer (mw2_header_footer) - format
+- Spell Check (review_spelling) - tools
+- New Comment (review_comment) - tools
+- Bulleted List (bulleted_list) - tools
+- Numbered List (numbered_list) - tools
+- Increase Indent (indent_increase) - tools
+- Decrease Indent (indent_decrease) - tools
+- Character Count (mw2_char_count) - tools
+- Application Settings (app_settings) - help
+- Page Break (layout_page_break) - help
+- Share Document (mw2_share) - help
+
+TOOLBAR SECTIONS:
+--------------------
+- FILE toolbar
+- EDIT toolbar
+- VIEW toolbar
+- INSERT toolbar
+- FORMAT toolbar
+- TOOLS toolbar
+- HELP toolbar

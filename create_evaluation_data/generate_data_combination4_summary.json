@@ -1,0 +1,11 @@
+{
+  "total_processed": 1200,
+  "judgment_distribution": {
+    "reasonable": 547,
+    "unreasonable": 653
+  },
+  "section_distribution": {
+    "Four Functions": 1200
+  },
+  "generated_at": "2025-10-23 06:42:01"
+}

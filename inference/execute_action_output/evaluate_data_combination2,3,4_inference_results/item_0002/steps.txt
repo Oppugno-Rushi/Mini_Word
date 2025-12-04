@@ -1,0 +1,18 @@
+1. Click the 'File' section.
+2. Click the Open Document icon.
+3. Click the 'Choose File' button to select a file.
+4. Select the file'sustainability_report.txt' from your computer.
+5. Click the 'Open Document' button.
+6. Click the 'Insert' section.
+7. Click the Insert Link icon.
+8. Enter 'https://www.lumosenergy.com' in the Link URL field.
+9. Enter 'Lumos Energy' in the link display text field.
+10. Move the cursor to the Executive Summary section.
+11. Click 'Insert Link' button to create the link.
+12. Click the 'Tools' section.
+13. Click the New Comment icon.
+14. Input 'Verify link accuracy' in the comment content field.
+15. Input your name in the comment author field.
+16. Select 'High Priority' from the comment priority field.
+17. Select the link 'Lumos Energy' with the cursor.
+18. Click 'Add Comment to Selected Text' button to save the comment.

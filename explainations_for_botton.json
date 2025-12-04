@@ -1,0 +1,767 @@
+{
+  "MiniWord_Button_Documentation": {
+    "description": "Complete guide for all buttons and functions in MiniWord application",
+    "sections": {
+      "File": {
+        "description": "File management and document operations",
+        "buttons": [
+          {
+            "id": "file_new",
+            "name": "New Document",
+            "icon": "miniword_buttons_png/file_new.png",
+            "usage": [
+              "1. Click the 'File' section",
+              "2. Click the New Document icon",
+              "3. Choose the 'Document Type' you want (Blank Document, Business Letter, Project Report, Internal Memo, Personal Resume, Newsletter, Invoice)",
+              "4. Change the 'Document Title' to what you want (default: 'Untitled Document')",
+              "5. Click the 'Create Document' button"
+            ],
+            "shortcut": "Ctrl+N"
+          },
+          {
+            "id": "file_open",
+            "name": "Open Document",
+            "icon": "miniword_buttons_png/file_open.png",
+            "usage": [
+              "1. Click the 'File' section",
+              "2. Click the Open Document icon",
+              "3. Click the 'Choose File' button to select a file",
+              "4. Select a file from your computer (.txt, .html, .htm, .md files) or enter the document content in the 'Paste document content...' field",
+              "5. Click the 'Open Document' button"
+            ],
+            "shortcut": "Ctrl+O"
+          },
+          {
+            "id": "file_save",
+            "name": "Save Document",
+            "icon": "miniword_buttons_png/file_save.png",
+            "usage": [
+              "1. Click the 'File' section",
+              "2. Click the Save Document icon",
+              "3. The filename field will be pre-filled with the Document Title from 'New Document',you can change the filename if needed",
+              "4. Choose the 'Save Format' (HTML Document, Plain Text, Markdown)",
+              "5. Click 'Save Document'button to download the file with the chosen name"
+            ],
+            "shortcut": "Ctrl+S"
+          },
+          {
+            "id": "file_print",
+            "name": "Print Document",
+            "icon": "miniword_buttons_png/file_print.png",
+            "usage": [
+              "1. Click the 'File' section",
+              "2. Click the Print Document icon",
+              "3. Choose Printer (Default Printer or Save as PDF)",
+              "4. Select Page Range (All Pages, Current Page, or Custom Range)",
+              "5. Click the 'Print' button"
+            ],
+            "shortcut": "Ctrl+P"
+          },
+          {
+            "id": "web_refresh",
+            "name": "Refresh Page",
+            "icon": "miniword_icons_set2/mw2_track_on.png",
+            "usage": [
+              "1. Click the 'File' section",
+              "2. Click the Refresh Page icon",
+              "3. Click the 'Refresh Page' button, the page will reload"
+            ]
+          },
+          {
+            "id": "web_close",
+            "name": "Close Page",
+            "icon": "miniword_icons_set2/mw2_table_merge.png",
+            "usage": [
+              "1. Click the 'File' section",
+              "2. Click the Close Page icon",
+              "3. Click the 'Close Page' button, the browser tab will close"
+            ]
+          },
+          {
+            "id": "open_new_tab",
+            "name": "Open New Tab",
+            "icon": "miniword_icons_set2/mw2_table_split.png",
+            "usage": [
+              "1. Click the 'File' section",
+              "2. Click the Open New Tab icon",
+              "3. Click the Open 'New Tab' button, a new browser tab will open"
+            ]
+          },
+          {
+            "id": "toggle_pagination",
+            "name": "Toggle Pagination",
+            "icon": "miniword_icons_set2/mw2_password.png",
+            "usage": [
+              "1. Click the 'File' section",
+              "2. Click the Toggle Pagination icon",
+              "3. Click the 'Toggle Mode' button, your document content will be reformat"
+            ]
+          }
+        ]
+      },
+      "Edit": {
+        "description": "Text editing and manipulation tools",
+        "buttons": [
+          {
+            "id": "edit_undo",
+            "name": "Undo Operation",
+            "icon": "miniword_buttons_png/edit_undo.png",
+            "usage": [
+              "1. Click the 'Edit' section",
+              "2. Click the Undo icon",
+              "3. Click the 'Undo(Ctrl+Z)' button, the last action will be reversed"
+            ],
+            "shortcut": "Ctrl+Z"
+          },
+          {
+            "id": "edit_redo",
+            "name": "Redo Operation",
+            "icon": "miniword_buttons_png/edit_redo.png",
+            "usage": [
+              "1. Click the 'Edit' section",
+              "2. Click the Redo icon",
+              "3. Click the 'Redo(Ctrl+Y)' button, the last undone action will be restored"
+            ],
+            "shortcut": "Ctrl+Y"
+          },
+          {
+            "id": "edit_cut",
+            "name": "Cut Content",
+            "icon": "miniword_buttons_png/edit_cut.png",
+            "usage": [
+              "1. Click the 'Edit' section",
+              "2. Click the Cut Content icon",
+              "3. Select the text you want to cut with cursor",
+              "4. Click the 'Cut(Ctrl+X)' button, the text will be removed and copied to clipboard"
+            ],
+            "shortcut": "Ctrl+X"
+          },
+          {
+            "id": "edit_copy",
+            "name": "Direct Copy",
+            "icon": "miniword_buttons_png/edit_copy.png",
+            "usage": [
+              "1. Click the 'Edit' section",
+              "2. Click the Copy icon",
+              "3. Click the Direct Copy icon that under the Copy icon, the submenu will appear",
+              "4. Select the text you want to copy",
+              "5. Click the 'Copy Plain Text' button, the text without formatting will be copied to clipboard"
+            ],
+            "shortcut": "Ctrl+C"
+          },
+          {
+            "id": "edit_copy",
+            "name": "Formatted Copy",
+            "icon": "miniword_icons_set2/mw2_styles.png",
+            "usage": [
+              "1. Click the 'Edit' section",
+              "2. Click the Copy icon",
+              "3. Click the Formatted Copy icon that under the Copy icon, the submenu will appear",
+              "3. Select the text you want to copy with cursor",
+              "4. Click the 'Copy Formatted Text' button, the text with formatting will be copied to clipboard"
+            ],
+            "shortcut": "Ctrl+C"
+          },
+          {
+            "id": "edit_paste",
+            "name": "Paste",
+            "icon": "miniword_buttons_png/edit_paste.png",
+            "usage": [
+              "1. Click the 'Edit' section",
+              "2. Click the Paste Content icon",
+              "3. Position cursor where you want to paste",
+              "4. Click the 'Smart Paste(Ctrl+V)' button to paste the text without formatting from clipboard/ or Click the 'Paste Plain Text' button to paste the text without formatting from clipboard/ or Click the 'Paste Formatted' button to paste the text with formatting from clipboard. Then the text from clipboard will be inserted"
+            ],
+            "shortcut": "Ctrl+V"
+          },
+          {
+            "id": "find",
+            "name": "Find Text",
+            "icon": "miniword_buttons_png/find.png",
+            "usage": [
+              "1. Click the 'Edit' section",
+              "2. Click the Find Text icon",
+              "3. Enter the text you want to find",
+              "4. Click 'Find' button to locate matches, the find content will be highlighted"
+            ],
+            "shortcut": "Ctrl+F"
+          },
+          {
+            "id": "replace",
+            "name": "Find and Replace",
+            "icon": "miniword_buttons_png/replace.png",
+            "usage": [
+              "1. Click the 'Edit' section",
+              "2. Click the Find and Replace icon",
+              "3. Enter text to find",
+              "4. Enter the replacement text",
+              "5. Click 'Replace All' button to replace all matches"
+            ],
+            "shortcut": "Ctrl+H"
+          },
+          {
+            "id": "mw2_clear_all",
+            "name": "Clear All Formatting",
+            "icon": "miniword_icons_set2/mw2_clear_all.png",
+            "usage": [
+              "1. Click the 'Edit' section",
+              "2. Click the Clear All Formatting icon",
+              "3. Select the text with formatting you want to clear",
+              "4. Click the 'Clear Selected Text Formatting' button, all formatting (bold, italic, colors, etc.) will be removed"
+            ]
+          },
+          {
+            "id": "mw2_format_painter",
+            "name": "Format Painter",
+            "icon": "miniword_icons_set2/mw2_format_painter.png",
+            "usage": [
+              "1. Click the 'Edit' section",
+              "2. Click the Format Painter icon",
+              "3. Select text with the formatting you want to copy with cursor",
+              "4. Click the 'Copy Format' button, the formatting will be copied",
+              "5. Select the text you want to apply formatting to",
+              "6. Click the 'Apply Format' button, the formatting will be applied"
+            ]
+          }
+        ]
+      },
+      "View": {
+        "description": "Document viewing and display options",
+        "buttons": [
+          {
+            "id": "view_zoom_in",
+            "name": "Zoom In View",
+            "icon": "miniword_buttons_png/view_zoom_in.png",
+            "usage": [
+              "1. Click the 'View' section",
+              "2. Click the Zoom In View icon",
+              "3. Select Zoom level you want to zoom in(125%, 150%, 175%, 200%, 250%, 300%, 400%, 500%)",
+              "4. Click the 'Apply Zoom In' button, the document will be magnified"
+            ],
+            "shortcut": "Ctrl++"
+          },
+          {
+            "id": "view_zoom_out",
+            "name": "Zoom Out View",
+            "icon": "miniword_buttons_png/help.png",
+            "usage": [
+              "1. Click the 'View' section",
+              "2. Click the Zoom Out View icon",
+              "3. Select Zoom level you want to zoom out(25%, 50%, 75%, 90%, 100%)",
+              "4. Click the 'Apply Zoom Out' button, the document will be reduced in size"
+            ],
+            "shortcut": "Ctrl+-"
+          },
+          {
+            "id": "view_preview",
+            "name": "Print Preview",
+            "icon": "miniword_buttons_png/view_preview.png",
+            "usage": [
+              "1. Click the 'View' section",
+              "2. Click the Print Preview icon",
+              "3. Click the 'Print' button, you can see how the document will look when printed"
+            ]
+          },
+          {
+            "id": "layout_page_setup",
+            "name": "Page Setup",
+            "icon": "miniword_buttons_png/layout_page_setup.png",
+            "usage": [
+              "1. Click the 'View' section",
+              "2. Click the Page Setup icon",
+              "3. Configure page orientation (Portrait, Landscape)",
+              "4. Click 'Apply Orientation' button to apply settings"
+            ]
+          },
+          {
+            "id": "mw2_sidebar_toggle",
+            "name": "Toggle Sidebar",
+            "icon": "miniword_icons_set2/mw2_sidebar_toggle.png",
+            "usage": [
+              "1. Click the 'View' section",
+              "2. Click the Toggle Sidebar icon",
+              "3. Click the 'Toggle Sidebar' button, the sidebar will show/hide"
+            ]
+          },
+          {
+            "id": "mw2_ruler_toggle",
+            "name": "Toggle Ruler",
+            "icon": "miniword_icons_set2/mw2_ruler_toggle.png",
+            "usage": [
+              "1. Click the 'View' section",
+              "2. Click the Toggle Ruler icon",
+              "3. Click the 'Toggle Ruler' button,the ruler will show horizontal and vertical",
+              "4. Click the 'Toggle Ruler' button again can hide the ruler"
+            ]
+          },
+          {
+            "id": "mw2_show_invisibles",
+            "name": "Show Hidden Characters",
+            "icon": "miniword_icons_set2/mw2_show_invisibles.png",
+            "usage": [
+              "1. Click the 'View' section",
+              "2. Click the Show Hidden Characters icon",
+              "3. Click the 'Toggle Hidden Characters' button,space characters, Tab characters, Paragraph marks, and line breaks will be visible",
+              "4. Click the 'Toggle Hidden Characters' button again can hide them"
+            ]
+          },
+          {
+            "id": "mw2_focus_mode",
+            "name": "Focus Mode",
+            "icon": "miniword_icons_set2/mw2_focus_mode.png",
+            "usage": [
+              "1. Click the 'View' section",
+              "2. Click the Focus Mode icon",
+              "3. Click the 'Toggle Focus Mode' button, the focus mode will be toggled"
+            ]
+          },
+          {
+            "id": "mw2_night_mode",
+            "name": "Night Mode",
+            "icon": "miniword_icons_set2/mw2_night_mode.png",
+            "usage": [
+              "1. Click the 'View' section",
+              "2. Click the Night Mode icon",
+              "3. Click the 'Toggle Night Mode' button, the interface will switch to dark theme",
+              "4. Click the 'Toggle Night Mode' button again can return to light theme"
+            ]
+          }
+        ]
+      },
+      "Insert": {
+        "description": "Insert various content into the document",
+        "buttons": [
+          {
+            "id": "insert_image",
+            "name": "Insert Image",
+            "icon": "miniword_buttons_png/insert_image.png",
+            "usage": [
+              "1. Click the 'Insert' section",
+              "2. Click the Insert Image icon",
+              "3. Click the 'Choose File' button",
+              "4. Select an image file from your computer using the file input",
+              "5. Choose the image size (Small, Medium, Large)",
+              "6. Move the cursor to the position you want to insert the image",
+              "7. Click 'Insert Image' button to add it to your document"
+            ]
+          },
+          {
+            "id": "insert_table",
+            "name": "Insert Table",
+            "icon": "miniword_buttons_png/insert_table.png",
+            "usage": [
+              "1. Click the 'Insert' section",
+              "2. Click the Insert Table icon",
+              "3. Use the table size selector to choose the table size (e.g., 2x3, 3x4)",
+              "4. Move the cursor to the position you want to insert the table",
+              "5. Click 'Insert Table' button to add it to your document"
+            ]
+          },
+          {
+            "id": "insert_chart",
+            "name": "Insert Chart",
+            "icon": "miniword_buttons_png/insert_chart.png",
+            "usage": [
+              "1. Click the 'Insert' section",
+              "2. Click the Insert Chart icon",
+              "3. Select chart type (Bar Chart, Pie Chart)",
+              "4. Enter chart title you want to add",
+              "5. Choose the data source (Auto-detect, Manual Input)",
+              "6. If you choose the 'Auto-detect' data source, choose the detected table you want to use for the chart",
+              "7. Click 'Insert Chart' button to add the chart to document"
+            ]
+          },
+          {
+            "id": "insert_link",
+            "name": "Insert Link",
+            "icon": "miniword_buttons_png/insert_link.png",
+            "usage": [
+              "1. Click the 'Insert' section",
+              "2. Click the Insert Link icon",
+              "3. Enter the URL in the Link URL field",
+              "4. Enter the Display Text in the link display text field",
+              "5. Move the cursor to the position you want to insert the link",
+              "6. Click 'Insert Link' button to create the link",
+              "7. Right-click the link we made and select 'Open link in New Tab' can open the corresponding URL link."
+            ]
+          },
+          {
+            "id": "insert_equation",
+            "name": "Insert Equation",
+            "icon": "miniword_buttons_png/insert_equation.png",
+            "usage": [
+              "1. Click the 'Insert' section",
+              "2. Click the Insert Equation icon",
+              "3. choose the equation type (Basic Equation, Fraction, Square Root, Power/Exponent, Integral, Summation)",
+              "4. Enter the equation content you want to add in the equation content field",
+              "5. Move the cursor to the position you want to insert the equation",
+              "6. Click 'Insert Equation' button to add the equation"
+            ]
+          },
+          {
+            "id": "insert_symbol",
+            "name": "Insert Symbol",
+            "icon": "miniword_buttons_png/insert_symbol.png",
+            "usage": [
+              "1. Click the 'Insert' section",
+              "2. Click the Insert Symbol icon",
+              "3. Move the cursor to the position you want to insert the symbol",
+              "4. Select the symbol button you want to insert (→Right Arrow button, ←Left Arrow button, ↑Up Arrow button, ↓Down Arrow button, ★Star button, ♥Heart button)"
+            ]
+          },
+          {
+            "id": "mw2_section_break",
+            "name": "Section Break",
+            "icon": "miniword_icons_set2/mw2_section_break.png",
+            "usage": [
+              "1. Click the 'Insert' section",
+              "2. Click the Section Break icon",
+              "3. Use the cursor to position the section break",
+              "4. Click the 'Insert Section Break' button, the section break will be inserted"
+            ]
+          },
+          {
+            "id": "mw2_template_library",
+            "name": "Template Library",
+            "icon": "miniword_icons_set2/mw2_template_library.png",
+            "usage": [
+              "1. Click the 'Insert' section",
+              "2. Click the Template Library icon",
+              "3. Click a template from the template library (Business Letter, Report, Resume),the template will be inserted"
+            ]
+          }
+        ]
+      },
+      "Format": {
+        "description": "Text and paragraph formatting options",
+        "buttons": [
+          {
+            "id": "bold",
+            "name": "Bold Format",
+            "icon": "miniword_buttons_png/bold.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Bold Format icon",
+              "3. Select the text in the document you want to make bold",
+              "4. Click 'Apply Bold (Ctrl+B) button, the text will become bold"
+            ],
+            "shortcut": "Ctrl+B"
+          },
+          {
+            "id": "italic",
+            "name": "Italic Format",
+            "icon": "miniword_buttons_png/italic.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Italic Format icon",
+              "3. Select the text you want to make italic",
+              "4. Click 'Apply Italic (Ctrl+I) button, the text will become italic"
+            ],
+            "shortcut": "Ctrl+I"
+          },
+          {
+            "id": "underline",
+            "name": "Underline Format",
+            "icon": "miniword_buttons_png/underline.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Underline Format icon",
+              "3. Select the text you want to underline",
+              "4. Click the 'Apply Underline (Ctrl+U) button, the text will be underlined"
+            ],
+            "shortcut": "Ctrl+U"
+          },
+          {
+            "id": "strikethrough",
+            "name": "Strikethrough",
+            "icon": "miniword_buttons_png/strikethrough.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Strikethrough Format icon",
+              "3. Select the text you want to strikethrough",
+              "4. Click the 'Apply Strikethrough' button, the text will have a line through it"
+            ]
+          },
+          {
+            "id": "align_left",
+            "name": "Left Align ",
+            "icon": "miniword_buttons_png/align_left.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Left Align icon",
+              "3. Select the paragraph you want to align",
+              "4. Click the 'Apply Left Align' button, the text will be aligned to the left"
+            ]
+          },
+          {
+            "id": "align_center",
+            "name": "Center Align",
+            "icon": "miniword_buttons_png/align_center.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Center Align icon",
+              "3. Select the paragraph you want to center",
+              "4. Click the 'Apply Center Align' button, the text will be centered"
+            ]
+          },
+          {
+            "id": "align_right",
+            "name": "Right Align",
+            "icon": "miniword_buttons_png/align_right.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Right Align icon",
+              "3. Select the paragraph you want to align",
+              "4. Click the 'Apply Right Align' button, the text will be aligned to the right"
+            ]
+          },
+          {
+            "id": "align_justify",
+            "name": "Justify Align",
+            "icon": "miniword_buttons_png/align_justify.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Justify Align icon",
+              "3. Select the paragraph you want to justify",
+              "4. Click the 'Apply Justify Align' button, the text will be justified (aligned to both margins)"
+            ]
+          },
+          {
+            "id": "text_color",
+            "name": "Text Color",
+            "icon": "miniword_buttons_png/text_color.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Text Color icon",
+              "3. Choose a color from the color square (black, red, green, blue, yellow, magenta, cyan, grey)",
+              "4. Click the text you want to change color use the cursor",
+              "5. Click the 'Apply Color' button to change the text color"
+            ]
+          },
+          {
+            "id": "highlight",
+            "name": "Highlight",
+            "icon": "miniword_buttons_png/highlight.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Highlight Display icon",
+              "3. Choose the highlight color you want from the color squares (Bright Yellow, Light Pink, Light Green, Light Purple, Cream Yellow, Light Magenta,  Light Blue,Light Gray)",
+              "4. Select the text you want to highlight",
+              "5. Click the 'Apply Highlight' button to apply the highlight color"
+            ]
+          },
+          {
+            "id": "format_painter",
+            "name": "Format Painter",
+            "icon": "miniword_buttons_png/format_painter.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Format Painter icon",
+              "3. Select text with the formatting you want to copy the formatting",
+              "4. Click the 'Activate Format Painter' button",
+              "5. Select the text you want to apply formatting to",
+              "6. Click the 'Apply Format Painter' button, the formatting will be applied"
+            ]
+          },
+          {
+            "id": "clear_format",
+            "name": "Clear Format",
+            "icon": "miniword_buttons_png/clear_format.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Clear Format icon",
+              "3. Select the text with formatting you want to clear",
+              "4. Click the 'Clear Format' button, all formatting will be removed"
+            ]
+          },
+          {
+            "id": "mw2_superscript",
+            "name": "Superscript",
+            "icon": "miniword_icons_set2/mw2_superscript.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Superscript icon",
+              "3. Select the text you want to make superscript",
+              "4. Click the 'Apply Superscript' button, the text will appear smaller and higher"
+            ]
+          },
+          {
+            "id": "mw2_subscript",
+            "name": "Subscript",
+            "icon": "miniword_icons_set2/mw2_subscript.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Subscript icon",
+              "3. Select the text you want to make subscript",
+              "4. Click the 'Apply Subscript' button, the text will appear smaller and lower"
+            ]
+          },
+          {
+            "id": "mw2_line_spacing",
+            "name": "Line Spacing",
+            "icon": "miniword_icons_set2/mw2_line_spacing.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Line Spacing icon",
+              "3. Select the paragraph you want to change",
+              "4. Click the spacing options button (Double(2.0x), the line spacing will be changed to 2.0x"
+            ]
+          },
+          {
+            "id": "mw2_page_setup",
+            "name": "Page Setup",
+            "icon": "miniword_icons_set2/mw2_page_setup.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Page Setup icon",
+              "3. Click the page size you want to set (A4(210 × 297 mm), A3(297 × 420 mm), Letter(8.5 × 11 in), Legal(8.5 × 14 in), A5(148 × 210 mm), B4(250 × 353 mm)",
+              "4. Input the margins you want to set (Top, Bottom, Left, Right) or click the preset margin options (Normal, Narrow, Wide)",
+              "5. Click 'Apply Settings' button to apply settings"
+            ]
+          },
+          {
+            "id": "mw2_header_footer",
+            "name": "Header & Footer",
+            "icon": "miniword_icons_set2/mw2_header_footer.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Header & Footer icon",
+              "3. Click the 'Edit Header' button to add the header",
+              "4. Delete the existing header text and input the new header text if you want to add new header",
+              "5. Click the 'Edit Footer' button to add the footer",
+              "6. Delete the existing footer text and input the new footer text if you want to add new footer"
+            ]
+          }
+        ]
+      },
+      "Tools": {
+        "description": "Document tools and utilities",
+        "buttons": [
+          {
+            "id": "review_spelling",
+            "name": "Spell Check",
+            "icon": "miniword_buttons_png/review_spelling.png",
+            "usage": [
+              "1. Click the 'Tools' section",
+              "2. Click the Spell Check icon",
+              "3. Click the 'Start Check' button, the system will scan for spelling errors",
+              "4. Choose the correct spelling from the suggestions or click the 'Ignore' button to ignore the word"
+            ]
+          },
+          {
+            "id": "review_comment",
+            "name": "New Comment",
+            "icon": "miniword_buttons_png/review_comment.png",
+            "usage": [
+              "1. Click the 'Tools' section",
+              "2. Click the New Comment icon",
+              "3. Input the comment you want to add in the comment content field",
+              "4. Input the author name in the comment author field",
+              "5. Select the comment priority level from the comment priority field (Low Priority, Normal Priority, High Priority, Urgent)",
+              "6. Click 'Add Comment to Selected Text' button to save",
+              "7. Select the text in the document you want to add the comment with the cursor",
+              "8. Click the selected text in the document can view the added comment"
+            ]
+          },
+          {
+            "id": "bulleted_list",
+            "name": "Bulleted List",
+            "icon": "miniword_buttons_png/bulleted_list.png",
+            "usage": [
+              "1. Click the 'Tools' section",
+              "2. Click the Bulleted List icon",
+              "3. Place your cursor before any text where you want bullets",
+              "4. Click the 'Add Bullet' button, the text will be converted to a bulleted list item"
+            ]
+          },
+          {
+            "id": "numbered_list",
+            "name": "Numbered List",
+            "icon": "miniword_buttons_png/numbered_list.png",
+            "usage": [
+              "1. Click the 'Tools' section",
+              "2. Click the Numbered List icon",
+              "3. Place your cursor before any text where you want numbers",
+              "4. Click the 'Add Number button, the text will be converted to a numbered list item"
+            ]
+          },
+          {
+            "id": "indent_increase",
+            "name": "Increase Indent",
+            "icon": "miniword_buttons_png/indent_increase.png",
+            "usage": [
+              "1. Click the 'Tools' section",
+              "2. Click the Increase Indent icon",
+              "3. Select the paragraph you want to indent",
+              "4. Click the 'Increase Indent' button, the paragraph will move to the right",
+              "5. Click again the 'Increase Indent' button to indent more"
+            ]
+          },
+          {
+            "id": "indent_decrease",
+            "name": "Decrease Indent",
+            "icon": "miniword_buttons_png/indent_decrease.png",
+            "usage": [
+              "1. Click the 'Tools' section",
+              "2. Click the Decrease Indent icon",
+              "3. Select the paragraph you want to unindent",
+              "4. Click the 'Decrease Indent button, the paragraph will move to the left",
+              "6. Click again the 'Decrease Indent' button to unindent more"
+            ]
+          },
+          {
+            "id": "mw2_char_count",
+            "name": "Character Count",
+            "icon": "miniword_icons_set2/mw2_char_count.png",
+            "usage": [
+              "1. Click the 'Tools' section",
+              "2. Click the Character Count icon",
+              "3. Click the 'Show Character Count' button to show the character count, the count will be displayed in the document"
+            ]
+          }
+        ]
+      },
+      "Help": {
+        "description": "Application settings and help functions",
+        "buttons": [
+          {
+            "id": "app_settings",
+            "name": "Application Settings",
+            "icon": "miniword_buttons_png/app_settings.png",
+            "usage": [
+              "1. Click the 'Help' section",
+              "2. Click the Application Settings icon",
+              "3. Choose the font you want to set (Arial, Times New Roman)",
+              "4. Choose the font size you want to set (12px, 14px, 16px, 18px, 20px)",
+              "5. Click 'Apply Default Font' button to apply changes"
+            ]
+          },
+          {
+            "id": "layout_page_break",
+            "name": "Page Break",
+            "icon": "miniword_buttons_png/layout_page_break.png",
+            "usage": [
+              "1. Click the 'Help' section",
+              "2. Click the Page Break icon",
+              "3. Position cursor where you want the page break",
+              "4. Click the 'Insert Page Break' button, a page break will be inserted"
+            ]
+          },
+          {
+            "id": "mw2_share",
+            "name": "Share Document",
+            "icon": "miniword_icons_set2/mw2_share.png",
+            "usage": [
+              "1. Click the 'Help' section",
+              "2. Click the Share Document icon",
+              "3. Choose sharing method: 'Social Media Sharing' or 'Generate Share Link'",
+              "4. For social media sharing: select platform(Twitter, Facebook, LinkedIn, WhatsApp) and share",
+              "5. For share link: click 'Generate Link' to create a shareable URL"
+            ]
+          }
+        ]
+      }
+    }
+  }
+ }
+ 

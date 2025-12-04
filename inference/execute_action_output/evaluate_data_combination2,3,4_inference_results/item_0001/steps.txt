@@ -1,0 +1,20 @@
+1. Click the 'File' section
+2. Click the Open Document icon
+3. Click the 'Choose File' button to select a file
+4. Select the file'sustainability_report.txt' from your computer
+5. Click the 'Open Document' button
+6. Click the 'Tools' section
+7. Click the New Comment icon
+8. Input 'Review this section' in the comment content field
+9. Input your name in the comment author field
+10. Select 'High Priority' from the comment priority field
+11. Select the 'Executive Summary' paragraph with the cursor
+12. Click 'Add Comment to Selected Text' button to save the comment
+13. Click the 'Format' section
+14. Click the Bold Format icon
+15. Select the title '2025 Sustainability and Responsibility Report — Lumos Energy Corporation' to make it bold
+16. Click 'Apply Bold (Ctrl+B)' button, the text will become bold
+17. Click the 'View' section
+18. Click the Page Setup icon
+19. Configure the page orientation to 'Landscape'
+20. Click 'Apply Orientation' button to apply the settings

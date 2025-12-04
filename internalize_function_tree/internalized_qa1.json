@@ -1,0 +1,1274 @@
+[
+  {
+    "question": "Where shall I click if I want to change the document title?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"New Document\" icon.\n3. Click the \"Input field for entering document title\" button."
+  },
+  {
+    "question": "Where shall I click if I want to choose the Document Type I want (Blank Document, Business Letter, Project Report, Internal Memo, Personal Resume, Newsletter, Invoice)?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"New Document\" icon.\n3. Click the \"Choose the Document Type I want (Blank Document, Business Letter, Project Report, Internal Memo, Personal Resume, Newsletter, Invoice)\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"New Document\" function?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"New Document\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to create a new document?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"New Document\" icon.\n3. Click the \"Create a new item or document\" button."
+  },
+  {
+    "question": "Where shall I click if I want to cancel the current operation under the \"New Document\" function?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"New Document\" icon.\n3. Click the \"Cancel the current operation\" button."
+  },
+  {
+    "question": "Where shall I click if I want to enter something in the Paste document content... area?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Open Document\" icon.\n3. Click the \"Enter something in the Paste document content... area\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Open Document\" function?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Open Document\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to choose File a file from my computer?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Open Document\" icon.\n3. Click the \"Choose File a file from my computer\" button.\n4. Choose a file from my computer."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Open Document?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Open Document\" icon.\n3. Click the \"Execute action: Open Document\" button."
+  },
+  {
+    "question": "Where shall I click if I want to cancel the current operation under the \"Open Document\" function?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Open Document\" icon.\n3. Click the \"Cancel the current operation\" button."
+  },
+  {
+    "question": "Where shall I click if I want to save the current document with a specific filename?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Save Document\" icon.\n3. Click the \"filename\" button to enter the filename you want."
+  },
+  {
+    "question": "Where shall I click if I want to choose the Save Format HTML Document, Plain Text, Markdown?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Save Document\" icon.\n3. Click the \"Choose the Save Format HTML Document, Plain Text, Markdown\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Save Document\" function?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Save Document\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to save the current changes?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Save Document\" icon.\n3. Click the \"Save the current changes\" button."
+  },
+  {
+    "question": "Where shall I click if I want to cancel the current operation under the \"Save Document\" function?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Save Document\" icon.\n3. Click the \"Cancel the current operation\" button."
+  },
+  {
+    "question": "Where shall I click if I want to choose the Default Printer or Save as PDF?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Print Document\" icon.\n3. Click the \"Choose the Default Printer or Save as PDF\" button."
+  },
+  {
+    "question": "Where shall I click if I want to choose the page range (All Pages, Current Page, Custom Range)?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Print Document\" icon.\n3. Click the \"Page Range (All Pages, Current Page, Custom Range)\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Print Document\" function?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Print Document\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Print?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Print Document\" icon.\n3. Click the \"Execute action: Print\" button."
+  },
+  {
+    "question": "Where shall I click if I want to preview the document before printing?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Print Document\" icon.\n3. Click the \"Execute action: Preview\" button."
+  },
+  {
+    "question": "Where shall I click if I want to cancel the current operation under the \"Print Document\" function?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Print Document\" icon.\n3. Click the \"Cancel the current operation\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Refresh Page\" function?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Refresh Page\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Refresh Page?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Refresh Page\" icon.\n3. Click the \"Execute action: Refresh Page\" button."
+  },
+  {
+    "question": "Where shall I click if I want to cancel the current operation under the \"Refresh Page\" function?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Refresh Page\" icon.\n3. Click the \"Cancel the current operation\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Close Page\" function?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Close Page\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Close Page?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Close Page\" icon.\n3. Click the \"Execute action: Close Page\" button."
+  },
+  {
+    "question": "Where shall I click if I want to cancel the current operation under the \"Close Page\" function?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Close Page\" icon.\n3. Click the \"Cancel the current operation\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"open a new browser tab\" function?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Open New Tab\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Open New Tab?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Open New Tab\" icon.\n3. Click the \"Execute action: Open New Tab\" button."
+  },
+  {
+    "question": "Where shall I click if I want to cancel the current operation under the \"open a new browser tab\" function?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Open New Tab\" icon.\n3. Click the \"Cancel the current operation\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Toggle Pagination\" function?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Toggle Pagination\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to toggle the current setting on or off?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Toggle Pagination\" icon.\n3. Click the \"Toggle Mode\" button."
+  },
+  {
+    "question": "Where shall I click if I want to cancel the current operation under the \"Toggle Pagination\" function?",
+    "answer": "1. Switch to FILE toolbar section.\n2. Click the \"Toggle Pagination\" icon.\n3. Click the \"Cancel the current operation\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Undo Operation\" function?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Undo Operation\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Undo (Ctrl+Z)?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Undo Operation\" icon.\n3. Click the \"Execute action: Undo (Ctrl+Z)\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Undo Operation\" function?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Undo Operation\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Redo Operation\" function?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Redo Operation\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Redo (Ctrl+Y)?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Redo Operation\" icon.\n3. Click the \"Execute action: Redo (Ctrl+Y)\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Redo Operation\" function?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Redo Operation\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Cut Content\" function?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Cut Content\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Cut (Ctrl+X)?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Cut Content\" icon.\n3. Click the \"Execute action: Cut (Ctrl+X)\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Cut Content\" function?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Cut Content\" icon.\n3. Click the \"Back to Edit\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Formatted Copy\" function?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Copy\" icon.\n3. Click the \"Formatted Copy\" icon.\n4. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Copy Plain Text without formatting?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Copy\" icon.\n3. Click the \"Direct Copy\" icon.\n4. Click the \"Execute action: Copy Plain Text\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Direct Copy\" function?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Copy\" icon.\n3. Click the \"Direct Copy\" icon.\n4. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to copy formatted text?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Copy\" icon.\n3. Click the \"Formatted Copy\" icon.\n4. Click the \"Copy formatted text\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Paste\" function?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Paste\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Smart Paste (Ctrl+V)?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Paste\" icon.\n3. Click the \"Execute action: Smart Paste (Ctrl+V)\" button."
+  },
+  {
+    "question": "Where shall I click if I want to paste plain text from clipboard?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Paste\" icon.\n3. Click the \"Paste plain text from clipboard\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Paste Formatted text?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Paste\" icon.\n3. Click the \"Execute action: Paste Formatted\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Paste\" function?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Paste\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to enter the text to find?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Find Text\" icon.\n3. Click the \"Enter the text to find\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: on?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Find Text\" icon.\n3. Click the \"Execute action: on\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Find Text\" function?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Find Text\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Find?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Find Text\" icon.\n3. Click the \"Execute action: Find\" button."
+  },
+  {
+    "question": "Where shall I click if I want to cancel the current operation under the \"Find Text\" function?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Find Text\" icon.\n3. Click the \"Cancel the current operation\" button."
+  },
+  {
+    "question": "Where shall I click if I want to enter the text to find?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Find and Replace\" icon.\n3. Click the \"Enter the text to find\" button."
+  },
+  {
+    "question": "Where shall I click if I want to replace the text with the replacement text?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Find and Replace\" icon.\n3. Enter the replacement text to the \"Replace\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: on?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Find and Replace\" icon.\n3. Click the \"Execute action: on\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Find and Replace\" function?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Find and Replace\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Replace All with the replacement text?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Find and Replace\" icon.\n3. Click the \"Replace All \" button with the replacement text."
+  },
+  {
+    "question": "Where shall I click if I want to cancel the current operation under the \"Find and Replace\" function?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Find and Replace\" icon.\n3. Click the \"Cancel the current operation\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Clear All Formatting\" function?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Clear All Formatting\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to clear selected text formatting?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Clear All Formatting\" icon.\n3. Click the \"Clear selected text formatting\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Clear Entire Document?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Clear All Formatting\" icon.\n3. Click the \"Execute action: Clear Entire Document\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Format Painter\" function?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Format Painter\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Copy Format?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Format Painter\" icon.\n3. Click the \"Execute action: Copy Format\" button."
+  },
+  {
+    "question": "Where shall I click if I want to apply the settings or formatting from the clipboard to the selected text?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Format Painter\" icon.\n3. Select text with you want to apply with cursor\n3. Click the \"Apply format\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Deactivate?",
+    "answer": "1. Switch to EDIT toolbar section.\n2. Click the \"Format Painter\" icon.\n3. Click the \"Execute action: Deactivate\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: 125?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Zoom In View\" icon.\n3. Click the \"Execute action: 125\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Zoom In View\" function?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Zoom In View\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to apply the selected settings or formatting?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Zoom In View\" icon.\n3. Click the \"Apply Zoom In action\" button."
+  },
+  {
+    "question": "Where shall I click if I want to reset to default settings?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Zoom In View\" icon.\n3. Click the \"Select Zoom Level\" button to change the zoom level(125%, 150%, 175%, 200%, 250%, 300%, 400%, 500%)."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Zoom In View\" function?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Zoom In View\" icon.\n3. Click the \"Back to View\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute Zoom Out action to a specific zoom level?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Zoom Out View\" icon.\n3. Click the \"Select Zoom level(25%, 50%, 75%, 90%, 100%)\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Zoom Out View\" function?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Zoom Out View\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to apply the current settings or formatting?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Zoom Out View\" icon.\n3. Click the \"Select Zoom level(25%, 50%, 75%, 90%, 100%)\" button.\n4. Click the \"Apply Zoom Out\" button."
+  },
+  {
+    "question": "Where shall I click if I want to reset to default settings?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Zoom Out View\" icon.\n3. Click the \"Reset to 100%\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Zoom Out View\" function?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Zoom Out View\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Print Preview\" function?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Print Preview\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Print?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Print Preview\" icon.\n3. Click the \"Execute action: Print\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Print Preview\" function?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Print Preview\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: portrait/landscape?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Page Setup\" icon.\n3. Click the \"Page Orientation(portrait/landscape)\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Page Setup\" function?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Page Setup\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to apply the current settings or formatting?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Page Setup\" icon.\n3. Click the \"Apply Orientation\" button."
+  },
+  {
+    "question": "Where shall I click if I want to reset to default settings?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Page Setup\" icon.\n3. Click the \"Reset to Portrait\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Page Setup\" function?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Page Setup\" icon.\n3. Click the \"Back to View\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Toggle Sidebar\" function?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Toggle Sidebar\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to toggle the current setting on or off?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Toggle Sidebar\" icon.\n3. Click the \"Toggle the current setting on or off\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Toggle Ruler\" function?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Toggle Ruler\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to toggle the current setting on or off?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Toggle Ruler\" icon.\n3. Click the \"Toggle the current setting on or off\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Show Hidden Characters\" function?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Show Hidden Characters\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to toggle the current setting on or off?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Show Hidden Characters\" icon.\n3. Click the \"Toggle the current setting on or off\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Focus Mode\" function?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Focus Mode\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to toggle the current setting on?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Focus Mode\" icon.\n3. Click the \"Toggle Focus Mode\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Night Mode\" function?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Night Mode\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to toggle the current setting on or off?",
+    "answer": "1. Switch to VIEW toolbar section.\n2. Click the \"Night Mode\" icon.\n3. Click the \"Toggle the current setting on or off\" button."
+  },
+  {
+    "question": "Where shall I click if I want to input an image file?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Image\" icon.\n3. Click the \"Choose File\" button to choose the image.\n4. Click the \"Insert Image\" button."
+  },
+  {
+    "question": "Where shall I click if I want to insert an image in small size?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Image\" icon.\n3. Click the \"Choose File\" button to choose the image.\n4. Click the \"small\" of the image size button.\n5. Click the \"Insert Image\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Insert Image\" function?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Image\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to insert the selected image into the document?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Image\" icon.\n3. Click the \"Insert image\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Insert Image\" function?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Image\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Insert Table\" function?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Table\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to insert the specified size of table into the document?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Table\" icon.\n3. Choose the table size from the \"Select Table Size\" button.\n4. Click the \"Insert Table\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Insert Table\" function?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Table\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Insert Chart\" function?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Chart\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to cancel the current operation under the \"Insert Chart\" function?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Chart\" icon.\n3. Click the \"Cancel the current operation\" button."
+  },
+  {
+    "question": "Where shall I click if I want to insert the chart of the table data into the document?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Chart\" icon.\n3. Choose the Chart Type from the \"Chart Type\" button(Bar Chart, Pie Chart).\n4. Enter the chart title you want to add.\n5. Choose the detected table you want to use for the chart.\n6. Click the \"Insert Chart\" button."
+  },
+  {
+    "question": "Where shall I click if I want to input field for entering text or data?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Chart\" icon.\n3. Click the \"Input field for entering text or data\" button."
+  },
+  {
+    "question": "Where shall I click if I want to auto-detect table data",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Chart\" icon.\n3. Click the \"Auto-detect table data\" button."
+  },
+  {
+    "question": "Where shall I click if I want to insert a bar chart or pie chart?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Chart\" icon.\n3. Choose the Chart Type from the \"Chart Type\" button(Bar Chart, Pie Chart)."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Chart Type:?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Chart\" icon.\n3. Click the \"Execute action: Chart Type:\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change Chart Title:?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Chart\" icon.\n3. Enter the chart title you want to add to the \"Chart Title\" field."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Data Source:?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Chart\" icon.\n3. Click the \"Execute action: Data Source:\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Detected Tables:?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Chart\" icon.\n3. Click the \"Detected Tables:\" button to choose the detected table you want to use for the chart."
+  },
+  {
+    "question": "Where shall I click if I want to enter the link display text?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Link\" icon.\n3. Click the \"Enter the link display text\" button."
+  },
+  {
+    "question": "Where shall I click if I want to enter the URL for the link?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Link\" icon.\n3. Click the \"Enter the URL for the link\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Insert Link\" function?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Link\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to insert the selected item into the document?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Link\" icon.\n3. Click the \"Insert the selected item into the document\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Insert Link\" function?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Link\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to input field for entering text or data?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Equation\" icon.\n3. Click the \"Equation Content\" button to enter the equation content."
+  },
+  {
+    "question": "Where shall I click if I want to choose the basic equation type?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Equation\" icon.\n3. Click the \"Equation Type\" button to choose the basic equation type(Basic Equation, Fraction, Square Root, Power/Exponent, Integral, Summation)."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Insert Equation\" function?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Equation\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to insert Equation into the document?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Equation\" icon.\n3.Choose the Equation Type from the \"Equation Type\" button(Basic Equation, Fraction, Square Root, Power/Exponent, Integral, Summation).\n4. Enter the equation content you want to add in the equation content field.\n5. Click the \"Insert Equation\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Insert Equation\" function?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Equation\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Back to Insert?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Equation\" icon.\n3. Click the \"Back to Insert\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Preview will appear here...?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Equation\" icon.\n3. Click the \"Execute action: Preview will appear here...\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Insert Symbol\" function?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Symbol\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Right Arrow?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Symbol\" icon.\n3. Put the cursor to the position you want to insert the right arrow.\n4. Click the \"Right Arrow\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Left Arrow?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Symbol\" icon.\n3. Put the cursor to the position you want to insert the left arrow.\n4. Click the \"Left Arrow\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Up Arrow?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Symbol\" icon.\n3. Put the cursor to the position you want to insert the up arrow.\n4. Click the \"Up Arrow\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Down Arrow?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Symbol\" icon.\n3. Put the cursor to the position you want to insert the down arrow.\n4. Click the \"Down Arrow\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Star?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Symbol\" icon.\n3. Put the cursor to the position you want to insert the star.\n4. Click the \"Star\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Heart?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Insert Symbol\" icon.\n3. Put the cursor to the position you want to insert the heart.\n4. Click the \"Heart\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Section Break\" function?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Section Break\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to insert the selected item into the document?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Section Break\" icon.\n3. Use the cursor to position the section break.\n4. Click the \"Insert Section Break\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Template Library\" function?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Template Library\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to choose the Business Letter\nStandard business letter template from the Template Library?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Template Library\" icon.\n3. Choose the document type from the \"Template Library\" (Business letter template/ Report template/ Resume template)."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Report\nProfessional report template?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Template Library\" icon.\n3. Click the \"Report\nProfessional report template\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Resume\nPersonal resume template?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Template Library\" icon.\n3. Click the \"Resume\nPersonal resume template\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Business letter template?",
+    "answer": "1. Switch to INSERT toolbar section.\n2. Click the \"Template Library\" icon.\n3. Click the \"Business letter template\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Bold Format\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Bold Format\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to apply the current settings or formatting to the selected text?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Bold Format\" icon.\n3. Select the text you want to format.\n4. Click the \"Apply the current settings or formatting\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Bold Format\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Bold Format\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Italic Format\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Italic Format\" icon.\n3. Use the cursor to position the italic format.\n4. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to apply the current settings or formatting to the selected text?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Italic Format\" icon.\n3. Select the text you want to format.\n4. Click the \"Apply the current settings or formatting\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Italic Format\" function? Please use the cursor to position the italic format.",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Italic Format\" icon.\n3. Use the cursor to position the italic format.\n4. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Underline Format\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Underline Format\" icon.\n3. Use the cursor to position the underline format.\n4. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to apply the current settings or formatting to the selected text?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Underline Format\" icon.\n3. Select the text you want to format.\n4. Click the \"Apply the current settings or formatting\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Underline Format\" function? Please use the cursor to position the underline format.",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Underline Format\" icon.\n3. Use the cursor to position the underline format.\n4. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Strikethrough\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Strikethrough Format\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to apply the strikethrough formatting to the selected text?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Strikethrough Format\" icon.\n3. Select the text you want to format.\n4. Click the \"Apply strikethrough\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Strikethrough\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Strikethrough Format\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Left Align \" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Left Align \" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to apply the left align formatting to the selected text?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Left Align \" icon.\n3. Select the text you want to format.\n4. Click the \"Apply left align formatting\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Left Align \" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Left Align \" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Center Align\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Center Align\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to apply the center align formatting to the selected text?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Center Align\" icon.\n3. Select the text you want to format.\n4. Click the \"Apply center align formatting\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Center Align\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Center Align\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Right Align\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Right Align\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to apply the current settings or formatting under the \"Right Align\" function to the selected text?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Right Align\" icon.\n3. Use the cursor to position the right align formatting.\n4. Select the text you want to format.\n5. Click the \"Apply right align formatting\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Right Align\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Right Align\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Justify Align\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Justify Align\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to apply the current settings or formatting under the \"Justify Align\" function to the selected text?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Justify Align\" icon.\n3. Use the cursor to position the justify align formatting.\n4. Select the text you want to format.\n5. Click the \"Apply justify align formatting\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Justify Align\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Justify Align\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the text color to black from the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the black color from the color square.\n4. Click the \"Apply color\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the text color to red from the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the red color from the color square.\n4. Click the \"Apply color\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the text color to green from the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the green color from the color square.\n4. Click the \"Apply color\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the text color to blue from the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the blue color from the color square.\n4. Click the \"Apply color\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the text color to yellow from the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the yellow color from the color square.\n4. Click the \"Apply color\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the text color to magenta from the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the magenta color from the color square.\n4. Click the \"Apply color\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the text color to cyan from the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the cyan color from the color square.\n4. Click the \"Apply color\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the text color to grey from the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the grey color from the color square.\n4. Click the \"Apply color\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the text color to black from the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the black color from the color square.\n4. Click the \"Apply color\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the text color to red from the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the red color from the color square.\n4. Click the \"Apply color\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the text color to green from the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the green color from the color square.\n4. Click the \"Apply color\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the text color to blue from the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the blue color from the color square.\n4. Click the \"Apply color\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the text color to yellow from the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the yellow color from the color square.\n4. Click the \"Apply color\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the text color to magenta from the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the magenta color from the color square.\n4. Click the \"Apply color\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the text color to cyan from the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the cyan color from the color square.\n4. Click the \"Apply color\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the text color to grey from the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the grey color from the color square.\n4. Click the \"Apply color\" button."
+  },
+  {
+    "question": "Where shall I click if I want to go back to the previous menu or section in the \"Text Color\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Text Color\" icon.\n3. Click the \"Back to Format\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Highlight\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Highlight\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Highlight\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Highlight\" icon.\n3. Click the \"Back to Format\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the highlight background color to yellow?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Highlight\" icon.\n3. Click the yellow color from the color square.\n4. Select the text you want to highlight the background color.\n5. Click the \"Apply highlight\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the highlight background color to light pink?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Highlight\" icon.\n3. Click the light pink color from the color square.\n4. Select the text you want to highlight the background color.\n5. Click the \"Apply highlight\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the highlight background color to light green?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Highlight\" icon.\n3. Click the light green color from the color square.\n4. Select the text you want to highlight the background color.\n5. Click the \"Apply highlight\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the highlight background color to light blue?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Highlight\" icon.\n3. Click the light blue color from the color square.\n4. Select the text you want to highlight the background color.\n5. Click the \"Apply highlight\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the highlight background color to cream yellow?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Highlight\" icon.\n3. Click the cream yellow color from the color square.\n4. Select the text you want to highlight the background color.\n5. Click the \"Apply highlight\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the highlight background color to light magenta?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Highlight\" icon.\n3. Click the light magenta color from the color square.\n4. Select the text you want to highlight the background color.\n5. Click the \"Apply highlight\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the highlight background color to light cyan?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Highlight\" icon.\n3. Click the light cyan color from the color square.\n4. Select the text you want to highlight the background color.\n5. Click the \"Apply highlight\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the highlight background color light gray?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Highlight\" icon.\n3. Click the light gray color from the color square.\n4. Select the text you want to highlight the background color.\n5. Click the \"Apply highlight\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Format Painter\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Format Painter\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Activate Format Painter?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Format Painter\" icon.\n3. Use the cursor to position the formatted text you want to copy.\n4. Click the \"Activate Format Painter\" button."
+  },
+  {
+    "question": "Where shall I click if I want to apply the format to other text?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Format Painter\" icon.\n3. Use the cursor to position the formatted text you want to copy.\n4. Click the \"Activate Format Painter\" button.\n5. Choose the text you want to apply the format to.\n6. Click the \"Apply format printer\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Format Painter\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Format Painter\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Clear Format\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Clear Format\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Clear Format?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Clear Format\" icon.\n3. Click the \"Execute action: Clear Format\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Clear Format\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Clear Format\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Superscript\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Superscript\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to set selected text to superscript format?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Superscript\" icon.\n3. Click the \"Apply Superscript\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Subscript\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Subscript\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to apply the current settings or formatting?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Subscript\" icon.\n3. Click the \"Apply the current settings or formatting\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Line Spacing\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Line Spacing\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to choose the double (2.0x) line spacing option?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Line Spacing\" icon.\n3. Use the cursor to choose which paragraph you want to change the line spacing.\n4. Click the \"Double (2.0x)\" option."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: 2.54?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Page Setup\" icon.\n3. Click the \"Execute action: 2.54\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the top margin value?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Page Setup\" icon.\n3. Enter the top margin value in the margin field."
+  },
+  {
+    "question": "Where shall I click if I want to change the right margin value?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Page Setup\" icon.\n3. Enter the right margin value in the margin field."
+  },
+  {
+    "question": "Where shall I click if I want to change the left margin value?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Page Setup\" icon.\n3. Enter the left margin value in the margin field."
+  },
+  {
+    "question": "Where shall I click if I want to change the bottom margin value?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Page Setup\" icon.\n3. Enter the bottom margin value in the margin field."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Page Setup\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Page Setup\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change to the normal margin settings?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Page Setup\" icon.\n3. Click the \"Normal\" button.\n4. Click the \"Apply settings\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change to the narrow margin settings?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Page Setup\" icon.\n3. Click the \"Narrow\" button.\n4. Click the \"Apply settings\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change to the wide margin settings?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Page Setup\" icon.\n3. Click the \"Wide\" button.\n4. Click the \"Apply settings\" button."
+  },
+  {
+    "question": "Where shall I click if I want to apply the current settings or formatting ?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Page Setup\" icon.\n3. change the \"Page Size\" to the desired size.\n4. change the \"Margins\" to the desired margins.\n5. Click the \"Apply settings\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Page Setup\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Page Setup\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Header & Footer\" function?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Header & Footer\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Edit Header?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Header & Footer\" icon.\n3. Click the \"Execute action: Edit Header\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Edit Footer?",
+    "answer": "1. Switch to FORMAT toolbar section.\n2. Click the \"Header & Footer\" icon.\n3. Click the \"Execute action: Edit Footer\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Spell Check\" function?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"Spell Check\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to execute action: Start Check?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"Spell Check\" icon.\n3. Click the \"Start Check\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Spell Check\" function?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"Spell Check\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to input comment details?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"New Comment\" icon.\n3. Click the \"Comment Content\" button to enter the comment content."
+  },
+  {
+    "question": "Where shall I click if I want to choose the comment priority level?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"New Comment\" icon.\n3. Click the \"Comment Priority\" button to choose the comment priority level."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"New Comment\" function?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"New Comment\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to write the comment author name?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"New Comment\" icon.\n3. Click the \"Comment Author\" button to write the comment author name."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"New Comment\" function?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"New Comment\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Bulleted List\" function?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"Bulleted List\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to add a bullet to the selected text?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"Bulleted List\" icon.\n3. Use the cursor to put the cursor before the text you want to add a bullet to.\n4. Click the \"Add Bullet\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Bulleted List\" function?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"Bulleted List\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Numbered List\" function?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"Numbered List\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to add a number to the selected text?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"Numbered List\" icon.\n3. Use the cursor to put the cursor before the text you want to add a number to.\n4. Click the \"Add Number\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Numbered List\" function?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"Numbered List\" icon.\n3. Click the \"Back to Tools\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Increase Indent\" function?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"Increase Indent\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to increase the indentation of the selected text?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"Increase Indent\" icon.\n3. Use the cursor to select the paragraph you want to increase the indentation of.\n4. Click the \"Increase Indent\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Increase Indent\" function?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"Increase Indent\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Decrease Indent\" function?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"Decrease Indent\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to decrease the indentation of the selected text?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"Decrease Indent\" icon.\n3. Use the cursor to select the paragraph you want to decrease the indentation of.\n4. Click the \"Decrease Indent\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Character Count\" function?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"Character Count\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to show the character count of the document?",
+    "answer": "1. Switch to TOOLS toolbar section.\n2. Click the \"Character Count\" icon.\n3. Click the \"Show Character Count\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the default font family(e.g., Arial, Times New Roman)?",
+    "answer": "1. Switch to HELP toolbar section.\n2. Click the \"Application Settings\" icon.\n3. Choose the font family you want to set (Arial, Times New Roman).\n4. Click the \"Apply Default Font\" button."
+  },
+  {
+    "question": "Where shall I click if I want to change the default font size(e.g., 12px, 14px, 16px, 18px, 20px)?",
+    "answer": "1. Switch to HELP toolbar section.\n2. Click the \"Application Settings\" icon.\n3. Choose the font size you want to set (12px, 14px, 16px, 18px, 20px).\n4. Click the \"Apply Default Font\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Application Settings\" function?",
+    "answer": "1. Switch to HELP toolbar section.\n2. Click the \"Application Settings\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to save the current changes?",
+    "answer": "1. Switch to HELP toolbar section.\n2. Click the \"Application Settings\" icon.\n3. Click the \"Save the current changes\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Application Settings\" function?",
+    "answer": "1. Switch to HELP toolbar section.\n2. Click the \"Application Settings\" icon.\n3. Click the \"Return to the previous menu or section\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Page Break\" function?",
+    "answer": "1. Switch to HELP toolbar section.\n2. Click the \"Page Break\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to insert the selected item into the document?",
+    "answer": "1. Switch to HELP toolbar section.\n2. Click the \"Page Break\" icon.\n3. Use the cursor to select the place you want to insert a page break.\n4. Click the \"Insert Page Break\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Page Break\" function?",
+    "answer": "1. Switch to HELP toolbar section.\n2. Click the \"Page Break\" icon.\n3. Click the \"Back to Help\" button."
+  },
+  {
+    "question": "Where shall I click if I want to close the current dialog or sidebar under the \"Share Document\" function?",
+    "answer": "1. Switch to HELP toolbar section.\n2. Click the \"Share Document\" icon.\n3. Click the \"Close the current dialog or sidebar\" button."
+  },
+  {
+    "question": "Where shall I click if I want to generate a share link?",
+    "answer": "1. Switch to HELP toolbar section.\n2. Click the \"Share Document\" icon.\n3. Click the \"Generate Link\" button."
+  },
+  {
+    "question": "Where shall I click if I want to share the document on Twitter?",
+    "answer": "1. Switch to HELP toolbar section.\n2. Click the \"Share Document\" icon.\n3. Click the \"Share on Twitter\" button."
+  },
+  {
+    "question": "Where shall I click if I want to share the document on Facebook?",
+    "answer": "1. Switch to HELP toolbar section.\n2. Click the \"Share Document\" icon.\n3. Click the \"Share on Facebook\" button."
+  },
+  {
+    "question": "Where shall I click if I want to share the document on LinkedIn?",
+    "answer": "1. Switch to HELP toolbar section.\n2. Click the \"Share Document\" icon.\n3. Click the \"Share on LinkedIn\" button."
+  },
+  {
+    "question": "Where shall I click if I want to share the document on WhatsApp?",
+    "answer": "1. Switch to HELP toolbar section.\n2. Click the \"Share Document\" icon.\n3. Click the \"Share on WhatsApp\" button."
+  },
+  {
+    "question": "Where shall I click if I want to return to the previous menu or section in the \"Share Document\" function?",
+    "answer": "1. Switch to HELP toolbar section.\n2. Click the \"Share Document\" icon.\n3. Click the \"Back to Help\" button."
+  },
+  {
+    "question": "How to use the New Document function?",
+    "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Document Type' you want (Blank Document, Business Letter, Project Report, Internal Memo, Personal Resume, Newsletter, Invoice)\n4. Change the 'Document Title' to what you want (default: 'Untitled Document')\n5. Click the 'Create Document' button"
+  },
+  {
+    "question": "How to use the Open Document function?",
+    "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select a file from your computer (.txt, .html, .htm, .md files) or enter the document content in the 'Paste document content...' field\n5. Click the 'Open Document' button"
+  },
+  {
+    "question": "How to use the Save Document function?",
+    "answer": "1. Click the 'File' section\n2. Click the Save Document icon\n3. The filename field will be pre-filled with the Document Title from 'New Document',you can change the filename if needed\n4. Choose the 'Save Format' (HTML Document, Plain Text, Markdown)\n5. Click 'Save Document'button to download the file with the chosen name"
+  },
+  {
+    "question": "How to use the Print Document function?",
+    "answer": "1. Click the 'File' section\n2. Click the Print Document icon\n3. Choose Printer (Default Printer or Save as PDF)\n4. Select Page Range (All Pages, Current Page, or Custom Range)\n5. Click the 'Print' button"
+  },
+  {
+    "question": "How to use the Refresh Page function?",
+    "answer": "1. Click the 'File' section\n2. Click the Refresh Page icon\n3. Click the 'Refresh Page' button, the page will reload"
+  },
+  {
+    "question": "How to use the Close Page function?",
+    "answer": "1. Click the 'File' section\n2. Click the Close Page icon\n3. Click the 'Close Page' button, the browser tab will close"
+  },
+  {
+    "question": "How to use the Open New Tab function?",
+    "answer": "1. Click the 'File' section\n2. Click the Open New Tab icon\n3. Click the Open 'New Tab' button, a new browser tab will open"
+  },
+  {
+    "question": "How to use the Toggle Pagination function?",
+    "answer": "1. Click the 'File' section\n2. Click the Toggle Pagination icon\n3. Click the 'Toggle Mode' button, your document content will be reformat"
+  },
+  {
+    "question": "How to use the Undo Operation function?",
+    "answer": "1. Click the 'Edit' section\n2. Click the Undo icon\n3. Click the 'Undo(Ctrl+Z)' button, the last action will be reversed"
+  },
+  {
+    "question": "How to use the Redo Operation function?",
+    "answer": "1. Click the 'Edit' section\n2. Click the Redo icon\n3. Click the 'Redo(Ctrl+Y)' button, the last undone action will be restored"
+  },
+  {
+    "question": "How to use the Cut Content function?",
+    "answer": "1. Click the 'Edit' section\n2. Click the Cut Content icon\n3. Select the text you want to cut with cursor\n4. Click the 'Cut(Ctrl+X)' button, the text will be removed and copied to clipboard"
+  },
+  {
+    "question": "How to use the Direct Copy function?",
+    "answer": "1. Click the 'Edit' section\n2. Click the Copy icon\n3. Click the Direct Copy icon that under the Copy icon, the submenu will appear\n4. Select the text you want to copy\n5. Click the 'Copy Plain Text' icon, the text without formatting will be copied to clipboard"
+  },
+  {
+    "question": "How to use the Formatted Copy function?",
+    "answer": "1. Click the 'Edit' section\n2. Click the Copy icon\n3. Click the Formatted Copy icon that under the Copy icon, the submenu will appear\n3. Select the text you want to copy with cursor\n4. Click the 'Copy Formatted Text' button, the text with formatting will be copied to clipboard"
+  },
+  {
+    "question": "How to use the Paste function?",
+    "answer": "1. Click the 'Edit' section\n2. Click the Paste Content icon\n3. Position cursor where you want to paste\n4. Click the 'Smart Paste(Ctrl+V)' button to paste the text without formatting from clipboard/ or Click the 'Paste Plain Text' button to paste the text without formatting from clipboard/ or Click the 'Paste Formatted' button to paste the text with formatting from clipboard. Then the text from clipboard will be inserted"
+  },
+  {
+    "question": "How to use the Find Text function?",
+    "answer": "1. Click the 'Edit' section\n2. Click the Find Text icon\n3. Enter the text you want to find\n4. Click 'Find' button to locate matches, the find content will be highlighted"
+  },
+  {
+    "question": "How to use the Find and Replace function?",
+    "answer": "1. Click the 'Edit' section\n2. Click the Find and Replace icon\n3. Enter text to find\n4. Enter the replacement text\n5. Click 'Replace All' button to replace all matches"
+  },
+  {
+    "question": "How to use the Clear All Formatting function?",
+    "answer": "1. Click the 'Edit' section\n2. Click the Clear All Formatting icon\n3. Select the text with formatting you want to clear\n4. Click the 'Clear Selected Text Formatting' button, all formatting (bold, italic, colors, etc.) will be removed"
+  },
+  {
+    "question": "How to use the Format Painter function?",
+    "answer": "1. Click the 'Edit' section\n2. Click the Format Painter icon\n3. Select text with the formatting you want to copy with cursor\n4. Click the 'Copy Format' icon\n5. Select the text you want to apply formatting to\n6. Click the 'Apply Format' button, the formatting will be applied"
+  },
+  {
+    "question": "How to use the Zoom In View function?",
+    "answer": "1. Click the 'View' section\n2. Click the Zoom In View icon\n3. Select Zoom level you want to zoom in(125%, 150%, 175%, 200%, 250%, 300%, 400%, 500%)\n4. Click the 'Apply Zoom In' button, the document will be magnified"
+  },
+  {
+    "question": "How to use the Zoom Out View function?",
+    "answer": "1. Click the 'View' section\n2. Click the Zoom Out View icon\n3. Select Zoom level you want to zoom out(25%, 50%, 75%, 90%, 100%)\n4. Click the 'Apply Zoom Out' button, the document will be reduced in size"
+  },
+  {
+    "question": "How to use the Print Preview function?",
+    "answer": "1. Click the 'View' section\n2. Click the Print Preview icon\n3. Click the 'Print' button, you can see how the document will look when printed"
+  },
+  {
+    "question": "How to use the Page Setup function?",
+    "answer": "1. Click the 'View' section\n2. Click the Page Setup icon\n3. Configure page orientation (Portrait, Landscape)\n4. Click 'Apply Orientation' button to apply settings"
+  },
+  {
+    "question": "How to use the Toggle Sidebar function?",
+    "answer": "1. Click the 'View' section\n2. Click the 'Toggle Sidebar' button, the sidebar will show/hide"
+  },
+  {
+    "question": "How to use the Toggle Ruler function?",
+    "answer": "1. Click the 'View' section\n2. Click the Toggle Ruler icon\n3. Click the 'Toggle Ruler' button,the ruler will show horizontal and vertical\n4. Click the 'Toggle Ruler' button again can hide the ruler"
+  },
+  {
+    "question": "How to use the Show Hidden Characters function?",
+    "answer": "1. Click the 'View' section\n2. Click the Show Hidden Characters icon\n3. Click the 'Toggle Hidden Characters' button,space characters, Tab characters, Paragraph marks, and line breaks will be visible\n4. Click the 'Toggle Hidden Characters' button again can hide them"
+  },
+  {
+    "question": "How to use the Focus Mode function?",
+    "answer": "1. Click the 'View' section\n2. Click the Focus Mode icon\n3. Click the 'Toggle Focus Mode' button, the focus mode will be toggled"
+  },
+  {
+    "question": "How to use the Night Mode function?",
+    "answer": "1. Click the 'View' section\n2. Click the Night Mode icon\n3. Click the 'Toggle Night Mode' button, the interface will switch to dark theme\n4. Click the 'Toggle Night Mode' button again can return to light theme"
+  },
+  {
+    "question": "How to use the Insert Image function?",
+    "answer": "1. Click the 'Insert' section\n2. Click the Insert Image icon\n3. Click the 'Choose File' button\n4. Select an image file from your computer using the file input\n5. Choose the image size (Small, Medium, Large)\n6. Move the cursor to the position you want to insert the image\n7. Click 'Insert Image' button to add it to your document"
+  },
+  {
+    "question": "How to use the Insert Table function?",
+    "answer": "1. Click the 'Insert' section\n2. Click the Insert Table icon\n3. Use the table size selector to choose the table size (e.g., 2x3, 3x4)\n4. Move the cursor to the position you want to insert the table\n5. Click 'Insert Table' button to add it to your document"
+  },
+  {
+    "question": "How to use the Insert Chart function?",
+    "answer": "1. Click the 'Insert' section\n2. Click the Insert Chart icon\n3. Select chart type (Bar Chart, Pie Chart)\n4. Enter chart title you want to add\n5. Choose the data source (Auto-detect, Manual Input)\n6. If you choose the 'Auto-detect' data source, choose the detected table you want to use for the chart\n7. Click 'Insert Chart' button to add it to document"
+  },
+  {
+    "question": "How to use the Insert Link function?",
+    "answer": "1. Click the 'Insert' section\n2. Click the Insert Link icon\n3. Enter the URL in the Link URL field\n4. Enter the Display Text in the link display text field\n5. Move the cursor to the position you want to insert the link\n6. Click 'Insert Link' button to create the link\n7. Right-click the link we made and select 'Open link in New Tab' can open the corresponding URL link."
+  },
+  {
+    "question": "How to use the Insert Equation function?",
+    "answer": "1. Click the 'Insert' section\n2. Click the Insert Equation icon\n3. choose the equation type (Basic Equation, Fraction, Square Root, Power/Exponent, Integral, Summation)\n4. Enter the equation content you want to add in the equation content field\n5. Move the cursor to the position you want to insert the equation\n6. Click 'Insert Equation' button to add the equation"
+  },
+  {
+    "question": "How to use the Insert Symbol function?",
+    "answer": "1. Click the 'Insert' section\n2. Click the Insert Symbol icon\n3. Move the cursor to the position you want to insert the symbol\n4. Select the symbol button you want to insert (→Right Arrow button, ←Left Arrow button, ↑Up Arrow button, ↓Down Arrow button, ★Star button, ♥Heart button)"
+  },
+  {
+    "question": "How to use the Section Break function?",
+    "answer": "1. Click the 'Insert' section\n2. Click the Section Break icon\n3. Use the cursor to position the section break\n4. Click the 'Insert Section Break' button, the section break will be inserted"
+  },
+  {
+    "question": "How to use the Template Library function?",
+    "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click a template from the template library (Business Letter, Report, Resume),the template will be inserted"
+  },
+  {
+    "question": "How to use the Bold Format function?",
+    "answer": "1. Click the 'Format' section\n2. Click the Bold Format icon\n3. Select the text in the document you want to make bold\n4. Click 'Apply Bold (Ctrl+B) button, the text will become bold"
+  },
+  {
+    "question": "How to use the Italic Format function?",
+    "answer": "1. Click the 'Format' section\n2. Click the Italic Format icon\n3. Select the text you want to make italic\n4. Click 'Apply Italic (Ctrl+I) button, the text will become italic"
+  },
+  {
+    "question": "How to use the Underline Format function?",
+    "answer": "1. Click the 'Format' section\n2. Click the Underline Format icon\n3. Select the text you want to underline\n4. Click the 'Apply Underline (Ctrl+U) button, the text will be underlined"
+  },
+  {
+    "question": "How to use the Strikethrough function?",
+    "answer": "1. Click the 'Format' section\n2. Click the Strikethrough Format icon\n3. Select the text you want to strikethrough\n4. Click the 'Apply Strikethrough' button, the text will have a line through it"
+  },
+  {
+    "question": "How to use the Left Align  function?",
+    "answer": "1. Click the 'Format' section\n2. Click the Left Align icon\n3. Select the paragraph you want to align\n4. Click the 'Apply Left Align' button, the text will be aligned to the left"
+  },
+  {
+    "question": "How to use the Center Align function?",
+    "answer": "1. Click the 'Format' section\n2. Click the Center Align icon\n3. Select the paragraph you want to center\n4. Click the 'Apply Center Align' button, the text will be centered"
+  },
+  {
+    "question": "How to use the Right Align function?",
+    "answer": "1. Click the 'Format' section\n2. Click the Right Align icon\n3. Select the paragraph you want to align\n4. Click the 'Apply Right Align' button, the text will be aligned to the right"
+  },
+  {
+    "question": "How to use the Justify Align function?",
+    "answer": "1. Click the 'Format' section\n2. Click the Justify Align icon\n3. Select the paragraph you want to justify\n4. Click the 'Apply Justify Align' button, the text will be justified (aligned to both margins)"
+  },
+  {
+    "question": "How to use the Text Color function?",
+    "answer": "1. Click the 'Format' section\n2. Click the Text Color icon\n3. Choose a color from the color square (black, red, green, blue, yellow, magenta, cyan, grey)\n4. Click the text you want to change color use the cursor\n5. Click the 'Apply Color' button to change the text color"
+  },
+  {
+    "question": "How to use the Highlight function?",
+    "answer": "1. Click the 'Format' section\n2. Click the Highlight Display icon\n3. Choose the highlight color you want from the color squares (Bright Yellow, Light Pink, Light Green, Light Purple, Cream Yellow, Light Magenta,  Light Blue,Light Gray)\n4. Select the text you want to highlight\n5. Click the 'Apply Highlight' button to apply the highlight color"
+  },
+  {
+    "question": "How to use the Format Painter function?",
+    "answer": "1. Click the 'Format' section\n2. Click the Format Painter icon\n3. Select text with the formatting you want to copy the formatting\n4. Click the 'Activate Format Painter' button\n5. Select the text you want to apply formatting to\n6. Click the 'Apply Format Painter' button, the formatting will be applied"
+  },
+  {
+    "question": "How to use the Clear Format function?",
+    "answer": "1. Click the 'Format' section\n2. Click the Clear Format icon\n3. Select the text with formatting you want to clear\n4. Click the 'Clear Format' button, all formatting will be removed"
+  },
+  {
+    "question": "How to use the Superscript function?",
+    "answer": "1. Click the 'Format' section\n2. Click the Superscript icon\n3. Select the text you want to make superscript\n4. Click the 'Apply Superscript' button, the text will appear smaller and higher"
+  },
+  {
+    "question": "How to use the Subscript function?",
+    "answer": "1. Click the 'Format' section\n2. Click the Subscript icon\n3. Select the text you want to make subscript\n4. Click the 'Apply Subscript' button, the text will appear smaller and lower"
+  },
+  {
+    "question": "How to use the Line Spacing function?",
+    "answer": "1. Click the 'Format' section\n2. Click the Line Spacing icon\n3. Select the paragraph you want to change\n4. Click the spacing options button (Double(2.0x), the line spacing will be changed to 2.0x"
+  },
+  {
+    "question": "How to use the Page Setup function?",
+    "answer": "1. Click the 'Format' section\n2. Click the Page Setup icon\n3. Click the page size you want to set (A4(210 × 297 mm), A3(297 × 420 mm), Letter(8.5 × 11 in), Legal(8.5 × 14 in), A5(148 × 210 mm), B4(250 × 353 mm)\n4. Input the margins you want to set (Top, Bottom, Left, Right) or click the preset margin options (Normal, Narrow, Wide)\n5. Click 'Apply Settings' button to apply settings"
+  },
+  {
+    "question": "How to use the Header & Footer function?",
+    "answer": "1. Click the 'Format' section\n2. Click the Header & Footer icon\n3. Click the 'Edit Header' button to add the header\n4. Delete the existing header text and input the new header text if you want to add new header\n5. Click the 'Edit Footer' button to add the footer\n6. Delete the existing footer text and input the new footer text if you want to add new footer"
+  },
+  {
+    "question": "How to use the Spell Check function?",
+    "answer": "1. Click the 'Tools' section\n2. Click the Spell Check icon\n3. Click the 'Start Check' button, the system will scan for spelling errors\n4. Choose the correct spelling from the suggestions or click the 'Ignore' button to ignore the word"
+  },
+  {
+    "question": "How to use the New Comment function?",
+    "answer": "1. Click the 'Tools' section\n2. Click the New Comment icon\n3. Input the comment you want to add in the comment content field\n4. Input the author name in the comment author field\n5. Select the comment priority level from the comment priority field (Low Priority, Normal Priority, High Priority, Urgent)\n6. Click 'Add Comment to Selected Text' button to save\n7. Select the text in the document you want to add the comment with the cursor\n8. Click the selected text in the document can view the added comment"
+  },
+  {
+    "question": "How to use the Bulleted List function?",
+    "answer": "1. Click the 'Tools' section\n2. Click the Bulleted List icon\n3. Place your cursor before any text where you want bullets\n4. Click the 'Add Bullet' button, the text will be converted to a bulleted list item"
+  },
+  {
+    "question": "How to use the Numbered List function?",
+    "answer": "1. Click the 'Tools' section\n2. Click the Numbered List icon\n3. Place your cursor before any text where you want numbers\n4. Click the 'Add Number button, the text will be converted to a numbered list item"
+  },
+  {
+    "question": "How to use the Increase Indent function?",
+    "answer": "1. Click the 'Tools' section\n2. Click the Increase Indent icon\n3. Select the paragraph you want to indent\n4. Click the 'Increase Indent' button, the paragraph will move to the right\n5. Click again the 'Increase Indent' button to indent more"
+  },
+  {
+    "question": "How to use the Decrease Indent function?",
+    "answer": "1. Click the 'Tools' section\n2. Click the Decrease Indent icon\n3. Select the paragraph you want to unindent\n4. Click the 'Decrease Indent button, the paragraph will move to the left\n6. Click again the 'Decrease Indent' button to unindent more"
+  },
+  {
+    "question": "How to use the Character Count function?",
+    "answer": "1. Click the 'Tools' section\n2. Click the Character Count icon\n3. Click the 'Show Character Count' button to show the character count, the count will be displayed in the document"
+  },
+  {
+    "question": "How to use the Application Settings function?",
+    "answer": "1. Click the 'Help' section\n2. Click the Application Settings icon\n3. Choose the font you want to set (Arial, Times New Roman)\n4. Choose the font size you want to set (12px, 14px, 16px, 18px, 20px)\n5. Click 'Apply Default Font' button to apply changes"
+  },
+  {
+    "question": "How to use the Page Break function?",
+    "answer": "1. Click the 'Help' section\n2. Click the Page Break icon\n3. Position cursor where you want the page break\n4. Click the 'Insert Page Break' button, a page break will be inserted"
+  },
+  {
+    "question": "How to use the Share Document function?",
+    "answer": "1. Click the 'Help' section\n2. Click the Share Document icon\n3. Choose sharing method: 'Social Media Sharing' or 'Generate Share Link'\n4. For social media sharing: select platform(Twitter, Facebook, LinkedIn, WhatsApp) and share\n5. For share link: click 'Generate Link' to create a shareable URL"
+  }
+]

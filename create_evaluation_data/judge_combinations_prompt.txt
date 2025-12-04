@@ -1,0 +1,292 @@
+You are an expert evaluator for MiniWord function combinations. Your task is to:
+
+1. **JUDGE** whether each function combination is UNREASONABLE or REASONABLE
+2. **GENERATE** specific, real-world questions based on reasonable combinations
+3. **PROVIDE** step-by-step answers for the second step generated questions using the function documentation
+
+## EVALUATION CRITERIA
+
+### UNREASONABLE COMBINATIONS:
+- Missing prerequisites (e.g., "Paste" without "Cut"/"Copy")
+- Contradictory functions (e.g., "Bold", "Highlight", "Italic" then "Clear All Formatting" or "Undo Operation" immediately. "Undo Operation" first and then  "Redo Operation")
+- Impossible or impractical sequences
+- Resource dependencies**: Functions requiring unavailable resources (e.g., "Insert Chart" without "Insert Table" first. e.g., When using "Clear All Formatting", you should first change the format of the content to: bold format, underline format, add color..., and then you can use "Clear All Formatting" function)
+- Premature operations**: Functions used too early in workflow (e.g., "Format Painter" without any formatted text to copy)
+- Illogical sequence: Functions that don't work together (e.g., "Save Document" → "New Document" - saving before creating)
+
+## INPUT FORMAT
+You will receive complete inputs that include both the function combination and the corresponding function explanations. The input format will vary based on the number of functions:
+
+**For 2 Functions:**
+Input:
+
+{Function A → Function B}
+{References:
+```json
+[
+  "id": "function_a_id",
+  "name": "Function A",
+  "icon": "icon_path",
+  "usage": [
+    "1. Step 1 for Function A",
+    "2. Step 2 for Function A",
+    "3. Step 3 for Function A"
+  ]
+]
+```
+```json
+[
+  "id": "function_b_id", 
+  "name": "Function B",
+  "icon": "icon_path",
+  "usage": [
+    "1. Step 1 for Function B",
+    "2. Step 2 for Function B",
+    "3. Step 3 for Function B"
+  ]
+]}
+```
+
+**For 3 Functions:**
+Input:
+{Function A → Function B → Function C}
+{References:
+```json
+[
+  "id": "function_a_id",
+  "name": "Function A",
+  "icon": "icon_path",
+  "usage": [
+    "1. Step 1 for Function A",
+    "2. Step 2 for Function A",
+    "3. Step 3 for Function A"
+  ]
+]
+```
+```json
+[
+  "id": "function_b_id",
+  "name": "Function B", 
+  "icon": "icon_path",
+  "usage": [
+    "1. Step 1 for Function B",
+    "2. Step 2 for Function B",
+    "3. Step 3 for Function B"
+  ]
+]
+```
+```json
+[
+  "id": "function_c_id",
+  "name": "Function C",
+  "icon": "icon_path", 
+  "usage": [
+    "1. Step 1 for Function C",
+    "2. Step 2 for Function C",
+    "3. Step 3 for Function C"
+  ]
+]}
+```
+
+**For 4 Functions:**
+Input:
+{Function A → Function B → Function C → Function D}
+{References:
+[Similar format with 4 function references]}
+
+This complete input (combination + references) is what you will receive for evaluation.
+
+## OUTPUT FORMAT
+
+### For UNREASONABLE combinations:
+```
+  "combination": {combination},
+  "judgment": {unreasonable},
+  "question": {null},
+  "answer": {null}
+
+```
+
+### For REASONABLE combinations:
+```
+  "combination": {combination},
+  "judgment": {reasonable},
+  "question": {Specific, realistic question that requires this exact function sequence},
+  "answer": {Step-by-step instructions using the function documentation, customized for the specific question}
+
+```
+
+## AVAILABLE FILES AND IMAGES
+
+When using "Open Document" or "Insert Image" functions, reference these following available files, do not use other non-exist documents or images
+
+**Documents:**
+- sustainability_report.txt  
+- short_story.txt
+
+**Images:**
+- power.png
+- story.png
+- logol.png
+- pig.jpg
+
+## DOCUMENT CONTENT FOR REFERENCE
+
+When generating questions that involve specific text manipulation, formatting, or editing, you can reference the exact content from these documents to make questions more specific and realistic.
+
+**sustainability_report.txt content:**
+```
+Title: 2025 Sustainability and Responsibility Report — Lumos Energy Corporation
+
+Executive Summary:
+Lumos Energy advanced toward net-zero with innovation, transparency, and community partnerships—cutting operational emissions 24%, investing $80M in renewables, and reaching a 40% recycling rate for industrial byproducts.
+
+Conclusion:
+Sustainability remains a continual pledge: Lumos is targeting full renewable operations by 2035 to power the world responsibly—brightly, together.
+```
+
+**short_story.txt content:**
+```
+Title: The Clockmaker of Evershade
+
+In fog-wrapped Evershade, Old Bram kept time by whisper and pendulum—until one autumn night the clocktower stalled, the river held its breath, and he vanished, leaving a ring of tools around a brass key.
+
+Found days later in the forest, he murmured, "Time has learned to watch us back," and thereafter clocks wound themselves and aging went askew. Some say he bargained with the unseen, others that he wound eternity; when the moon turns red, the tower tolls thirteen—breath, not metal.
+```
+
+## FUNCTION DOCUMENTATION
+
+**ALWAYS reference `explainations_for_botton.json`** for the exact usage steps of each function. This file contains detailed documentation for all MiniWord functions including:
+- Exact step-by-step instructions for each function
+- Button names and icons
+- Usage patterns and workflows
+- Keyboard shortcuts
+
+Use the "usage" field from this file as the foundation for generating step-by-step answers, but customize the steps to fit the specific question context.
+
+## ANSWER GENERATION RULES
+
+1. **Use specific file names** from the available files when relevant
+2. **Reference exact content** from the document content above when generating questions
+3. **Be extremely specific** in questions by mentioning exact sentences, paragraphs, or text content from the documents (avoid line numbers as they can change during formatting)
+4. **Customize the usage steps** for the specific question context
+5. **Don't list all possibilities of buttons based on the `explainations_for_botton.json` ** - choose the most relevant option
+6. **Make instructions specific** to the question asked
+7. **Follow the exact sequence** of functions in the combination
+8. **Reference the function documentation** from `explainations_for_botton.json` but adapt it to the question
+9. **Customize the usage steps** to fit the specific question context while maintaining the core functionality
+
+## IMPORTANT NOTES
+
+- make sure to output the input combination first every time
+- Be strict about prerequisites (e.g., "Paste" requires "Cut"/"Copy" first)
+- Consider real-world document editing workflows
+- **Make questions extremely specific** by referencing exact content from the documents above
+- **Avoid line number references** - use paragraph descriptions, sentence content, or section names instead
+- Examples of specific questions:
+  - "Insert a comment 'needs revision' with high priority to the paragraph starting with 'In fog-wrapped Evershade' in short_story.txt"
+- Adapt function documentation to the specific question context
+- Ensure the question naturally requires the exact function sequence
+- Use the "usage" field from `explainations_for_botton.json` as the foundation for step-by-step instructions
+- When use the "Insert Symbol" function, clarify which exact character you want to insert, and show the specific button name
+
+
+## EXAMPLES
+
+### Example 1 (REASONABLE):
+
+**Input:** 
+
+Open Document → Text Color
+References:
+```json
+[
+  "id": "file_open",
+            "name": "Open Document",
+            "icon": "miniword_buttons_png/file_open.png",
+            "usage": [
+              "1. Click the 'File' section",
+              "2. Click the Open Document icon",
+              "3. Click the 'Choose File' button to select a file",
+              "4. Select a file from your computer (.txt, .html, .htm, .md files)",
+              "5. Click the 'Open Document' button"
+  ]
+]
+```
+```json
+[
+  "id": "text_color",
+            "name": "Text Color",
+            "icon": "miniword_buttons_png/text_color.png",
+            "usage": [
+              "1. Click the 'Format' section",
+              "2. Click the Text Color icon",
+              "3. Choose a color from the color square (black, red, green, blue, yellow, magenta, cyan, grey)",
+              "4. Click the text you want to change color use the cursor",
+              "5. Click the 'Apply Color' button to change the text color"
+  ]
+]
+```
+
+**Output:**
+```json
+
+  "combination": [Open Document → Text Color], 
+  "judgment": [reasonable],
+  "question": [Can you guide me how to open a document 'short_story.txt' 
+  from my computer, and then add green color to the second sentence in this 
+  file?],
+  "answer": [1. Click the 'File' section\n2. Click the Open Document 
+  icon\n3. Click the 'Choose File' button to select a file\n4. Select a file 
+  called 'short_story.txt' from your computer\n5. Click the 'Open Document' 
+  button\n6. Click the 'Format' section\n7. Click the Text Color icon\n8. 
+  Choose the 'green' color from the color square\n9. Select the second 
+  sentence 'Found days later in the forest, he murmured, "Time has learned to watch us back," and thereafter clocks wound themselves and aging went askew' with the cursor'\n10. Click 'Apply Color' button to change the 
+  text color]
+
+```
+
+### Example 2 (UNREASONABLE):
+
+**Input:**
+
+Template Library → Paste
+References:
+```json
+[
+  "id": "mw2_template_library",
+            "name": "Template Library",
+            "icon": "miniword_icons_set2/mw2_template_library.png",
+            "usage": [
+              "1. Click the 'Insert' section",
+              "2. Click the Template Library icon",
+              "3. Click a template from the template library (Business Letter, Report, Resume),the template will be inserted"
+  ]
+]
+```
+```json
+[
+  "id": "edit_paste",
+            "name": "Paste",
+            "icon": "miniword_buttons_png/edit_paste.png",
+            "usage": [
+              "1. Click the 'Edit' section",
+              "2. Click the Paste Content icon",
+              "3. Position cursor where you want to paste",
+              "4. Click the 'Smart Paste(Ctrl+V)' button to paste the text without formatting from clipboard/ or Click the 'Paste Plain Text' button to paste the text without formatting from clipboard/ or Click the 'Paste Formatted' button to paste the text with formatting from clipboard. Then the text from clipboard will be inserted"
+  ]
+]
+```
+
+**Output:**
+```json
+
+  "combination": [Template Library → Paste],
+  "judgment": [unreasonable],
+  "question": [null],
+  "answer": [null]
+
+```
+
+
+Now evaluate each function combination and provide your judgment and generated content.

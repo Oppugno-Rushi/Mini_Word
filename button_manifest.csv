@@ -1,0 +1,48 @@
+button_id,button_name,icon_file,function,description
+file_new,New Document,file_new.png,newDocument(),Create a new document
+file_open,Open Document,file_open.png,openDocument(),Open an existing document
+file_save,Save Document,file_save.png,saveDocument(),Save current document
+file_print,Print Document,file_print.png,printDocument(),Print current document
+file_close,Close Document,file_close.png,closeDocument(),Close current document
+edit_undo,Undo,edit_undo.png,undo(),Undo last action
+edit_redo,Redo,edit_redo.png,redo(),Redo last undone action
+edit_cut,Cut,edit_cut.png,cut(),Cut selected text
+edit_copy,Copy,edit_copy.png,copy(),Copy selected text
+edit_paste,Paste,edit_paste.png,paste(),Paste clipboard content
+find,Find,find.png,findText(),Find text in document
+replace,Replace,replace.png,replaceText(),Find and replace text
+clear_format,Clear Format,clear_format.png,clearFormat(),Remove formatting from selected text
+bold,Bold,bold.png,applyBold(),Make text bold
+italic,Italic,italic.png,applyItalic(),Make text italic
+underline,Underline,underline.png,applyUnderline(),Underline text
+strikethrough,Strikethrough,strikethrough.png,applyStrikethrough(),Strikethrough text
+superscript,Superscript,superscript.png,applySuperscript(),Make text superscript
+subscript,Subscript,subscript.png,applySubscript(),Make text subscript
+text_color,Text Color,text_color.png,changeTextColor(),Change text color
+highlight,Highlight,highlight.png,applyHighlight(),Highlight text background
+format_painter,Format Painter,format_painter.png,activateFormatPainter(),Copy and apply formatting
+align_left,Align Left,align_left.png,alignLeft(),Align text to left
+align_center,Align Center,align_center.png,alignCenter(),Center align text
+align_right,Align Right,align_right.png,alignRight(),Align text to right
+align_justify,Align Justify,align_justify.png,alignJustify(),Justify text alignment
+layout_columns,Columns,layout_columns.png,createColumns(),Create text columns
+layout_page_break,Page Break,layout_page_break.png,insertPageBreak(),Insert page break
+layout_page_setup,Page Setup,layout_page_setup.png,openPageSetup(),Configure page settings
+layout_header_footer,Header & Footer,layout_header_footer.png,openHeaderFooter(),Add headers and footers
+bulleted_list,Bulleted List,bulleted_list.png,insertBulletedList(),Create bulleted list
+numbered_list,Numbered List,numbered_list.png,insertNumberedList(),Create numbered list
+indent_increase,Increase Indent,indent_increase.png,increaseIndent(),Increase paragraph indent
+indent_decrease,Decrease Indent,indent_decrease.png,decreaseIndent(),Decrease paragraph indent
+insert_image,Insert Image,insert_image.png,insertImage(),Insert image into document
+insert_link,Insert Link,insert_link.png,insertLink(),Insert hyperlink
+insert_table,Insert Table,insert_table.png,insertTable(),Insert table
+insert_chart,Insert Chart,insert_chart.png,insertChart(),Insert chart
+insert_symbol,Insert Symbol,insert_symbol.png,insertSymbol(),Insert special symbol
+insert_equation,Insert Equation,insert_equation.png,insertEquation(),Insert mathematical equation
+review_comment,New Comment,review_comment.png,addComment(),Add comment to document
+review_spelling,Spelling Check,review_spelling.png,checkSpelling(),Check document spelling
+view_zoom_in,Zoom In,view_zoom_in.png,zoomIn(),Increase zoom level
+view_zoom_out,Zoom Out,view_zoom_out.png,zoomOut(),Decrease zoom level
+view_preview,Preview,view_preview.png,previewDocument(),Preview document
+help,Help,help.png,showHelp(),Show help information
+app_settings,Application Settings,app_settings.png,openSettings(),Configure application settings

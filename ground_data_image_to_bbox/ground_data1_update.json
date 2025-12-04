@@ -1,0 +1,5417 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to switch to FILE toolbar section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=8, y_topleft=32, x_bottomright=51, y_bottomright=54"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to create a new document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=18, y_topleft=74, x_bottomright=66, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_new/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to input field for entering text or data? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=366, x_bottomright=321, y_bottomright=400"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_new/Enter_document_title/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the Document Type I want (Blank Document, Business Letter, Project Report, Internal Memo, Personal Resume, Newsletter, Invoice)? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=442, x_bottomright=321, y_bottomright=478"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_new/blank/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_new/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to create a new item or document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=577, x_bottomright=172, y_bottomright=611"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_new/Create_Document/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to cancel the current operation? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=180, y_topleft=577, x_bottomright=258, y_bottomright=611"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_new/Cancel/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to open an existing document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=68, y_topleft=74, x_bottomright=116, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_open/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to enter something in the Paste document content... area? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=440, x_bottomright=321, y_bottomright=554"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_open/Paste_document_content.../begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_open/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose File a file from my computer? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=366, x_bottomright=135, y_bottomright=398"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_open/Choose_File/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Open Document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=577, x_bottomright=164, y_bottomright=611"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_open/Open_Document/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to cancel the current operation? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=172, y_topleft=577, x_bottomright=250, y_bottomright=611"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_open/Cancel/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to save the current document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=118, y_topleft=74, x_bottomright=166, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_save/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to save the current document with a specific filename? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=366, x_bottomright=321, y_bottomright=400"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_save/Enter_filename/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the Save Format HTML Document, Plain Text, Markdown? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=442, x_bottomright=321, y_bottomright=478"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_save/html/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_save/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to save the current changes? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=494, x_bottomright=162, y_bottomright=528"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_save/Save_Document/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to cancel the current operation? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=170, y_topleft=494, x_bottomright=248, y_bottomright=528"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_save/Cancel/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to print the document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=168, y_topleft=74, x_bottomright=216, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_print/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the Default Printer or Save as PDF? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=366, x_bottomright=321, y_bottomright=402"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_print/default/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the page range (All Pages, Current Page, Custom Range)? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=444, x_bottomright=321, y_bottomright=480"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_print/all/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_print/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Print? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=496, x_bottomright=91, y_bottomright=530"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_print/Print/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Preview? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=99, y_topleft=496, x_bottomright=183, y_bottomright=530"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_print/Preview/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to cancel the current operation? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=191, y_topleft=496, x_bottomright=269, y_bottomright=530"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/file_print/Cancel/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to refresh the web page? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=237, y_topleft=74, x_bottomright=285, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/web_refresh/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/web_refresh/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Refresh Page? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=400, x_bottomright=148, y_bottomright=434"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/web_refresh/Refresh_Page/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to cancel the current operation? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=156, y_topleft=400, x_bottomright=234, y_bottomright=434"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/web_refresh/Cancel/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current page? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=287, y_topleft=74, x_bottomright=335, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/web_close/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/web_close/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Close Page? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=423, x_bottomright=134, y_bottomright=457"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/web_close/Close_Page/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to cancel the current operation? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=142, y_topleft=423, x_bottomright=220, y_bottomright=457"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/web_close/Cancel/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to open a new browser tab? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=337, y_topleft=74, x_bottomright=385, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/new_tab/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/new_tab/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Open New Tab? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=443, x_bottomright=154, y_bottomright=477"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/new_tab/Open_New_Tab/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to cancel the current operation? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=162, y_topleft=443, x_bottomright=240, y_bottomright=477"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/new_tab/Cancel/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to toggle pagination mode? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=387, y_topleft=74, x_bottomright=435, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/toggle_pagination/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/toggle_pagination/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to toggle the current setting on or off? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=443, x_bottomright=142, y_bottomright=477"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/toggle_pagination/Toggle_Mode/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to cancel the current operation? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=150, y_topleft=443, x_bottomright=228, y_bottomright=477"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/file/toggle_pagination/Cancel/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to switch to EDIT toolbar section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=51, y_topleft=32, x_bottomright=96, y_bottomright=54"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to undo the last action? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=18, y_topleft=74, x_bottomright=66, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_undo/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_undo/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Undo (Ctrl+Z)? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=347, x_bottomright=147, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_undo/Undo_(Ctrl+Z)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=155, y_topleft=347, x_bottomright=264, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_undo/Back_to_Edit/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to redo the last undone action? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=68, y_topleft=74, x_bottomright=116, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_redo/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_redo/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Redo (Ctrl+Y)? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=347, x_bottomright=148, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_redo/Redo_(Ctrl+Y)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=156, y_topleft=347, x_bottomright=265, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_redo/Back_to_Edit/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to cut selected text? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=118, y_topleft=74, x_bottomright=166, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_cut/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_cut/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Cut (Ctrl+X)? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=347, x_bottomright=136, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_cut/Cut_(Ctrl+X)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=144, y_topleft=347, x_bottomright=253, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_cut/Back_to_Edit/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to copy selected text? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=168, y_topleft=74, x_bottomright=216, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_copy/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to direct Copy - Copy text without formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=169, y_topleft=155, x_bottomright=317, y_bottomright=204"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_copy/copy_plain/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_copy/copy_plain/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Copy Plain Text? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=480, x_bottomright=159, y_bottomright=514"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_copy/copy_plain/Copy_Plain_Text/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to formatted Copy - Copy text with formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=169, y_topleft=204, x_bottomright=317, y_bottomright=252"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_copy/copy_formatted/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_copy/copy_formatted/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to copy formatted text? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=480, x_bottomright=192, y_bottomright=514"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_copy/copy_formatted/Copy_Formatted_Text/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to paste text from clipboard? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=218, y_topleft=74, x_bottomright=266, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_paste/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_paste/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Smart Paste (Ctrl+V)? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=493, x_bottomright=104, y_bottomright=575"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_paste/Smart_Paste_(Ctrl+V)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to paste plain text from clipboard? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=112, y_topleft=493, x_bottomright=179, y_bottomright=575"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_paste/Paste_Plain_Text/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Paste Formatted? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=187, y_topleft=493, x_bottomright=255, y_bottomright=575"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_paste/Paste_Formatted/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=263, y_topleft=493, x_bottomright=321, y_bottomright=575"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/edit_paste/Back_to_Edit/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to find text in the document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=287, y_topleft=74, x_bottomright=335, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/find/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to enter the text to find? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=366, x_bottomright=321, y_bottomright=400"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/find/Enter_text_to_find/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/find/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Find? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=477, x_bottomright=89, y_bottomright=511"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/find/Find/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to cancel the current operation? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=97, y_topleft=477, x_bottomright=175, y_bottomright=511"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/find/Cancel/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to find and replace text? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=337, y_topleft=74, x_bottomright=385, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/replace/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to enter the text to find? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=366, x_bottomright=321, y_bottomright=400"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/replace/Enter_text_to_find/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to enter the replacement text? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=442, x_bottomright=321, y_bottomright=476"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/replace/Enter_replacement_text/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: on? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=495, x_bottomright=321, y_bottomright=508"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/replace/on/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/replace/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Replace All? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=553, x_bottomright=132, y_bottomright=587"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/replace/Replace_All/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to cancel the current operation? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=140, y_topleft=553, x_bottomright=218, y_bottomright=587"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/replace/Cancel/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to clear all formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=406, y_topleft=74, x_bottomright=454, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/mw2_clear_all/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/mw2_clear_all/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to clear selected text formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=566, x_bottomright=187, y_bottomright=616"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/mw2_clear_all/Clear_Selected_Text_Formatting/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Clear Entire Document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=195, y_topleft=566, x_bottomright=321, y_bottomright=616"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/mw2_clear_all/Clear_Entire_Document/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to copy and apply formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=456, y_topleft=74, x_bottomright=504, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/mw2_format_painter/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/mw2_format_painter/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Copy Format? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=601, x_bottomright=123, y_bottomright=651"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/mw2_format_painter/Copy_Format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=131, y_topleft=601, x_bottomright=228, y_bottomright=651"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/mw2_format_painter/Apply_Format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Deactivate? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=237, y_topleft=601, x_bottomright=321, y_bottomright=651"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/edit/mw2_format_painter/Deactivate/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to switch to VIEW toolbar section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=96, y_topleft=32, x_bottomright=146, y_bottomright=54"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to zoom in to make text larger? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=18, y_topleft=74, x_bottomright=66, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/view_zoom_in/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: 125? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=425, x_bottomright=321, y_bottomright=461"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/view_zoom_in/125/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/view_zoom_in/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=591, x_bottomright=122, y_bottomright=641"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/view_zoom_in/Apply_Zoom_In/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to reset to default settings? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=130, y_topleft=591, x_bottomright=225, y_bottomright=641"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/view_zoom_in/Reset_to_100%/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=233, y_topleft=591, x_bottomright=321, y_bottomright=641"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/view_zoom_in/Back_to_View/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to zoom out to make text smaller? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=68, y_topleft=74, x_bottomright=116, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/view_zoom_out/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: 25? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=425, x_bottomright=321, y_bottomright=461"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/view_zoom_out/25/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/view_zoom_out/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=591, x_bottomright=127, y_bottomright=641"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/view_zoom_out/Apply_Zoom_Out/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to reset to default settings? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=135, y_topleft=591, x_bottomright=228, y_bottomright=641"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/view_zoom_out/Reset_to_100%/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=235, y_topleft=591, x_bottomright=321, y_bottomright=641"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/view_zoom_out/Back_to_View/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to preview the document for printing? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=118, y_topleft=74, x_bottomright=166, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/view_preview/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/view_preview/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Print? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=428, x_bottomright=91, y_bottomright=462"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/view_preview/Print/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=99, y_topleft=428, x_bottomright=214, y_bottomright=462"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/view_preview/Back_to_View/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to configure page layout settings? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=187, y_topleft=74, x_bottomright=235, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/layout_page_setup/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: portrait? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=86, y_topleft=449, x_bottomright=99, y_bottomright=462"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/layout_page_setup/portrait/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/layout_page_setup/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=577, x_bottomright=127, y_bottomright=643"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/layout_page_setup/Apply_Orientation/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to reset to default settings? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=135, y_topleft=577, x_bottomright=230, y_bottomright=643"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/layout_page_setup/Reset_to_Portrait/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=238, y_topleft=577, x_bottomright=321, y_bottomright=643"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/layout_page_setup/Back_to_View/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to show or hide the sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=256, y_topleft=74, x_bottomright=304, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/mw2_sidebar_toggle/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/mw2_sidebar_toggle/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to toggle the current setting on or off? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=459, x_bottomright=155, y_bottomright=493"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/mw2_sidebar_toggle/Toggle_Sidebar/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to show or hide the ruler? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=306, y_topleft=74, x_bottomright=354, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/mw2_ruler_toggle/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/mw2_ruler_toggle/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to toggle the current setting on or off? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=459, x_bottomright=141, y_bottomright=493"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/mw2_ruler_toggle/Toggle_Ruler/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to show or hide invisible characters? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=356, y_topleft=74, x_bottomright=404, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/mw2_show_invisibles/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/mw2_show_invisibles/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to toggle the current setting on or off? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=501, x_bottomright=224, y_bottomright=535"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/mw2_show_invisibles/Toggle_Hidden_Characters/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to enter focus mode to minimize distractions? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=406, y_topleft=74, x_bottomright=454, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/mw2_focus_mode/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/mw2_focus_mode/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to toggle the current setting on or off? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=501, x_bottomright=184, y_bottomright=535"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/mw2_focus_mode/Toggle_Focus_Mode/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to toggle dark mode for better night viewing? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=456, y_topleft=74, x_bottomright=504, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/mw2_night_mode/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/mw2_night_mode/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to toggle the current setting on or off? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=480, x_bottomright=179, y_bottomright=514"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/view/mw2_night_mode/Toggle_Night_Mode/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to switch to INSERT toolbar section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=146, y_topleft=32, x_bottomright=200, y_bottomright=54"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to insert an image into the document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=18, y_topleft=74, x_bottomright=66, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_image/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to input field for entering text or data? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=366, x_bottomright=321, y_bottomright=398"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_image/input_file/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: small? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=440, x_bottomright=321, y_bottomright=476"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_image/small/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_image/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to insert the selected item into the document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=492, x_bottomright=140, y_bottomright=526"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_image/Insert_Image/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=148, y_topleft=492, x_bottomright=268, y_bottomright=526"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_image/Back_to_Insert/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to insert a table into the document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=68, y_topleft=74, x_bottomright=116, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_table/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_table/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to insert the selected item into the document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=673, x_bottomright=134, y_bottomright=707"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_table/Insert_Table/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=142, y_topleft=673, x_bottomright=262, y_bottomright=707"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_table/Back_to_Insert/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to insert a chart or graph? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=118, y_topleft=74, x_bottomright=166, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_chart/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=1166, y_topleft=208, x_bottomright=1190, y_bottomright=232"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_chart/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to cancel the current operation? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=991, y_topleft=666, x_bottomright=1075, y_bottomright=702"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_chart/Cancel/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to insert the selected item into the document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=1083, y_topleft=666, x_bottomright=1190, y_bottomright=702"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_chart/Insert_Chart/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to input field for entering text or data? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=730, y_topleft=422, x_bottomright=1178, y_bottomright=456"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_chart/Enter_chart_title/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: auto? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=730, y_topleft=510, x_bottomright=1056, y_bottomright=523"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_chart/auto/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: bar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=730, y_topleft=348, x_bottomright=1178, y_bottomright=384"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_chart/bar/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Color: rgba(255, 255, 255, 1)? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=710, y_topleft=192, x_bottomright=1210, y_bottomright=718"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_chart/Color:_rgba(255,_255,_255,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Chart Type:? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=730, y_topleft=326, x_bottomright=1178, y_bottomright=384"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_chart/Chart_Type:/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Chart Title:? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=730, y_topleft=400, x_bottomright=1178, y_bottomright=456"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_chart/Chart_Title:/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Data Source:? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=730, y_topleft=472, x_bottomright=1178, y_bottomright=574"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_chart/Data_Source:/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Detected Tables:? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=730, y_topleft=590, x_bottomright=1178, y_bottomright=648"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_chart/Detected_Tables:/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: No tables detected in document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=730, y_topleft=612, x_bottomright=1178, y_bottomright=648"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_chart/No_tables_detected_in_document/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to insert a hyperlink? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=168, y_topleft=74, x_bottomright=216, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_link/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to enter the link display text? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=442, x_bottomright=321, y_bottomright=476"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_link/Link_display_text/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to enter the URL for the link? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=366, x_bottomright=321, y_bottomright=400"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_link/https:__example.com/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_link/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to insert the selected item into the document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=492, x_bottomright=127, y_bottomright=526"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_link/Insert_Link/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=135, y_topleft=492, x_bottomright=255, y_bottomright=526"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_link/Back_to_Insert/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to insert a mathematical equation? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=237, y_topleft=74, x_bottomright=285, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_equation/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to input field for entering text or data? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=465, x_bottomright=321, y_bottomright=531"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_equation/Enter_equation_content.../begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: basic? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=387, x_bottomright=321, y_bottomright=423"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_equation/basic/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_equation/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to insert the selected item into the document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=873, x_bottomright=156, y_bottomright=907"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_equation/Insert_Equation/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=164, y_topleft=873, x_bottomright=284, y_bottomright=907"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_equation/Back_to_Insert/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: div? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=542, x_bottomright=321, y_bottomright=753"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_equation/div/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Preview will appear here...? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=796, x_bottomright=321, y_bottomright=857"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_equation/Preview_will_appear_here.../begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to insert special characters or symbols? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=287, y_topleft=74, x_bottomright=335, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_symbol/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_symbol/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=595, x_bottomright=148, y_bottomright=629"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_symbol/Back_to_Insert/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Right Arrow? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=44, y_topleft=419, x_bottomright=144, y_bottomright=459"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_symbol/Right_Arrow/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Left Arrow? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=180, y_topleft=419, x_bottomright=280, y_bottomright=459"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_symbol/Left_Arrow/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Up Arrow? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=44, y_topleft=469, x_bottomright=144, y_bottomright=509"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_symbol/Up_Arrow/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Down Arrow? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=180, y_topleft=469, x_bottomright=280, y_bottomright=509"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_symbol/Down_Arrow/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Star? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=44, y_topleft=519, x_bottomright=144, y_bottomright=559"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_symbol/Star/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Heart? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=180, y_topleft=519, x_bottomright=280, y_bottomright=559"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/insert_symbol/Heart/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to insert a section break? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=356, y_topleft=74, x_bottomright=404, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/mw2_section_break/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/mw2_section_break/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to insert the selected item into the document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=501, x_bottomright=188, y_bottomright=535"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/mw2_section_break/Insert_Section_Break/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to access document templates? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=406, y_topleft=74, x_bottomright=454, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/mw2_template_library/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/mw2_template_library/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Business Letter\nStandard business letter template? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=351, x_bottomright=321, y_bottomright=439"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/mw2_template_library/Business_Letter_Standard_business_letter_template/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Report\nProfessional report template? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=455, x_bottomright=321, y_bottomright=543"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/mw2_template_library/Report_Professional_report_template/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Resume\nPersonal resume template? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=559, x_bottomright=321, y_bottomright=647"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/insert/mw2_template_library/Resume_Personal_resume_template/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to switch to FORMAT toolbar section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=200, y_topleft=32, x_bottomright=262, y_bottomright=54"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to make text bold? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=18, y_topleft=74, x_bottomright=66, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/bold/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/bold/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=347, x_bottomright=181, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/bold/Apply_Bold_(Ctrl+B)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=189, y_topleft=347, x_bottomright=318, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/bold/Back_to_Format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to make text italic? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=68, y_topleft=74, x_bottomright=116, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/italic/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/italic/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=347, x_bottomright=177, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/italic/Apply_Italic_(Ctrl+I)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=185, y_topleft=347, x_bottomright=314, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/italic/Back_to_Format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to underline text? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=118, y_topleft=74, x_bottomright=166, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/underline/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/underline/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=347, x_bottomright=196, y_bottomright=397"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/underline/Apply_Underline_(Ctrl+U)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=204, y_topleft=347, x_bottomright=321, y_bottomright=397"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/underline/Back_to_Format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to strike through text? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=168, y_topleft=74, x_bottomright=216, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/strikethrough/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/strikethrough/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=347, x_bottomright=184, y_bottomright=397"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/strikethrough/Apply_Strikethrough/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=192, y_topleft=347, x_bottomright=321, y_bottomright=397"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/strikethrough/Back_to_Format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to align text to the left? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=237, y_topleft=74, x_bottomright=285, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/align_left/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/align_left/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=347, x_bottomright=159, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/align_left/Apply_Left_Align/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=167, y_topleft=347, x_bottomright=296, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/align_left/Back_to_Format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to center align text? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=287, y_topleft=74, x_bottomright=335, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/align_center/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/align_center/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=347, x_bottomright=177, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/align_center/Apply_Center_Align/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=185, y_topleft=347, x_bottomright=314, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/align_center/Back_to_Format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to align text to the right? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=337, y_topleft=74, x_bottomright=385, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/align_right/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/align_right/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=347, x_bottomright=168, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/align_right/Apply_Right_Align/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=176, y_topleft=347, x_bottomright=305, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/align_right/Back_to_Format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to justify text alignment? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=387, y_topleft=74, x_bottomright=435, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/align_justify/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/align_justify/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=347, x_bottomright=175, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/align_justify/Apply_Justify_Align/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=183, y_topleft=347, x_bottomright=312, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/align_justify/Back_to_Format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to change text color? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=456, y_topleft=74, x_bottomright=504, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color black? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=366, x_bottomright=88, y_bottomright=406"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/#000000/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=536, x_bottomright=165, y_bottomright=597"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/🎨_Apply_Color/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=183, y_topleft=536, x_bottomright=321, y_bottomright=597"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Back_to_Format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color black? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=426, x_bottomright=68, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_rgba(0,_0,_0,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color red? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=104, y_topleft=426, x_bottomright=144, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_rgba(255,_0,_0,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color green? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=180, y_topleft=426, x_bottomright=220, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_rgba(0,_255,_0,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color blue? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=255, y_topleft=426, x_bottomright=295, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_rgba(0,_0,_255,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color yellow? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=476, x_bottomright=68, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_rgba(255,_255,_0,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color magenta? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=104, y_topleft=476, x_bottomright=144, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_rgba(255,_0,_255,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color cyan? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=180, y_topleft=476, x_bottomright=220, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_rgba(0,_255,_255,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color grey? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=255, y_topleft=476, x_bottomright=295, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_rgba(128,_128,_128,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color light grey? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=612, x_bottomright=321, y_bottomright=766"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_rgba(248,_249,_250,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color black? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=426, x_bottomright=68, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a0,_0,_0,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color red? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=104, y_topleft=426, x_bottomright=144, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a255,_0,_0,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color green? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=180, y_topleft=426, x_bottomright=220, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a0,_255,_0,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color blue? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=255, y_topleft=426, x_bottomright=295, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a0,_0,_255,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color yellow? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=476, x_bottomright=68, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a255,_255,_0,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color magenta? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=104, y_topleft=476, x_bottomright=144, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a255,_0,_255,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color cyan? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=180, y_topleft=476, x_bottomright=220, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a0,_255,_255,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color grey? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=255, y_topleft=476, x_bottomright=295, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a128,_128,_128,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color black? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=426, x_bottomright=68, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a0,_0,_0,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color red? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=104, y_topleft=426, x_bottomright=144, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a255,_0,_0,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color green? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=180, y_topleft=426, x_bottomright=220, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a0,_255,_0,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color blue? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=255, y_topleft=426, x_bottomright=295, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a0,_0,_255,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color yellow? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=476, x_bottomright=68, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a255,_255,_0,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color magenta? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=104, y_topleft=476, x_bottomright=144, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a255,_0,_255,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color cyan? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=180, y_topleft=476, x_bottomright=220, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a0,_255,_255,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color grey? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=255, y_topleft=476, x_bottomright=295, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a128,_128,_128,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color black? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=426, x_bottomright=68, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a0,_0,_0,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color red? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=104, y_topleft=426, x_bottomright=144, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a255,_0,_0,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color green? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=180, y_topleft=426, x_bottomright=220, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a0,_255,_0,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color blue? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=255, y_topleft=426, x_bottomright=295, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a0,_0,_255,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color yellow? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=476, x_bottomright=68, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a255,_255,_0,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color magenta? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=104, y_topleft=476, x_bottomright=144, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a255,_0,_255,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color cyan? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=180, y_topleft=476, x_bottomright=220, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a0,_255,_255,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color grey? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=255, y_topleft=476, x_bottomright=295, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a128,_128,_128,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color blue? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=536, x_bottomright=165, y_bottomright=597"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a0,_123,_255,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color grey? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=183, y_topleft=536, x_bottomright=321, y_bottomright=597"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a108,_117,_125,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color light grey? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=612, x_bottomright=321, y_bottomright=766"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a248,_249,_250,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color light gray? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=366, x_bottomright=88, y_bottomright=406"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/text_color/Color:_Color_a239,_239,_239,_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to highlight text with background color? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=506, y_topleft=74, x_bottomright=554, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/highlight/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color yellow? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=366, x_bottomright=88, y_bottomright=406"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/highlight/#ffff00/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/highlight/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=536, x_bottomright=174, y_bottomright=597"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/highlight/🖍️_Apply_Highlight/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=192, y_topleft=536, x_bottomright=321, y_bottomright=597"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/highlight/Back_to_Format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color yellow? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=426, x_bottomright=68, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/highlight/Color:_rgba(255,_255,_0,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color light pink? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=104, y_topleft=426, x_bottomright=144, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/highlight/Color:_rgba(255,_204,_204,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color light green? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=180, y_topleft=426, x_bottomright=220, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/highlight/Color:_rgba(204,_255,_204,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color light blue? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=255, y_topleft=426, x_bottomright=295, y_bottomright=466"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/highlight/Color:_rgba(204,_204,_255,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color cream yellow? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=476, x_bottomright=68, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/highlight/Color:_rgba(255,_255,_204,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color light magenta? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=104, y_topleft=476, x_bottomright=144, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/highlight/Color:_rgba(255,_204,_255,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color light cyan? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=180, y_topleft=476, x_bottomright=220, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/highlight/Color:_rgba(204,_255,_255,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color light gray? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=255, y_topleft=476, x_bottomright=295, y_bottomright=516"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/highlight/Color:_rgba(240,_240,_240,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the color light grey? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=612, x_bottomright=321, y_bottomright=766"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/highlight/Color:_rgba(248,_249,_250,_1)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to copy formatting from one text to another? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=556, y_topleft=74, x_bottomright=604, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/format_painter/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/format_painter/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Activate Format Painter? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=347, x_bottomright=131, y_bottomright=413"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/format_painter/Activate_Format_Painter/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=139, y_topleft=347, x_bottomright=235, y_bottomright=413"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/format_painter/Apply_Format_Painter/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=242, y_topleft=347, x_bottomright=321, y_bottomright=413"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/format_painter/Back_to_Format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to remove all formatting from text? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=606, y_topleft=74, x_bottomright=654, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/clear_format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/clear_format/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Clear Format? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=347, x_bottomright=144, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/clear_format/Clear_Format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=152, y_topleft=347, x_bottomright=281, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/clear_format/Back_to_Format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to make text superscript? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=675, y_topleft=74, x_bottomright=723, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_superscript/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_superscript/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=480, x_bottomright=172, y_bottomright=514"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_superscript/Apply_Superscript/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to make text subscript? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=725, y_topleft=74, x_bottomright=773, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_subscript/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_subscript/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=480, x_bottomright=159, y_bottomright=514"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_subscript/Apply_Subscript/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to adjust line spacing? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=775, y_topleft=74, x_bottomright=823, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_line_spacing/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_line_spacing/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to choose the double (2.0x) line spacing option? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=417, x_bottomright=146, y_bottomright=451"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_line_spacing/Double_(2.0x)/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to configure page settings? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=844, y_topleft=74, x_bottomright=892, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_page_setup/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: 2.54? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=69, y_topleft=604, x_bottomright=167, y_bottomright=644"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_page_setup/2.54/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: 2.54? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=182, y_topleft=604, x_bottomright=280, y_bottomright=644"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_page_setup/2.54/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: 3.18? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=69, y_topleft=683, x_bottomright=167, y_bottomright=723"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_page_setup/3.18/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: 3.18? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=182, y_topleft=683, x_bottomright=280, y_bottomright=723"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_page_setup/3.18/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: A4? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=69, y_topleft=421, x_bottomright=280, y_bottomright=467"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_page_setup/A4/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_page_setup/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Normal? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=69, y_topleft=738, x_bottomright=136, y_bottomright=782"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_page_setup/Normal/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Narrow? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=146, y_topleft=738, x_bottomright=213, y_bottomright=782"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_page_setup/Narrow/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Wide? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=223, y_topleft=738, x_bottomright=280, y_bottomright=782"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_page_setup/Wide/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=869, x_bottomright=117, y_bottomright=919"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_page_setup/Apply_Settings/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to reset to default settings? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=125, y_topleft=869, x_bottomright=221, y_bottomright=919"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_page_setup/Reset_to_Default/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=229, y_topleft=869, x_bottomright=321, y_bottomright=919"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_page_setup/Back_to_Format/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to set the Top margin value? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=69, y_topleft=580, x_bottomright=167, y_bottomright=644"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_page_setup/Margin:_margin_field_0/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to set the Bottom margin value? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=182, y_topleft=580, x_bottomright=280, y_bottomright=644"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_page_setup/Margin:_margin_field_1/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to set the Left margin value? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=69, y_topleft=659, x_bottomright=167, y_bottomright=723"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_page_setup/Margin:_margin_field_2/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to set the Right margin value? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=182, y_topleft=659, x_bottomright=280, y_bottomright=723"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_page_setup/Margin:_margin_field_3/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to edit document headers and footers? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=894, y_topleft=74, x_bottomright=942, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_header_footer/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_header_footer/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Edit Header? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=480, x_bottomright=136, y_bottomright=514"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_header_footer/Edit_Header/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Edit Footer? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=144, y_topleft=480, x_bottomright=246, y_bottomright=514"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/format/mw2_header_footer/Edit_Footer/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to switch to TOOLS toolbar section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=262, y_topleft=32, x_bottomright=314, y_bottomright=54"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to check spelling and grammar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=18, y_topleft=74, x_bottomright=66, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/review_spelling/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/review_spelling/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Start Check? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=418, x_bottomright=135, y_bottomright=452"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/review_spelling/Start_Check/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=143, y_topleft=418, x_bottomright=260, y_bottomright=452"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/review_spelling/Back_to_Tools/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to add comments to the document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=68, y_topleft=74, x_bottomright=116, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/review_comment/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to input field for entering text or data? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=44, y_topleft=590, x_bottomright=305, y_bottomright=624"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/review_comment/Enter_your_name/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to input field for entering text or data? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=44, y_topleft=455, x_bottomright=305, y_bottomright=541"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/review_comment/Enter_your_comment_here.../begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: normal? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=44, y_topleft=666, x_bottomright=305, y_bottomright=702"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/review_comment/normal/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/review_comment/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to add comment to selected text? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=44, y_topleft=718, x_bottomright=271, y_bottomright=752"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/review_comment/Add_Comment_to_Selected_Text/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=788, x_bottomright=145, y_bottomright=822"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/review_comment/Back_to_Tools/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to create a bulleted list? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=137, y_topleft=74, x_bottomright=185, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/bulleted_list/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/bulleted_list/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Add Bullet? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=44, y_topleft=459, x_bottomright=142, y_bottomright=493"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/bulleted_list/Add_Bullet/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=529, x_bottomright=145, y_bottomright=563"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/bulleted_list/Back_to_Tools/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to create a numbered list? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=187, y_topleft=74, x_bottomright=235, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/numbered_list/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/numbered_list/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Add Number? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=44, y_topleft=459, x_bottomright=157, y_bottomright=493"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/numbered_list/Add_Number/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=529, x_bottomright=145, y_bottomright=563"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/numbered_list/Back_to_Tools/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to increase text indentation? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=237, y_topleft=74, x_bottomright=285, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/indent_increase/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/indent_increase/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Increase Indent? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=347, x_bottomright=159, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/indent_increase/Increase_Indent/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=167, y_topleft=347, x_bottomright=284, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/indent_increase/Back_to_Tools/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to decrease text indentation? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=287, y_topleft=74, x_bottomright=335, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/indent_decrease/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/indent_decrease/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Decrease Indent? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=347, x_bottomright=165, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/indent_decrease/Decrease_Indent/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=173, y_topleft=347, x_bottomright=290, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/indent_decrease/Back_to_Tools/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to show character count statistics? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=356, y_topleft=74, x_bottomright=404, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/mw2_char_count/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/mw2_char_count/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Show Character Count? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=480, x_bottomright=204, y_bottomright=514"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/tools/mw2_char_count/Show_Character_Count/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to switch to HELP toolbar section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=314, y_topleft=32, x_bottomright=363, y_bottomright=54"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to access application settings? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=18, y_topleft=74, x_bottomright=66, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/app_settings/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Arial? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=366, x_bottomright=321, y_bottomright=402"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/app_settings/Arial/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: 12? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=444, x_bottomright=321, y_bottomright=480"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/app_settings/12/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/app_settings/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to apply the current settings or formatting? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=496, x_bottomright=134, y_bottomright=562"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/app_settings/Apply_Default_Font/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to save the current changes? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=142, y_topleft=496, x_bottomright=230, y_bottomright=562"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/app_settings/Save_Settings/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=238, y_topleft=496, x_bottomright=321, y_bottomright=562"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/app_settings/Back_to_Help/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to insert a page break? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=87, y_topleft=74, x_bottomright=135, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/layout_page_break/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/layout_page_break/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to insert the selected item into the document? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=347, x_bottomright=174, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/layout_page_break/Insert_Page_Break/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=182, y_topleft=347, x_bottomright=295, y_bottomright=381"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/layout_page_break/Back_to_Help/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to share the document with others? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=156, y_topleft=74, x_bottomright=204, y_bottomright=122"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/mw2_share/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to close the current dialog or sidebar? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=317, y_topleft=177, x_bottomright=337, y_bottomright=208"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/mw2_share/x/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: Generate Link? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=47, y_topleft=438, x_bottomright=169, y_bottomright=472"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/mw2_share/Generate_Link/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: 🐦 Twitter? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=47, y_topleft=566, x_bottomright=172, y_bottomright=600"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/mw2_share/🐦_Twitter/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: 📘 Facebook? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=182, y_topleft=566, x_bottomright=307, y_bottomright=600"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/mw2_share/📘_Facebook/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: 💼 LinkedIn? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=47, y_topleft=610, x_bottomright=172, y_bottomright=644"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/mw2_share/💼_LinkedIn/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to execute action: 💬 WhatsApp? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=182, y_topleft=610, x_bottomright=307, y_bottomright=644"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/mw2_share/💬_WhatsApp/begin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Where shall I click if I want to return to the previous menu or section? Please output the bounding box coordinates in the format: x_topleft, y_topleft, x_bottomright, y_bottomright."
+      },
+      {
+        "from": "gpt",
+        "value": "x_topleft=28, y_topleft=679, x_bottomright=141, y_bottomright=713"
+      }
+    ],
+    "images": [
+      "/shared/nas/data/m1/jiateng5/Mini_Word/function_tree_12/help/mw2_share/Back_to_Help/begin.png"
+    ]
+  }
+]

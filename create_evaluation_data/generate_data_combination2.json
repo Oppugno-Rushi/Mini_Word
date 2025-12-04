@@ -1,0 +1,1422 @@
+[
+  {
+    "id": 1,
+    "section": "Two Functions",
+    "combination": "Open Document → Insert Image",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Insert Image"
+      ],
+      "judgment": "reasonable",
+      "question": "Can you guide me on how to open the document 'sustainability_report.txt' from my computer and then insert the image 'power.png' at the end of the Executive Summary section?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file called 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Insert' section\n7. Click the Insert Image icon\n8. Click the 'Choose File' button\n9. Select the image file 'power.png' from your computer\n10. Choose the image size (Small, Medium, Large) as desired\n11. Move the cursor to the end of the Executive Summary section\n12. Click 'Insert Image' button to add it to your document"
+    }
+  },
+  {
+    "id": 2,
+    "section": "Two Functions",
+    "combination": "Template Library → Redo Operation",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Redo Operation"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 3,
+    "section": "Two Functions",
+    "combination": "Open Document → Right Align",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Right Align"
+      ],
+      "judgment": "reasonable",
+      "question": "Can you guide me on how to open the document 'sustainability_report.txt' from my computer and then right-align the 'Executive Summary' section in this file?",
+      "answer": [
+        "1. Click the 'File' section",
+        "2. Click the Open Document icon",
+        "3. Click the 'Choose File' button to select a file",
+        "4. Select the file named 'sustainability_report.txt' from your computer",
+        "5. Click the 'Open Document' button",
+        "6. Click the 'Format' section",
+        "7. Click the Right Align icon",
+        "8. Select the 'Executive Summary' section, which starts with 'Lumos Energy advanced toward net-zero with innovation...'",
+        "9. Click the 'Apply Right Align' button to align the selected text to the right"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "section": "Two Functions",
+    "combination": "Open Document → Subscript",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Subscript"
+      ],
+      "judgment": "reasonable",
+      "question": "Can you guide me on how to open the document 'sustainability_report.txt' from my computer and then apply subscript formatting to the percentage '24%' in the Executive Summary section?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Format' section\n7. Click the Subscript icon\n8. Select the text '24%' in the Executive Summary section\n9. Click the 'Apply Subscript' button to make the text appear smaller and lower"
+    }
+  },
+  {
+    "id": 5,
+    "section": "Two Functions",
+    "combination": "New Document → Find and Replace",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Find and Replace"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 6,
+    "section": "Two Functions",
+    "combination": "New Document → Character Count",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Character Count"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and then check the character count of the empty document?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Blank Document' as the document type\n4. Change the 'Document Title' if desired (default is 'Untitled Document')\n5. Click the 'Create Document' button to create the new document\n6. Click the 'Tools' section\n7. Click the Character Count icon\n8. Click the 'Show Character Count' button to display the character count of the empty document"
+    }
+  },
+  {
+    "id": 7,
+    "section": "Two Functions",
+    "combination": "Open Document → Direct Copy",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Direct Copy"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' from my computer and then directly copy the 'Executive Summary' section without formatting?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Edit' section\n7. Click the Copy icon\n8. Click the Direct Copy icon under the Copy icon to reveal the submenu\n9. Select the 'Executive Summary' section: 'Lumos Energy advanced toward net-zero with innovation, transparency, and community partnerships—cutting operational emissions 24%, investing $80M in renewables, and reaching a 40% recycling rate for industrial byproducts.'\n10. Click the 'Copy Plain Text' icon to copy the text without formatting to the clipboard"
+    }
+  },
+  {
+    "id": 8,
+    "section": "Two Functions",
+    "combination": "Open Document → Spell Check",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Spell Check"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' from my computer and perform a spell check to correct any spelling errors?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Tools' section\n7. Click the Spell Check icon\n8. Click the 'Start Check' button, the system will scan for spelling errors\n9. Choose the correct spelling from the suggestions or click the 'Ignore' button to ignore the word"
+    }
+  },
+  {
+    "id": 9,
+    "section": "Two Functions",
+    "combination": "New Document → Zoom In View",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Zoom In View"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and then zoom in to 150% to make the text larger?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Blank Document' as the document type\n4. Change the 'Document Title' to your desired title or leave it as 'Untitled Document'\n5. Click the 'Create Document' button\n6. Click the 'View' section\n7. Click the Zoom In View icon\n8. Select '150%' as the zoom level\n9. Click the 'Apply Zoom In' button to magnify the document"
+    }
+  },
+  {
+    "id": 10,
+    "section": "Two Functions",
+    "combination": "Open Document → Clear All Formatting",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Clear All Formatting"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 11,
+    "section": "Two Functions",
+    "combination": "Open Document → Left Align",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Left Align"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' and align the 'Executive Summary' section to the left?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Format' section\n7. Click the Left Align icon\n8. Select the 'Executive Summary' section text: 'Lumos Energy advanced toward net-zero with innovation, transparency, and community partnerships—cutting operational emissions 24%, investing $80M in renewables, and reaching a 40% recycling rate for industrial byproducts.'\n9. The selected text will be aligned to the left"
+    }
+  },
+  {
+    "id": 12,
+    "section": "Two Functions",
+    "combination": "Template Library → Spell Check",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Spell Check"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a resume template from the Template Library and then perform a spell check on it to ensure there are no spelling errors?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click a template from the template library, such as 'Resume', to insert it into your document\n4. Click the 'Tools' section\n5. Click the Spell Check icon\n6. Click the 'Start Check' button to begin scanning the document for spelling errors\n7. Review the suggestions provided for any spelling errors found and choose the correct spelling or click 'Ignore' to bypass any suggestions"
+    }
+  },
+  {
+    "id": 13,
+    "section": "Two Functions",
+    "combination": "Template Library → Decrease Indent",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Decrease Indent"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Report' template from the Template Library and then decrease the indent of the first paragraph in the inserted template?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Report' template from the template library, the template will be inserted\n4. Click the 'Tools' section\n5. Click the Decrease Indent icon\n6. Select the first paragraph of the inserted template\n7. Click the 'Decrease Indent' button to move the paragraph to the left"
+    }
+  },
+  {
+    "id": 14,
+    "section": "Two Functions",
+    "combination": "Open Document → Character Count",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Character Count"
+      ],
+      "judgment": "reasonable",
+      "question": "Can you guide me on how to open the document 'sustainability_report.txt' from my computer and then display the character count for this file?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Tools' section\n7. Click the Character Count icon\n8. Click the 'Show Character Count' button to display the character count for the document"
+    }
+  },
+  {
+    "id": 15,
+    "section": "Two Functions",
+    "combination": "Template Library → Insert Link",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Insert Link"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Business Letter' template and then add a hyperlink to the text 'Visit our website' that links to 'https://www.example.com'?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library, and the template will be inserted\n4. Click the 'Insert' section\n5. Click the Insert Link icon\n6. Enter 'https://www.example.com' in the Link URL field\n7. Enter 'Visit our website' in the link display text field\n8. Move the cursor to the position in the document where you want to insert the link\n9. Click 'Insert Link' button to create the link"
+    }
+  },
+  {
+    "id": 16,
+    "section": "Two Functions",
+    "combination": "Open Document → Toggle Ruler",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Toggle Ruler"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' and then display the ruler to adjust the layout of the document?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'View' section\n7. Click the Toggle Ruler icon\n8. Click the 'Toggle Ruler' button to display the horizontal and vertical rulers for layout adjustments"
+    }
+  },
+  {
+    "id": 17,
+    "section": "Two Functions",
+    "combination": "New Document → New Comment",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → New Comment"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and add a high-priority comment 'Review this section' to the first sentence?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose 'Blank Document' as the 'Document Type'\n4. Change the 'Document Title' to your desired title or leave it as 'Untitled Document'\n5. Click the 'Create Document' button\n6. Click the 'Tools' section\n7. Click the New Comment icon\n8. Input 'Review this section' in the comment content field\n9. Input your name in the comment author field\n10. Select 'High Priority' from the comment priority field\n11. Select the first sentence in the document with the cursor\n12. Click 'Add Comment to Selected Text' button to save the comment\n13. Click the selected text in the document to view the added comment"
+    }
+  },
+  {
+    "id": 18,
+    "section": "Two Functions",
+    "combination": "Template Library → New Comment",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → New Comment"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Business Letter' template and then add a high-priority comment 'Review this section' to the introduction paragraph?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library, the template will be inserted\n4. Click the 'Tools' section\n5. Click the New Comment icon\n6. Input 'Review this section' in the comment content field\n7. Input your name in the comment author field\n8. Select 'High Priority' from the comment priority field\n9. Select the introduction paragraph in the document with the cursor\n10. Click 'Add Comment to Selected Text' button to save\n11. Click the selected text in the document to view the added comment"
+    }
+  },
+  {
+    "id": 19,
+    "section": "Two Functions",
+    "combination": "Open Document → Line Spacing",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Line Spacing"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' from my computer and then change the line spacing of the 'Executive Summary' section to double spacing?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Format' section\n7. Click the Line Spacing icon\n8. Select the 'Executive Summary' section, which starts with 'Lumos Energy advanced toward net-zero...'\n9. Click the spacing options button and choose 'Double (2.0x)' to change the line spacing to double."
+    }
+  },
+  {
+    "id": 20,
+    "section": "Two Functions",
+    "combination": "New Document → Insert Table",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Insert Table"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and insert a 3x4 table at the beginning of this document?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Blank Document' option from the 'Document Type' menu\n4. Change the 'Document Title' to your desired title or leave it as 'Untitled Document'\n5. Click the 'Create Document' button to create the new document\n6. Click the 'Insert' section\n7. Click the Insert Table icon\n8. Use the table size selector to choose a 3x4 table size\n9. Move the cursor to the beginning of the document where you want to insert the table\n10. Click the 'Insert Table' button to add the table to your document"
+    }
+  },
+  {
+    "id": 21,
+    "section": "Two Functions",
+    "combination": "Open Document → Text Color",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Text Color"
+      ],
+      "judgment": "reasonable",
+      "question": "Can you guide me how to open a document 'short_story.txt' from my computer, and then add green color to the second sentence in this file?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select a file called 'short_story.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Format' section\n7. Click the Text Color icon\n8. Choose the 'green' color from the color square\n9. Select the second sentence 'Found days later in the forest, he murmured, \"Time has learned to watch us back,\" and thereafter clocks wound themselves and aging went askew' with the cursor\n10. Click 'Apply Color' button to change the text color"
+    }
+  },
+  {
+    "id": 22,
+    "section": "Two Functions",
+    "combination": "Open Document → Redo Operation",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Redo Operation"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 23,
+    "section": "Two Functions",
+    "combination": "New Document → Justify Align",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Justify Align"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 24,
+    "section": "Two Functions",
+    "combination": "New Document → Template Library",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Template Library"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new document and then insert a Business Letter template into it using the Template Library?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Document Type' you want, such as 'Blank Document'\n4. Change the 'Document Title' to your desired title or leave it as 'Untitled Document'\n5. Click the 'Create Document' button\n6. Click the 'Insert' section\n7. Click the Template Library icon\n8. Click the 'Business Letter' template from the template library to insert it into your new document"
+    }
+  },
+  {
+    "id": 25,
+    "section": "Two Functions",
+    "combination": "New Document → Insert Image",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Insert Image"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and insert the image 'story.png' in medium size at the beginning of the document?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Blank Document' as the document type\n4. Change the 'Document Title' to your desired title or leave it as 'Untitled Document'\n5. Click the 'Create Document' button\n6. Click the 'Insert' section\n7. Click the Insert Image icon\n8. Click the 'Choose File' button\n9. Select the image file 'story.png' from your computer\n10. Choose 'Medium' as the image size\n11. Move the cursor to the beginning of the document\n12. Click the 'Insert Image' button to add it to your document"
+    }
+  },
+  {
+    "id": 26,
+    "section": "Two Functions",
+    "combination": "Template Library → Undo Operation",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Undo Operation"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Business Letter' template from the Template Library and then undo this action if I change my mind?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library, the template will be inserted\n4. If you decide to undo this action, click the 'Edit' section\n5. Click the Undo icon\n6. Click the 'Undo(Ctrl+Z)' button, the insertion of the 'Business Letter' template will be reversed"
+    }
+  },
+  {
+    "id": 27,
+    "section": "Two Functions",
+    "combination": "Open Document → Page Setup",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Page Setup"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' from my computer and then set the page orientation to Landscape?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'View' section\n7. Click the Page Setup icon\n8. Configure the page orientation to 'Landscape'\n9. Click the 'Apply Orientation' button to apply the settings"
+    }
+  },
+  {
+    "id": 28,
+    "section": "Two Functions",
+    "combination": "Open Document → Night Mode",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Night Mode"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' and then switch the interface to Night Mode for easier reading at night?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'View' section\n7. Click the Night Mode icon\n8. Click the 'Toggle Night Mode' button to switch the interface to a dark theme for easier reading at night"
+    }
+  },
+  {
+    "id": 29,
+    "section": "Two Functions",
+    "combination": "New Document → Undo Operation",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Undo Operation"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 30,
+    "section": "Two Functions",
+    "combination": "Open Document → Page Break",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Page Break"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' and insert a page break right after the 'Executive Summary' section?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Scroll to the end of the 'Executive Summary' section\n7. Click the 'Help' section\n8. Click the Page Break icon\n9. Position the cursor right after the 'Executive Summary' section\n10. Click the 'Insert Page Break' button to insert a page break"
+    }
+  },
+  {
+    "id": 31,
+    "section": "Two Functions",
+    "combination": "Template Library → Right Align",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Right Align"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a business letter template and then right-align the first paragraph of the template?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library, the template will be inserted\n4. Click the 'Format' section\n5. Click the Right Align icon\n6. Select the first paragraph of the inserted business letter template\n7. Click the 'Apply Right Align' button, the text will be aligned to the right"
+    }
+  },
+  {
+    "id": 32,
+    "section": "Two Functions",
+    "combination": "Template Library → Bold Format",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Bold Format"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Business Letter' template from the template library and then apply bold formatting to the first paragraph of the inserted template?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library, and the template will be inserted into your document\n4. Click the 'Format' section\n5. Click the Bold Format icon\n6. Select the first paragraph of the inserted 'Business Letter' template\n7. Click 'Apply Bold (Ctrl+B)' button, and the text will become bold"
+    }
+  },
+  {
+    "id": 33,
+    "section": "Two Functions",
+    "combination": "Template Library → Paste",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Paste"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 34,
+    "section": "Two Functions",
+    "combination": "New Document → Open Document",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Open Document"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 35,
+    "section": "Two Functions",
+    "combination": "Open Document → Bold Format",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Bold Format"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' and make the title '2025 Sustainability and Responsibility Report — Lumos Energy Corporation' bold?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Format' section\n7. Click the Bold Format icon\n8. Select the title '2025 Sustainability and Responsibility Report — Lumos Energy Corporation' in the document\n9. Click 'Apply Bold (Ctrl+B)' button, the title will become bold"
+    }
+  },
+  {
+    "id": 36,
+    "section": "Two Functions",
+    "combination": "Template Library → Format Painter",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Format Painter"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 37,
+    "section": "Two Functions",
+    "combination": "New Document → Increase Indent",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Increase Indent"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and then increase the indent of the first paragraph?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Blank Document' as the 'Document Type'\n4. Change the 'Document Title' to your desired title or leave it as 'Untitled Document'\n5. Click the 'Create Document' button\n6. Click the 'Tools' section\n7. Click the Increase Indent icon\n8. Select the first paragraph of your new document\n9. Click the 'Increase Indent' button to move the paragraph to the right"
+    }
+  },
+  {
+    "id": 38,
+    "section": "Two Functions",
+    "combination": "Template Library → New Document",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → New Document"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 39,
+    "section": "Two Functions",
+    "combination": "New Document → Show Hidden Characters",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Show Hidden Characters"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and then display all hidden characters like spaces and paragraph marks in it?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Blank Document' as the document type\n4. Change the 'Document Title' to your desired title or leave it as 'Untitled Document'\n5. Click the 'Create Document' button\n6. Click the 'View' section\n7. Click the Show Hidden Characters icon\n8. Click the 'Toggle Hidden Characters' button to make space characters, Tab characters, Paragraph marks, and line breaks visible"
+    }
+  },
+  {
+    "id": 40,
+    "section": "Two Functions",
+    "combination": "Template Library → Text Color",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Text Color"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Business Letter' template and then change the color of the first sentence to blue?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library, and the template will be inserted\n4. Click the 'Format' section\n5. Click the Text Color icon\n6. Choose the 'blue' color from the color square\n7. Select the first sentence of the inserted template with the cursor\n8. Click the 'Apply Color' button to change the text color"
+    }
+  },
+  {
+    "id": 41,
+    "section": "Two Functions",
+    "combination": "New Document → Subscript",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Subscript"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and then apply subscript formatting to the text 'H2O' in the document?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Blank Document' option\n4. Change the 'Document Title' to your desired title or leave it as 'Untitled Document'\n5. Click the 'Create Document' button\n6. Type 'H2O' in the document\n7. Click the 'Format' section\n8. Click the Subscript icon\n9. Select the '2' in 'H2O' with your cursor\n10. Click the 'Apply Subscript' button to make the '2' appear smaller and lower"
+    }
+  },
+  {
+    "id": 42,
+    "section": "Two Functions",
+    "combination": "Template Library → Cut Content",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Cut Content"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a business letter template from the template library and then cut the first paragraph from it?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library, the template will be inserted\n4. Click the 'Edit' section\n5. Click the Cut Content icon\n6. Select the first paragraph of the inserted business letter template with the cursor\n7. Click the 'Cut(Ctrl+X)' button, the selected text will be removed and copied to the clipboard"
+    }
+  },
+  {
+    "id": 43,
+    "section": "Two Functions",
+    "combination": "Template Library → Insert Image",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Insert Image"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Report' template from the Template Library and then add the 'story.png' image to the top of the document?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Report' template from the template library to insert it into your document\n4. Click the 'Insert' section again\n5. Click the Insert Image icon\n6. Click the 'Choose File' button\n7. Select the 'story.png' image file from your computer\n8. Choose the image size (Small, Medium, Large) as desired\n9. Move the cursor to the top of the document where you want to insert the image\n10. Click the 'Insert Image' button to add it to your document"
+    }
+  },
+  {
+    "id": 44,
+    "section": "Two Functions",
+    "combination": "New Document → Clear All Formatting",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Clear All Formatting"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 45,
+    "section": "Two Functions",
+    "combination": "Open Document → Increase Indent",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Increase Indent"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' and increase the indent of the 'Executive Summary' paragraph?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Tools' section\n7. Click the Increase Indent icon\n8. Select the 'Executive Summary' paragraph, which starts with 'Lumos Energy advanced toward net-zero with innovation...'\n9. Click the 'Increase Indent' button to move the paragraph to the right"
+    }
+  },
+  {
+    "id": 46,
+    "section": "Two Functions",
+    "combination": "Template Library → Insert Symbol",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Insert Symbol"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Business Letter' template and then add a '★Star' symbol at the end of the first paragraph in the template?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library, and the template will be inserted\n4. Click the 'Insert' section again\n5. Click the Insert Symbol icon\n6. Move the cursor to the end of the first paragraph in the Business Letter template\n7. Select the '★Star' button to insert the symbol"
+    }
+  },
+  {
+    "id": 47,
+    "section": "Two Functions",
+    "combination": "Open Document → Format Painter",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Format Painter"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 48,
+    "section": "Two Functions",
+    "combination": "New Document → Save Document",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Save Document"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document titled 'Meeting Notes' and then save it as a plain text file?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose 'Blank Document' as the Document Type\n4. Change the 'Document Title' to 'Meeting Notes'\n5. Click the 'Create Document' button\n6. Click the 'File' section again\n7. Click the Save Document icon\n8. The filename field will be pre-filled with 'Meeting Notes', you can change it if needed\n9. Choose 'Plain Text' as the Save Format\n10. Click 'Save Document' button to download the file with the chosen name"
+    }
+  },
+  {
+    "id": 49,
+    "section": "Two Functions",
+    "combination": "Template Library → Numbered List",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Numbered List"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Report' template from the Template Library and then convert the first paragraph of the inserted template into a numbered list?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Report' template from the template library, and the template will be inserted\n4. Click the 'Tools' section\n5. Click the Numbered List icon\n6. Place your cursor before the first paragraph of the inserted template\n7. Click the 'Add Number' button to convert the paragraph into a numbered list item"
+    }
+  },
+  {
+    "id": 50,
+    "section": "Two Functions",
+    "combination": "New Document → Italic Format",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Italic Format"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 51,
+    "section": "Two Functions",
+    "combination": "New Document → Strikethrough",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Strikethrough"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 52,
+    "section": "Two Functions",
+    "combination": "Open Document → New Document",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → New Document"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 53,
+    "section": "Two Functions",
+    "combination": "New Document → Decrease Indent",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Decrease Indent"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and then decrease the indent of a paragraph in this document?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Blank Document' as the Document Type\n4. Change the 'Document Title' to your desired title or leave it as 'Untitled Document'\n5. Click the 'Create Document' button\n6. Click the 'Tools' section\n7. Click the Decrease Indent icon\n8. Select the paragraph you want to unindent\n9. Click the 'Decrease Indent' button to move the paragraph to the left"
+    }
+  },
+  {
+    "id": 54,
+    "section": "Two Functions",
+    "combination": "New Document → Bulleted List",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Bulleted List"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and then add a bulleted list to it?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Blank Document' type\n4. Change the 'Document Title' to your desired title (default: 'Untitled Document')\n5. Click the 'Create Document' button\n6. Click the 'Tools' section\n7. Click the Bulleted List icon\n8. Place your cursor where you want to start the bulleted list\n9. Click the 'Add Bullet' button to convert the text into a bulleted list item"
+    }
+  },
+  {
+    "id": 55,
+    "section": "Two Functions",
+    "combination": "New Document → Spell Check",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Spell Check"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and then perform a spell check on it to ensure there are no spelling errors?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Blank Document' as the document type\n4. Change the 'Document Title' to your desired title or leave it as 'Untitled Document'\n5. Click the 'Create Document' button to create the new document\n6. Click the 'Tools' section\n7. Click the Spell Check icon\n8. Click the 'Start Check' button to scan for spelling errors\n9. Review the suggestions for any spelling errors found and choose the correct spelling or click 'Ignore' to skip the word"
+    }
+  },
+  {
+    "id": 56,
+    "section": "Two Functions",
+    "combination": "Template Library → Page Break",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Page Break"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Business Letter' template from the Template Library and then add a page break after the template content?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library, the template will be inserted\n4. Click the 'Help' section\n5. Click the Page Break icon\n6. Position the cursor at the end of the template content where you want the page break\n7. Click the 'Insert Page Break' button, a page break will be inserted"
+    }
+  },
+  {
+    "id": 57,
+    "section": "Two Functions",
+    "combination": "Open Document → Center Align",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Center Align"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' and center align the title '2025 Sustainability and Responsibility Report — Lumos Energy Corporation'?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Format' section\n7. Click the Center Align icon\n8. Select the title '2025 Sustainability and Responsibility Report — Lumos Energy Corporation' with the cursor\n9. Click the 'Apply Center Align' button to center the title"
+    }
+  },
+  {
+    "id": 58,
+    "section": "Two Functions",
+    "combination": "Template Library → Toggle Ruler",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Toggle Ruler"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a business letter template and then display the ruler to adjust the margins in MiniWord?",
+      "answer": "1. Click the 'Insert' section.\n2. Click the Template Library icon.\n3. Click the 'Business Letter' template from the template library; the template will be inserted into your document.\n4. Click the 'View' section.\n5. Click the Toggle Ruler icon.\n6. Click the 'Toggle Ruler' button; the ruler will show both horizontal and vertical, allowing you to adjust the margins as needed."
+    }
+  },
+  {
+    "id": 59,
+    "section": "Two Functions",
+    "combination": "Template Library → Justify Align",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Justify Align"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Report' template from the Template Library and then justify align the first paragraph of the inserted template?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Report' template from the template library, the template will be inserted\n4. Click the 'Format' section\n5. Click the Justify Align icon\n6. Select the first paragraph of the inserted template\n7. Click the 'Apply Justify Align' button, the text will be justified (aligned to both margins)"
+    }
+  },
+  {
+    "id": 60,
+    "section": "Two Functions",
+    "combination": "New Document → Cut Content",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Cut Content"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 61,
+    "section": "Two Functions",
+    "combination": "Open Document → Insert Equation",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Insert Equation"
+      ],
+      "judgment": "reasonable",
+      "question": "Can you guide me on how to open the document 'sustainability_report.txt' from my computer and then insert a basic equation at the end of the document?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select a file called 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Insert' section\n7. Click the Insert Equation icon\n8. Choose the 'Basic Equation' type\n9. Enter the equation content you want to add in the equation content field\n10. Move the cursor to the end of the document\n11. Click 'Insert Equation' button to add the equation"
+    }
+  },
+  {
+    "id": 62,
+    "section": "Two Functions",
+    "combination": "Template Library → Zoom Out View",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Zoom Out View"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Business Letter' template from the template library and then zoom out the view to 75% to see more of the document on my screen?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library, the template will be inserted\n4. Click the 'View' section\n5. Click the Zoom Out View icon\n6. Select the '75%' zoom level\n7. Click the 'Apply Zoom Out' button, the document will be reduced in size to 75%"
+    }
+  },
+  {
+    "id": 63,
+    "section": "Two Functions",
+    "combination": "Open Document → Cut Content",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Cut Content"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' from my computer and then cut the 'Executive Summary' section from it?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Edit' section\n7. Click the Cut Content icon\n8. Select the 'Executive Summary' section, which starts with 'Lumos Energy advanced toward net-zero...' and ends with '...recycling rate for industrial byproducts.' using the cursor\n9. Click the 'Cut(Ctrl+X)' button, the selected text will be removed and copied to the clipboard"
+    }
+  },
+  {
+    "id": 64,
+    "section": "Two Functions",
+    "combination": "Template Library → Subscript",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Subscript"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 65,
+    "section": "Two Functions",
+    "combination": "Open Document → Zoom Out View",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Zoom Out View"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' from my computer and then zoom out the view to 75%?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'View' section\n7. Click the Zoom Out View icon\n8. Select the '75%' zoom level\n9. Click the 'Apply Zoom Out' button to reduce the document size to 75%"
+    }
+  },
+  {
+    "id": 66,
+    "section": "Two Functions",
+    "combination": "New Document → Paste",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Paste"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 67,
+    "section": "Two Functions",
+    "combination": "Open Document → Application Settings",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Application Settings"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' and then set the default font to 'Arial' with a font size of '14px' in the application settings?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Help' section\n7. Click the Application Settings icon\n8. Choose 'Arial' as the font\n9. Choose '14px' as the font size\n10. Click 'Apply Default Font' button to apply the changes"
+    }
+  },
+  {
+    "id": 68,
+    "section": "Two Functions",
+    "combination": "Open Document → Zoom In View",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Zoom In View"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the 'sustainability_report.txt' document from my computer and then zoom in to 150% for better readability?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'View' section\n7. Click the Zoom In View icon\n8. Select the '150%' zoom level\n9. Click the 'Apply Zoom In' button to magnify the document"
+    }
+  },
+  {
+    "id": 69,
+    "section": "Two Functions",
+    "combination": "Template Library → Superscript",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Superscript"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a business letter template and then apply superscript to the 'th' in '5th' within the template?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library, the template will be inserted\n4. Click the 'Format' section\n5. Click the Superscript icon\n6. Select the 'th' in '5th' within the template\n7. Click the 'Apply Superscript' button, the 'th' will appear smaller and higher"
+    }
+  },
+  {
+    "id": 70,
+    "section": "Two Functions",
+    "combination": "New Document → Right Align",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Right Align"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and then right-align the first paragraph in this document?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Blank Document' as the Document Type\n4. Change the 'Document Title' to your desired title or leave it as 'Untitled Document'\n5. Click the 'Create Document' button\n6. Click the 'Format' section\n7. Click the Right Align icon\n8. Select the first paragraph in your new document\n9. Click the 'Apply Right Align' button to align the text to the right"
+    }
+  },
+  {
+    "id": 71,
+    "section": "Two Functions",
+    "combination": "Open Document → Numbered List",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Numbered List"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' and convert the Executive Summary section into a numbered list?",
+      "answer": [
+        "1. Click the 'File' section.",
+        "2. Click the Open Document icon.",
+        "3. Click the 'Choose File' button to select a file.",
+        "4. Select the file named 'sustainability_report.txt' from your computer.",
+        "5. Click the 'Open Document' button.",
+        "6. Click the 'Tools' section.",
+        "7. Click the Numbered List icon.",
+        "8. Place your cursor before the text in the Executive Summary section, starting with 'Lumos Energy advanced toward net-zero with innovation...'.",
+        "9. Click the 'Add Number' button to convert the text into a numbered list."
+      ]
+    }
+  },
+  {
+    "id": 72,
+    "section": "Two Functions",
+    "combination": "Template Library → Bulleted List",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Bulleted List"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Report' template from the Template Library and then convert the first paragraph into a bulleted list?",
+      "answer": "1. Click the 'Insert' section.\n2. Click the Template Library icon.\n3. Click the 'Report' template from the template library; the template will be inserted.\n4. Click the 'Tools' section.\n5. Click the Bulleted List icon.\n6. Place your cursor before the first paragraph of the inserted report template.\n7. Click the 'Add Bullet' button to convert the paragraph into a bulleted list item."
+    }
+  },
+  {
+    "id": 73,
+    "section": "Two Functions",
+    "combination": "Open Document → Header & Footer",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Header & Footer"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' and add a header with the text 'Lumos Energy Report' and a footer with the text 'Confidential'?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Format' section\n7. Click the Header & Footer icon\n8. Click the 'Edit Header' button to add the header\n9. Delete any existing header text and input 'Lumos Energy Report' as the new header text\n10. Click the 'Edit Footer' button to add the footer\n11. Delete any existing footer text and input 'Confidential' as the new footer text"
+    }
+  },
+  {
+    "id": 74,
+    "section": "Two Functions",
+    "combination": "New Document → Insert Equation",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Insert Equation"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and insert a basic equation like 'E=mc^2' into it?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Blank Document' as the document type\n4. Change the 'Document Title' to your desired title or leave it as 'Untitled Document'\n5. Click the 'Create Document' button\n6. Click the 'Insert' section\n7. Click the Insert Equation icon\n8. Choose 'Basic Equation' as the equation type\n9. Enter 'E=mc^2' in the equation content field\n10. Move the cursor to the position where you want to insert the equation\n11. Click the 'Insert Equation' button to add the equation"
+    }
+  },
+  {
+    "id": 75,
+    "section": "Two Functions",
+    "combination": "Template Library → Insert Equation",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Insert Equation"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Business Letter' template and then add a basic equation 'E=mc^2' at the end of the document?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library, and the template will be inserted\n4. Click the 'Insert' section again\n5. Click the Insert Equation icon\n6. Choose the 'Basic Equation' type\n7. Enter 'E=mc^2' in the equation content field\n8. Move the cursor to the end of the document where you want to insert the equation\n9. Click the 'Insert Equation' button to add the equation"
+    }
+  },
+  {
+    "id": 76,
+    "section": "Two Functions",
+    "combination": "New Document → Bold Format",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Bold Format"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and then apply bold formatting to the title 'Project Overview' at the top of the document?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Blank Document' as the document type\n4. Change the 'Document Title' to 'Project Overview' (or leave it as 'Untitled Document' if you prefer)\n5. Click the 'Create Document' button\n6. Click the 'Format' section\n7. Click the Bold Format icon\n8. Type 'Project Overview' at the top of the document\n9. Select the text 'Project Overview' with your cursor\n10. Click 'Apply Bold (Ctrl+B)' button to make the text bold"
+    }
+  },
+  {
+    "id": 77,
+    "section": "Two Functions",
+    "combination": "New Document → Toggle Ruler",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Toggle Ruler"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and then display the ruler to adjust margins in MiniWord?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose 'Blank Document' as the 'Document Type'\n4. Change the 'Document Title' to your desired title or leave it as 'Untitled Document'\n5. Click the 'Create Document' button to create the new document\n6. Click the 'View' section\n7. Click the Toggle Ruler icon\n8. Click the 'Toggle Ruler' button to display the horizontal and vertical rulers for adjusting margins"
+    }
+  },
+  {
+    "id": 78,
+    "section": "Two Functions",
+    "combination": "Template Library → Share Document",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Share Document"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a resume template from the Template Library and then share it via a generated link?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click on the 'Resume' template from the template library to insert it into your document\n4. Click the 'Help' section\n5. Click the Share Document icon\n6. Choose the 'Generate Share Link' option\n7. Click 'Generate Link' to create a shareable URL for your document"
+    }
+  },
+  {
+    "id": 79,
+    "section": "Two Functions",
+    "combination": "New Document → Application Settings",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Application Settings"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new document and then set the default font to Arial with a font size of 14px?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Document Type' you want, for example, 'Blank Document'\n4. Change the 'Document Title' to your desired title or leave it as 'Untitled Document'\n5. Click the 'Create Document' button\n6. Click the 'Help' section\n7. Click the Application Settings icon\n8. Choose 'Arial' as the font\n9. Choose '14px' as the font size\n10. Click 'Apply Default Font' button to apply changes"
+    }
+  },
+  {
+    "id": 80,
+    "section": "Two Functions",
+    "combination": "New Document → Superscript",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Superscript"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 81,
+    "section": "Two Functions",
+    "combination": "New Document → Insert Symbol",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Insert Symbol"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and insert a star symbol at the beginning of the document?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Blank Document' as the document type\n4. Change the 'Document Title' to your desired title or leave it as 'Untitled Document'\n5. Click the 'Create Document' button\n6. Click the 'Insert' section\n7. Click the Insert Symbol icon\n8. Move the cursor to the beginning of the document\n9. Select the '★Star button' to insert the star symbol at the desired position"
+    }
+  },
+  {
+    "id": 82,
+    "section": "Two Functions",
+    "combination": "Template Library → Find and Replace",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Find and Replace"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Business Letter' template and then replace all instances of 'Company' with 'Lumos Energy Corporation' in the document?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library to insert it into the document\n4. Click the 'Edit' section\n5. Click the Find and Replace icon\n6. Enter 'Company' in the text to find field\n7. Enter 'Lumos Energy Corporation' in the replacement text field\n8. Click 'Replace All' button to replace all instances of 'Company' with 'Lumos Energy Corporation'"
+    }
+  },
+  {
+    "id": 83,
+    "section": "Two Functions",
+    "combination": "New Document → Direct Copy",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Direct Copy"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 84,
+    "section": "Two Functions",
+    "combination": "Open Document → Insert Table",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Insert Table"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the 'sustainability_report.txt' document and insert a 3x4 table at the end of the document?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Insert' section\n7. Click the Insert Table icon\n8. Use the table size selector to choose a 3x4 table size\n9. Move the cursor to the end of the document\n10. Click the 'Insert Table' button to add the table to the document"
+    }
+  },
+  {
+    "id": 85,
+    "section": "Two Functions",
+    "combination": "Template Library → Italic Format",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Italic Format"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Business Letter' template and then italicize the first paragraph of the template?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library, and the template will be inserted\n4. Click the 'Format' section\n5. Click the Italic Format icon\n6. Select the first paragraph of the inserted Business Letter template with the cursor\n7. Click 'Apply Italic (Ctrl+I)' button, and the text will become italic"
+    }
+  },
+  {
+    "id": 86,
+    "section": "Two Functions",
+    "combination": "Open Document → Insert Link",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Insert Link"
+      ],
+      "judgment": "reasonable",
+      "question": "Can you guide me on how to open the document 'sustainability_report.txt' from my computer and insert a hyperlink to 'https://www.lumosenergy.com' with the display text 'Lumos Energy' at the end of the Executive Summary section?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select a file called 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Insert' section\n7. Click the Insert Link icon\n8. Enter 'https://www.lumosenergy.com' in the Link URL field\n9. Enter 'Lumos Energy' in the link display text field\n10. Move the cursor to the end of the Executive Summary section, after the text '...40% recycling rate for industrial byproducts.'\n11. Click 'Insert Link' button to create the link"
+    }
+  },
+  {
+    "id": 87,
+    "section": "Two Functions",
+    "combination": "Template Library → Strikethrough",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Strikethrough"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a Business Letter template and then apply strikethrough to the first line of the template?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library, the template will be inserted\n4. Click the 'Format' section\n5. Click the Strikethrough Format icon\n6. Select the first line of the template with the cursor\n7. Click the 'Apply Strikethrough' button, the text will have a line through it"
+    }
+  },
+  {
+    "id": 88,
+    "section": "Two Functions",
+    "combination": "Open Document → Underline Format",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Underline Format"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' and underline the sentence 'Lumos Energy advanced toward net-zero with innovation, transparency, and community partnerships—cutting operational emissions 24%, investing $80M in renewables, and reaching a 40% recycling rate for industrial byproducts.'?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Format' section\n7. Click the Underline Format icon\n8. Select the sentence 'Lumos Energy advanced toward net-zero with innovation, transparency, and community partnerships—cutting operational emissions 24%, investing $80M in renewables, and reaching a 40% recycling rate for industrial byproducts.' with the cursor\n9. Click the 'Apply Underline (Ctrl+U)' button to underline the selected text"
+    }
+  },
+  {
+    "id": 89,
+    "section": "Two Functions",
+    "combination": "Template Library → Character Count",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Character Count"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a resume template from the Template Library and then find out the character count of the inserted template?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Resume' template from the template library, the template will be inserted into your document\n4. Click the 'Tools' section\n5. Click the Character Count icon\n6. Click the 'Show Character Count' button to display the character count of the inserted resume template in the document"
+    }
+  },
+  {
+    "id": 90,
+    "section": "Two Functions",
+    "combination": "Open Document → Strikethrough",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Strikethrough"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' and apply strikethrough to the sentence 'Lumos Energy advanced toward net-zero with innovation, transparency, and community partnerships—cutting operational emissions 24%, investing $80M in renewables, and reaching a 40% recycling rate for industrial byproducts.'?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Format' section\n7. Click the Strikethrough Format icon\n8. Select the sentence 'Lumos Energy advanced toward net-zero with innovation, transparency, and community partnerships—cutting operational emissions 24%, investing $80M in renewables, and reaching a 40% recycling rate for industrial byproducts.'\n9. Click the 'Apply Strikethrough' button, the text will have a line through it"
+    }
+  },
+  {
+    "id": 91,
+    "section": "Two Functions",
+    "combination": "New Document → Center Align",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Center Align"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and then center align the title 'My New Document' at the top of the page?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Blank Document' option from the 'Document Type'\n4. Change the 'Document Title' to 'My New Document'\n5. Click the 'Create Document' button\n6. Click the 'Format' section\n7. Click the Center Align icon\n8. Type 'My New Document' at the top of the page\n9. Select the text 'My New Document' with the cursor\n10. Click the 'Apply Center Align' button to center the text"
+    }
+  },
+  {
+    "id": 92,
+    "section": "Two Functions",
+    "combination": "New Document → Page Break",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Page Break"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and then insert a page break after the first paragraph?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Blank Document' as the 'Document Type'\n4. Change the 'Document Title' to your desired title or leave it as 'Untitled Document'\n5. Click the 'Create Document' button\n6. Click the 'Help' section\n7. Click the Page Break icon\n8. Position the cursor at the end of the first paragraph\n9. Click the 'Insert Page Break' button to insert a page break"
+    }
+  },
+  {
+    "id": 93,
+    "section": "Two Functions",
+    "combination": "New Document → Header & Footer",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "New Document → Header & Footer"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I create a new blank document and then add a header with the text 'Confidential' and a footer with the text 'Page 1'?",
+      "answer": "1. Click the 'File' section\n2. Click the New Document icon\n3. Choose the 'Blank Document' option from the 'Document Type' menu\n4. Change the 'Document Title' to your desired title or leave it as 'Untitled Document'\n5. Click the 'Create Document' button\n6. Click the 'Format' section\n7. Click the Header & Footer icon\n8. Click the 'Edit Header' button to add the header\n9. Delete any existing header text and input 'Confidential' as the new header text\n10. Click the 'Edit Footer' button to add the footer\n11. Delete any existing footer text and input 'Page 1' as the new footer text"
+    }
+  },
+  {
+    "id": 94,
+    "section": "Two Functions",
+    "combination": "Open Document → Paste",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Paste"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 95,
+    "section": "Two Functions",
+    "combination": "Template Library → Header & Footer",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Header & Footer"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Business Letter' template and then add a header with the text 'Confidential' and a footer with the text 'Page 1'?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library, the template will be inserted\n4. Click the 'Format' section\n5. Click the Header & Footer icon\n6. Click the 'Edit Header' button to add the header\n7. Delete the existing header text and input the new header text 'Confidential'\n8. Click the 'Edit Footer' button to add the footer\n9. Delete the existing footer text and input the new footer text 'Page 1'"
+    }
+  },
+  {
+    "id": 96,
+    "section": "Two Functions",
+    "combination": "Template Library → Page Setup",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Page Setup"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Business Letter' template and then change the page orientation to Landscape?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library, and the template will be inserted\n4. Click the 'View' section\n5. Click the Page Setup icon\n6. Configure the page orientation to 'Landscape'\n7. Click 'Apply Orientation' button to apply the settings"
+    }
+  },
+  {
+    "id": 97,
+    "section": "Two Functions",
+    "combination": "Open Document → Superscript",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Open Document → Superscript"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I open the document 'sustainability_report.txt' and apply superscript formatting to the percentage '24%' in the Executive Summary section?",
+      "answer": "1. Click the 'File' section\n2. Click the Open Document icon\n3. Click the 'Choose File' button to select a file\n4. Select the file named 'sustainability_report.txt' from your computer\n5. Click the 'Open Document' button\n6. Click the 'Format' section\n7. Click the Superscript icon\n8. Select the '24%' in the Executive Summary section\n9. Click the 'Apply Superscript' button to make the '24%' appear smaller and higher"
+    }
+  },
+  {
+    "id": 98,
+    "section": "Two Functions",
+    "combination": "Template Library → Show Hidden Characters",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Show Hidden Characters"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a resume template from the Template Library and then display all hidden characters in the document?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click a template from the template library, such as 'Resume', to insert it into the document\n4. Click the 'View' section\n5. Click the Show Hidden Characters icon\n6. Click the 'Toggle Hidden Characters' button to make space characters, Tab characters, Paragraph marks, and line breaks visible"
+    }
+  },
+  {
+    "id": 99,
+    "section": "Two Functions",
+    "combination": "Template Library → Application Settings",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Application Settings"
+      ],
+      "judgment": "unreasonable",
+      "question": null,
+      "answer": null
+    }
+  },
+  {
+    "id": 100,
+    "section": "Two Functions",
+    "combination": "Template Library → Section Break",
+    "function_count": 2,
+    "evaluation": {
+      "combination": [
+        "Template Library → Section Break"
+      ],
+      "judgment": "reasonable",
+      "question": "How can I insert a 'Business Letter' template from the Template Library and then add a section break after the template content?",
+      "answer": "1. Click the 'Insert' section\n2. Click the Template Library icon\n3. Click the 'Business Letter' template from the template library, the template will be inserted\n4. Click the 'Insert' section again\n5. Click the Section Break icon\n6. Use the cursor to position the section break at the desired location after the template content\n7. Click the 'Insert Section Break' button, the section break will be inserted"
+    }
+  }
+]

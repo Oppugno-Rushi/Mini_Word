@@ -1,0 +1,8 @@
+{
+  "total_evaluated": 334,
+  "average_precision": 0.8168160532761537,
+  "average_recall": 0.8165976406408832,
+  "average_f1_score": 0.8164208083536476,
+  "average_similarity": 0.9921633526666909,
+  "similarity_threshold": 0.95
+}
