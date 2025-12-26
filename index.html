@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniWord - Word-like Environment</title>
+    <link rel="stylesheet" href="styles.css?v=26">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Title Bar -->
+        <div class="title-bar">
+            <div class="title-bar-content">
+                <span class="app-title">MiniWord</span>
+                <div class="title-bar-buttons">
+                    <button class="title-btn minimize">−</button>
+                    <button class="title-btn maximize">□</button>
+                    <button class="title-btn close">×</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu Bar -->
+        <div class="menu-bar">
+            <div class="menu-item" data-page="file">File</div>
+            <div class="menu-item" data-page="edit">Edit</div>
+            <div class="menu-item" data-page="view">View</div>
+            <div class="menu-item" data-page="insert">Insert</div>
+            <div class="menu-item" data-page="format">Format</div>
+            <div class="menu-item" data-page="tools">Tools</div>
+            <div class="menu-item" data-page="help">Help</div>
+        </div>
+
+        <!-- Dynamic Toolbar -->
+        <div class="toolbar" id="dynamic-toolbar" role="toolbar">
+            <!-- Default File Toolbar -->
+            <div class="toolbar-content" id="file-toolbar" data-group="file">
+                <div class="toolbar-group" data-group="file-basic">
+                    <button class="toolbar-btn" data-page="file_new" title="New Document" aria-label="New Document" data-testid="btn-new">
+                        <img src="miniword_buttons_png/file_new.png" alt="New" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="file_open" title="Open Document" aria-label="Open Document" data-testid="btn-open">
+                        <img src="miniword_buttons_png/file_open.png" alt="Open" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="file_save" title="Save Document" aria-label="Save Document" data-testid="btn-save">
+                        <img src="miniword_buttons_png/file_save.png" alt="Save" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="file_print" title="Print Document" aria-label="Print Document" data-testid="btn-print">
+                        <img src="miniword_buttons_png/file_print.png" alt="Print" aria-hidden="true">
+                    </button>
+                </div>
+                <div class="toolbar-group" data-group="file-web">
+                    <button class="toolbar-btn" data-page="web_refresh" title="Refresh Page" aria-label="Refresh Page" data-testid="btn-refresh">
+                        <img src="miniword_icons_set2/mw2_track_on.png" alt="Refresh Page" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="web_close" title="Close Page" aria-label="Close Page" data-testid="btn-web-close">
+                        <img src="miniword_icons_set2/mw2_table_merge.png" alt="Close Page" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="new_tab" title="Open New Tab" aria-label="Open New Tab" data-testid="btn-new-tab">
+                        <img src="miniword_icons_set2/mw2_table_split.png" alt="Open New Tab" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="toggle_pagination" title="Toggle Pagination" aria-label="Toggle Pagination" data-testid="btn-toggle-pagination">
+                        <img src="miniword_icons_set2/mw2_password.png" alt="Toggle Pagination" aria-hidden="true">
+                    </button>
+                </div>
+            </div>
+
+            <!-- Edit Toolbar -->
+            <div class="toolbar-content" id="edit-toolbar" style="display: none;" data-group="edit">
+                <div class="toolbar-group" data-group="edit-basic">
+                    <button class="toolbar-btn" data-page="edit_undo" title="Undo" aria-label="Undo" data-testid="btn-undo">
+                        <img src="miniword_buttons_png/edit_undo.png" alt="Undo" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="edit_redo" title="Redo" aria-label="Redo" data-testid="btn-redo">
+                        <img src="miniword_buttons_png/edit_redo.png" alt="Redo" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="edit_cut" title="Cut" aria-label="Cut" data-testid="btn-cut">
+                        <img src="miniword_buttons_png/edit_cut.png" alt="Cut" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="edit_copy" title="Copy" aria-label="Copy" data-testid="btn-copy" data-submenu="copy_submenu">
+                        <img src="miniword_buttons_png/edit_copy.png" alt="Copy" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="edit_paste" title="Paste" aria-label="Paste" data-testid="btn-paste">
+                        <img src="miniword_buttons_png/edit_paste.png" alt="Paste" aria-hidden="true">
+                    </button>
+                </div>
+                <div class="toolbar-group" data-group="edit-search">
+                    <button class="toolbar-btn" data-page="find" title="Find" aria-label="Find" data-testid="btn-find">
+                        <img src="miniword_buttons_png/find.png" alt="Find" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="replace" title="Replace" aria-label="Replace" data-testid="btn-replace">
+                        <img src="miniword_buttons_png/replace.png" alt="Replace" aria-hidden="true">
+                    </button>
+                </div>
+                <div class="toolbar-group" data-group="edit-format">
+                    <button class="toolbar-btn" data-page="mw2_clear_all" title="Clear All Formatting" aria-label="Clear All Formatting" data-testid="btn-clear-formatting">
+                        <img src="miniword_icons_set2/mw2_clear_all.png" alt="Clear All Formatting" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="mw2_format_painter" title="Format Painter" aria-label="Format Painter" data-testid="btn-format-painter">
+                        <img src="miniword_icons_set2/mw2_format_painter.png" alt="Format Painter" aria-hidden="true">
+                    </button>
+                </div>
+            </div>
+
+            <!-- View Toolbar -->
+            <div class="toolbar-content" id="view-toolbar" style="display: none;" data-group="view">
+                <div class="toolbar-group" data-group="view-zoom">
+                    <button class="toolbar-btn" data-page="view_zoom_in" title="Zoom In" aria-label="Zoom In" data-testid="btn-zoom-in">
+                        <img src="miniword_buttons_png/view_zoom_in.png" alt="Zoom In" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="view_zoom_out" title="Zoom Out" aria-label="Zoom Out" data-testid="btn-zoom-out">
+                        <img src="miniword_buttons_png/help.png" alt="Zoom Out" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="view_preview" title="Print Preview" aria-label="Print Preview" data-testid="btn-print-preview">
+                        <img src="miniword_buttons_png/view_preview.png" alt="Print Preview" aria-hidden="true">
+                    </button>
+                </div>
+                <div class="toolbar-group" data-group="view-layout">
+                    <button class="toolbar-btn" data-page="layout_page_setup" title="Page Setup" aria-label="Page Setup" data-testid="btn-page-setup">
+                        <img src="miniword_buttons_png/layout_page_setup.png" alt="Page Setup" aria-hidden="true">
+                    </button>
+                </div>
+                <div class="toolbar-group" data-group="view-display">
+                    <button class="toolbar-btn" data-page="mw2_sidebar_toggle" title="Toggle Sidebar" aria-label="Toggle Sidebar" data-testid="btn-toggle-sidebar">
+                        <img src="miniword_icons_set2/mw2_sidebar_toggle.png" alt="Toggle Sidebar" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="mw2_ruler_toggle" title="Toggle Ruler" aria-label="Toggle Ruler" data-testid="btn-toggle-ruler">
+                        <img src="miniword_icons_set2/mw2_ruler_toggle.png" alt="Toggle Ruler" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="mw2_show_invisibles" title="Show Invisibles" aria-label="Show Invisibles" data-testid="btn-show-invisibles">
+                        <img src="miniword_icons_set2/mw2_show_invisibles.png" alt="Show Invisibles" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="mw2_focus_mode" title="Focus Mode" aria-label="Focus Mode" data-testid="btn-focus-mode">
+                        <img src="miniword_icons_set2/mw2_focus_mode.png" alt="Focus Mode" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="mw2_night_mode" title="Night Mode" aria-label="Night Mode" data-testid="btn-night-mode">
+                        <img src="miniword_icons_set2/mw2_night_mode.png" alt="Night Mode" aria-hidden="true">
+                    </button>
+                </div>
+            </div>
+
+            <!-- Insert Toolbar -->
+            <div class="toolbar-content" id="insert-toolbar" style="display: none;" data-group="insert">
+                <div class="toolbar-group" data-group="insert-content">
+                    <button class="toolbar-btn" data-page="insert_image" title="Insert Image" aria-label="Insert Image" data-testid="btn-insert-image">
+                        <img src="miniword_buttons_png/insert_image.png" alt="Insert Image" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="insert_table" title="Insert Table" aria-label="Insert Table" data-testid="btn-insert-table">
+                        <img src="miniword_buttons_png/insert_table.png" alt="Insert Table" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="insert_chart" title="Insert Chart" aria-label="Insert Chart" data-testid="btn-insert-chart">
+                        <img src="miniword_buttons_png/insert_chart.png" alt="Insert Chart" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="insert_link" title="Insert Link" aria-label="Insert Link" data-testid="btn-insert-link">
+                        <img src="miniword_buttons_png/insert_link.png" alt="Insert Link" aria-hidden="true">
+                    </button>
+                </div>
+                <div class="toolbar-group" data-group="insert-math">
+                    <button class="toolbar-btn" data-page="insert_equation" title="Insert Equation" aria-label="Insert Equation" data-testid="btn-insert-equation">
+                        <img src="miniword_buttons_png/insert_equation.png" alt="Insert Equation" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="insert_symbol" title="Insert Symbol" aria-label="Insert Symbol" data-testid="btn-insert-symbol">
+                        <img src="miniword_buttons_png/insert_symbol.png" alt="Insert Symbol" aria-hidden="true">
+                    </button>
+                </div>
+                <div class="toolbar-group" data-group="insert-layout">
+                    <button class="toolbar-btn" data-page="mw2_section_break" title="Section Break" aria-label="Section Break" data-testid="btn-section-break">
+                        <img src="miniword_icons_set2/mw2_section_break.png" alt="Section Break" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="mw2_template_library" title="Template Library" aria-label="Template Library" data-testid="btn-template-library">
+                        <img src="miniword_icons_set2/mw2_template_library.png" alt="Template Library" aria-hidden="true">
+                    </button>
+                </div>
+            </div>
+
+            <!-- Format Toolbar -->
+            <div class="toolbar-content" id="format-toolbar" style="display: none;" data-group="format">
+                <div class="toolbar-group" data-group="format-text">
+                    <button class="toolbar-btn" data-page="bold" title="Bold" aria-label="Bold" data-testid="btn-bold">
+                        <img src="miniword_buttons_png/bold.png" alt="Bold" aria-hidden="true">
+                    </button>
+                    <button class="toolbar-btn" data-page="italic" title="Italic">
+                        <img src="miniword_buttons_png/italic.png" alt="Italic">
+                    </button>
+                    <button class="toolbar-btn" data-page="underline" title="Underline">
+                        <img src="miniword_buttons_png/underline.png" alt="Underline">
+                    </button>
+                    <button class="toolbar-btn" data-page="strikethrough" title="Strikethrough">
+                        <img src="miniword_buttons_png/strikethrough.png" alt="Strikethrough">
+                    </button>
+                </div>
+                <div class="toolbar-group">
+                    <button class="toolbar-btn" data-page="align_left" title="Align Left">
+                        <img src="miniword_buttons_png/align_left.png" alt="Align Left">
+                    </button>
+                    <button class="toolbar-btn" data-page="align_center" title="Center">
+                        <img src="miniword_buttons_png/align_center.png" alt="Center">
+                    </button>
+                    <button class="toolbar-btn" data-page="align_right" title="Align Right">
+                        <img src="miniword_buttons_png/align_right.png" alt="Align Right">
+                    </button>
+                    <button class="toolbar-btn" data-page="align_justify" title="Justify">
+                        <img src="miniword_buttons_png/align_justify.png" alt="Justify">
+                    </button>
+                </div>
+                <div class="toolbar-group">
+                    <button class="toolbar-btn" data-page="text_color" title="Text Color">
+                        <img src="miniword_buttons_png/text_color.png" alt="Text Color">
+                    </button>
+                    <button class="toolbar-btn" data-page="highlight" title="Highlight">
+                        <img src="miniword_buttons_png/highlight.png" alt="Highlight">
+                    </button>
+                    <button class="toolbar-btn" data-page="format_painter" title="Format Painter">
+                        <img src="miniword_buttons_png/format_painter.png" alt="Format Painter">
+                    </button>
+                    <button class="toolbar-btn" data-page="clear_format" title="Clear Format">
+                        <img src="miniword_buttons_png/clear_format.png" alt="Clear Format">
+                    </button>
+                </div>
+                <div class="toolbar-group">
+                    <button class="toolbar-btn" data-page="mw2_superscript" title="Superscript">
+                        <img src="miniword_icons_set2/mw2_superscript.png" alt="Superscript">
+                    </button>
+                    <button class="toolbar-btn" data-page="mw2_subscript" title="Subscript">
+                        <img src="miniword_icons_set2/mw2_subscript.png" alt="Subscript">
+                    </button>
+                    <button class="toolbar-btn" data-page="mw2_line_spacing" title="Line Spacing">
+                        <img src="miniword_icons_set2/mw2_line_spacing.png" alt="Line Spacing">
+                    </button>
+                </div>
+                <div class="toolbar-group">
+                    <button class="toolbar-btn" data-page="mw2_page_setup" title="Page Setup">
+                        <img src="miniword_icons_set2/mw2_page_setup.png" alt="Page Setup">
+                    </button>
+                    <button class="toolbar-btn" data-page="mw2_header_footer" title="Header & Footer">
+                        <img src="miniword_icons_set2/mw2_header_footer.png" alt="Header & Footer">
+                    </button>
+                </div>
+            </div>
+
+            <!-- Tools Toolbar -->
+            <div class="toolbar-content" id="tools-toolbar" style="display: none;">
+                <div class="toolbar-group">
+                    <button class="toolbar-btn" data-page="review_spelling" title="Spell Check">
+                        <img src="miniword_buttons_png/review_spelling.png" alt="Spell Check">
+                    </button>
+                    <button class="toolbar-btn" data-page="review_comment" title="New Comment">
+                        <img src="miniword_buttons_png/review_comment.png" alt="New Comment">
+                    </button>
+                </div>
+                <div class="toolbar-group">
+                    <button class="toolbar-btn" data-page="bulleted_list" title="Bulleted List">
+                        <img src="miniword_buttons_png/bulleted_list.png" alt="Bulleted List">
+                    </button>
+                    <button class="toolbar-btn" data-page="numbered_list" title="Numbered List">
+                        <img src="miniword_buttons_png/numbered_list.png" alt="Numbered List">
+                    </button>
+                    <button class="toolbar-btn" data-page="indent_increase" title="Increase Indent">
+                        <img src="miniword_buttons_png/indent_increase.png" alt="Increase Indent">
+                    </button>
+                    <button class="toolbar-btn" data-page="indent_decrease" title="Decrease Indent">
+                        <img src="miniword_buttons_png/indent_decrease.png" alt="Decrease Indent">
+                    </button>
+                </div>
+                <div class="toolbar-group">
+                    <button class="toolbar-btn" data-page="mw2_char_count" title="Character Count">
+                        <img src="miniword_icons_set2/mw2_char_count.png" alt="Character Count">
+                    </button>
+                </div>
+                <div class="toolbar-group">
+                </div>
+            </div>
+
+            <!-- Help Toolbar -->
+            <div class="toolbar-content" id="help-toolbar" style="display: none;">
+                <div class="toolbar-group">
+                    <button class="toolbar-btn" data-page="app_settings" title="Settings">
+                        <img src="miniword_buttons_png/app_settings.png" alt="Settings">
+                    </button>
+                </div>
+                <div class="toolbar-group">
+                    <button class="toolbar-btn" data-page="layout_page_break" title="Page Break">
+                        <img src="miniword_buttons_png/layout_page_break.png" alt="Page Break">
+                    </button>
+                </div>
+                <div class="toolbar-group">
+                    <button class="toolbar-btn" data-page="mw2_share" title="Share Document">
+                        <img src="miniword_icons_set2/mw2_share.png" alt="Share Document">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Submenu Container -->
+        <div class="submenu-container" id="submenu-container" style="display: none;">
+            <div class="submenu-content" id="submenu-content">
+                <!-- Copy Submenu -->
+                <div class="submenu" id="copy_submenu" style="display: none;">
+                    <div class="submenu-item" data-page="copy_plain">
+                        <img src="miniword_buttons_png/edit_copy.png" alt="Direct Copy" style="width: 24px; height: 24px; margin-right: 8px;">
+                        Direct Copy
+                    </div>
+                    <div class="submenu-item" data-page="copy_formatted">
+                        <img src="miniword_icons_set2/mw2_styles.png" alt="Formatted Copy" style="width: 24px; height: 24px; margin-right: 8px;">
+                        Formatted Copy
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chart Insert Modal -->
+        <div class="modal" id="chart-insert-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Insert Chart</h3>
+                    <button class="modal-close" onclick="miniWord.closeChartModal()">×</button>
+                </div>
+                <div class="modal-body">
+                    <div class="input-group">
+                        <label>Insert various types of charts in document</label>
+                        <p style="margin: 8px 0; color: #666; font-size: 13px;">Charts will be generated based on table data in your document</p>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label>Chart Type:</label>
+                        <select id="chart-type" style="width: 100%; padding: 8px 12px; border: 1px solid #d1d5da; border-radius: 4px; font-size: 14px;">
+                            <option value="bar">Bar Chart</option>
+                            <option value="pie">Pie Chart</option>
+                        </select>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label>Chart Title:</label>
+                        <input type="text" id="chart-title" placeholder="Enter chart title" style="width: 100%; padding: 8px 12px; border: 1px solid #d1d5da; border-radius: 4px; font-size: 14px;">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label>Data Source:</label>
+                        <div style="margin: 8px 0;">
+                            <label style="display: flex; align-items: center; margin-bottom: 4px;">
+                                <input type="radio" name="data-source" value="auto" checked style="margin-right: 8px;">
+                                Auto-detect table data
+                            </label>
+                            <label style="display: flex; align-items: center; margin-bottom: 4px;">
+                                <input type="radio" name="data-source" value="manual" style="margin-right: 8px;">
+                                Manual data entry
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="input-group" id="manual-data-section" style="display: none;">
+                        <label>Manual Data Entry:</label>
+                        <textarea id="manual-data" placeholder="Enter data in CSV format (e.g., Name,Value&#10;Apple,10&#10;Banana,15)" style="width: 100%; height: 100px; padding: 8px 12px; border: 1px solid #d1d5da; border-radius: 4px; font-size: 14px; resize: vertical;"></textarea>
+                    </div>
+                    
+                    <div class="input-group" id="detected-tables-section">
+                        <label>Detected Tables:</label>
+                        <div id="detected-tables-list" style="max-height: 150px; overflow-y: auto; border: 1px solid #d1d5da; border-radius: 4px; padding: 8px;">
+                            <p style="color: #666; font-style: italic;">No tables detected in document</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" onclick="miniWord.closeChartModal()">Cancel</button>
+                    <button class="btn btn-primary" id="insert-chart-btn" onclick="miniWord.insertSelectedChart()">Insert Chart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Status Bar -->
+        <div class="status-bar">
+            <div class="status-left">
+                <span id="page-info">Page 1 of 1</span>
+                <span id="word-count">Words: 0</span>
+            </div>
+            <div class="status-right">
+                <span id="zoom-level">100%</span>
+            </div>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <!-- Sidebar -->
+            <div class="sidebar" id="sidebar">
+                <div class="sidebar-header">
+                    <h3 id="sidebar-title">Function Panel</h3>
+                    <button class="sidebar-close" id="sidebar-close">×</button>
+                </div>
+                <div class="sidebar-content" id="sidebar-content">
+                    <p>Select a function to get started</p>
+                </div>
+            </div>
+
+            <!-- Editor Area -->
+            <div class="editor-container">
+                <!-- Ruler Container -->
+                <div class="ruler-container" id="ruler-container">
+                    <div class="vertical-ruler"></div>
+                    <div class="horizontal-ruler"></div>
+                    <div class="ruler-marks horizontal-marks" id="horizontal-marks"></div>
+                    <div class="ruler-marks vertical-marks" id="vertical-marks"></div>
+                </div>
+                
+                <div class="editor" id="editor" contenteditable="true" spellcheck="false">
+                    <p>Welcome to MiniWord! Click the toolbar buttons to start using various features.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js?v=25"></script>
+</body>
+</html>

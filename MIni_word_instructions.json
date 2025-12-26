@@ -1,0 +1,1989 @@
+{
+  "MiniWord_Production_Reference": {
+    "application_info": {
+      "name": "MiniWord",
+      "version": "1.0.0",
+      "description": "A web-based word processor with Microsoft Word-like functionality",
+      "base_url": "http://localhost:8000",
+      "main_file": "index.html",
+      "total_functions": 62,
+      "total_sections": 7
+    },
+    "technical_specifications": {
+      "window_size": {
+        "width": 1920,
+        "height": 1080,
+        "min_width": 1200,
+        "min_height": 800
+      },
+      "font_specifications": {
+        "default_font_family": "Arial, sans-serif",
+        "default_font_size": "14px",
+        "title_font_size": "16px",
+        "button_font_size": "12px",
+        "sidebar_font_size": "13px"
+      },
+      "color_scheme": {
+        "primary": "#0078d4",
+        "secondary": "#f3f2f1",
+        "accent": "#106ebe",
+        "text_primary": "#323130",
+        "text_secondary": "#605e5c",
+        "background": "#ffffff",
+        "border": "#d1d5da"
+      }
+    },
+    "layout_structure": {
+      "title_bar": {
+        "height": "32px",
+        "background": "linear-gradient(135deg, #0078d4, #106ebe)",
+        "color": "white",
+        "display": "flex",
+        "align_items": "center",
+        "padding": "0 16px"
+      },
+      "menu_bar": {
+        "height": "24px",
+        "background_color": "#f8f9fa",
+        "border_bottom": "1px solid #e1e5e9",
+        "display": "flex",
+        "align_items": "center",
+        "padding": "0 8px"
+      },
+      "toolbar": {
+        "background_color": "#f8f9fa",
+        "border_bottom": "1px solid #e1e5e9",
+        "padding": "16px",
+        "display": "flex",
+        "flex_wrap": "wrap",
+        "gap": "8px",
+        "max_height": "160px",
+        "overflow_y": "auto"
+      },
+      "sidebar": {
+        "width": "350px",
+        "min_width": "350px",
+        "background_color": "#f8f9fa",
+        "border_right": "1px solid #e1e5e9",
+        "display": "flex",
+        "flex_direction": "column",
+        "transition": "transform 0.3s ease",
+        "flex_shrink": "0"
+      },
+      "main_content": {
+        "flex": "1",
+        "display": "flex",
+        "min_height": "0",
+        "max_height": "calc(100vh - 120px)",
+        "background_color": "white",
+        "max_width": "100%",
+        "width": "100%",
+        "overflow": "hidden"
+      },
+      "status_bar": {
+        "background_color": "#f8f9fa",
+        "border_top": "1px solid #e1e5e9",
+        "height": "24px",
+        "display": "flex"
+      }
+    },
+    "element_positions": {
+      "description": "Exact positioning of all elements based on HTML structure and CSS properties",
+      "layout_system": "CSS Flexbox - NO absolute positioning",
+      "title_bar": {
+        "css_class": ".title-bar",
+        "position": "top: 0",
+        "height": "32px",
+        "background": "linear-gradient(135deg, #0078d4, #106ebe)",
+        "color": "white",
+        "display": "flex",
+        "align_items": "center",
+        "elements": {
+          "app_title": {
+            "element": "span.app-title",
+            "content": "MiniWord",
+            "font_size": "14px",
+            "font_weight": "500",
+            "position": "left side"
+          },
+          "window_controls": {
+            "element": "div.title-bar-buttons",
+            "position": "right side",
+            "display": "flex",
+            "gap": "8px",
+            "buttons": [
+              {"class": "title-btn minimize", "content": "−", "size": "20x20px"},
+              {"class": "title-btn maximize", "content": "□", "size": "20x20px"},
+              {"class": "title-btn close", "content": "×", "size": "20x20px"}
+            ]
+          }
+        }
+      },
+      "menu_bar": {
+        "css_class": ".menu-bar",
+        "position": "below title bar",
+        "height": "24px",
+        "background_color": "#f8f9fa",
+        "border_bottom": "1px solid #e1e5e9",
+        "display": "flex",
+        "align_items": "center",
+        "padding": "0 8px",
+        "elements": [
+          {"class": "menu-item", "data_page": "file", "content": "File", "position": 1, "padding": "4px 12px", "font_size": "12px"},
+          {"class": "menu-item", "data_page": "edit", "content": "Edit", "position": 2, "padding": "4px 12px", "font_size": "12px"},
+          {"class": "menu-item", "data_page": "view", "content": "View", "position": 3, "padding": "4px 12px", "font_size": "12px"},
+          {"class": "menu-item", "data_page": "insert", "content": "Insert", "position": 4, "padding": "4px 12px", "font_size": "12px"},
+          {"class": "menu-item", "data_page": "format", "content": "Format", "position": 5, "padding": "4px 12px", "font_size": "12px"},
+          {"class": "menu-item", "data_page": "tools", "content": "Tools", "position": 6, "padding": "4px 12px", "font_size": "12px"},
+          {"class": "menu-item", "data_page": "help", "content": "Help", "position": 7, "padding": "4px 12px", "font_size": "12px"}
+        ]
+      },
+      "toolbar": {
+        "css_class": ".toolbar",
+        "position": "below menu bar",
+        "id": "dynamic-toolbar",
+        "role": "toolbar",
+        "background_color": "#f8f9fa",
+        "border_bottom": "1px solid #e1e5e9",
+        "padding": "16px",
+        "display": "flex",
+        "flex_wrap": "wrap",
+        "gap": "8px",
+        "max_height": "160px",
+        "overflow_y": "auto",
+        "css_position": "relative",
+        "toolbars": {
+          "file_toolbar": {
+            "id": "file-toolbar",
+            "data_group": "file",
+            "css_class": ".toolbar-content",
+            "display": "flex",
+            "flex_wrap": "wrap",
+            "gap": "8px",
+            "width": "100%",
+            "groups": {
+              "file_basic": {
+                "css_class": ".toolbar-group",
+                "data_group": "file-basic",
+                "display": "flex",
+                "gap": "2px",
+                "padding": "2px",
+                "border_right": "1px solid #d1d5da",
+                "margin_right": "8px",
+                "flex_shrink": "0",
+                "position": "relative",
+                "z_index": "1",
+                "buttons": [
+                  {
+                    "data_page": "file_new", 
+                    "title": "New Document", 
+                    "icon": "miniword_buttons_png/file_new.png",
+                    "css_class": ".toolbar-btn",
+                    "size": "48x48px",
+                    "icon_size": "24x24px",
+                    "border": "1px solid transparent",
+                    "background": "white",
+                    "border_radius": "4px",
+                    "display": "flex",
+                    "align_items": "center",
+                    "justify_content": "center"
+                  },
+                  {
+                    "data_page": "file_open", 
+                    "title": "Open Document", 
+                    "icon": "miniword_buttons_png/file_open.png",
+                    "css_class": ".toolbar-btn",
+                    "size": "48x48px",
+                    "icon_size": "24x24px"
+                  },
+                  {
+                    "data_page": "file_save", 
+                    "title": "Save Document", 
+                    "icon": "miniword_buttons_png/file_save.png",
+                    "css_class": ".toolbar-btn",
+                    "size": "48x48px",
+                    "icon_size": "24x24px"
+                  },
+                  {
+                    "data_page": "file_print", 
+                    "title": "Print Document", 
+                    "icon": "miniword_buttons_png/file_print.png",
+                    "css_class": ".toolbar-btn",
+                    "size": "48x48px",
+                    "icon_size": "24x24px"
+                  }
+                ]
+              },
+              "file_web": {
+                "css_class": ".toolbar-group",
+                "data_group": "file-web",
+                "display": "flex",
+                "gap": "2px",
+                "padding": "2px",
+                "border_right": "1px solid #d1d5da",
+                "margin_right": "8px",
+                "buttons": [
+                  {
+                    "data_page": "web_refresh", 
+                    "title": "Refresh Page", 
+                    "icon": "miniword_icons_set2/mw2_track_on.png",
+                    "css_class": ".toolbar-btn",
+                    "size": "48x48px",
+                    "icon_size": "24x24px"
+                  },
+                  {
+                    "data_page": "web_close", 
+                    "title": "Close Page", 
+                    "icon": "miniword_icons_set2/mw2_table_merge.png",
+                    "css_class": ".toolbar-btn",
+                    "size": "48x48px",
+                    "icon_size": "24x24px"
+                  },
+                  {
+                    "data_page": "new_tab", 
+                    "title": "Open New Tab", 
+                    "icon": "miniword_icons_set2/mw2_table_split.png",
+                    "css_class": ".toolbar-btn",
+                    "size": "48x48px",
+                    "icon_size": "24x24px"
+                  },
+                  {
+                    "data_page": "toggle_pagination", 
+                    "title": "Toggle Pagination", 
+                    "icon": "miniword_icons_set2/mw2_password.png",
+                    "css_class": ".toolbar-btn",
+                    "size": "48x48px",
+                    "icon_size": "24x24px"
+                  }
+                ]
+              }
+            }
+          },
+          "edit_toolbar": {
+            "id": "edit-toolbar",
+            "data_group": "edit",
+            "style": "display: none",
+            "groups": {
+              "edit_basic": {
+                "data_group": "edit-basic",
+                "buttons": [
+                  {"data_page": "edit_undo", "title": "Undo", "icon": "miniword_buttons_png/edit_undo.png"},
+                  {"data_page": "edit_redo", "title": "Redo", "icon": "miniword_buttons_png/edit_redo.png"},
+                  {"data_page": "edit_cut", "title": "Cut", "icon": "miniword_buttons_png/edit_cut.png"},
+                  {"data_page": "edit_copy", "title": "Copy", "icon": "miniword_buttons_png/edit_copy.png"},
+                  {"data_page": "edit_paste", "title": "Paste", "icon": "miniword_buttons_png/edit_paste.png"}
+                ]
+              },
+              "edit_search": {
+                "data_group": "edit-search",
+                "buttons": [
+                  {"data_page": "find", "title": "Find", "icon": "miniword_buttons_png/find.png"},
+                  {"data_page": "replace", "title": "Replace", "icon": "miniword_buttons_png/replace.png"}
+                ]
+              },
+              "edit_format": {
+                "data_group": "edit-format",
+                "buttons": [
+                  {"data_page": "mw2_clear_all", "title": "Clear All Formatting", "icon": "miniword_icons_set2/mw2_clear_all.png"},
+                  {"data_page": "mw2_format_painter", "title": "Format Painter", "icon": "miniword_icons_set2/mw2_format_painter.png"}
+                ]
+              }
+            }
+          },
+          "view_toolbar": {
+            "id": "view-toolbar",
+            "data_group": "view",
+            "style": "display: none",
+            "groups": {
+              "view_zoom": {
+                "data_group": "view-zoom",
+                "buttons": [
+                  {"data_page": "view_zoom_in", "title": "Zoom In", "icon": "miniword_buttons_png/view_zoom_in.png"},
+                  {"data_page": "view_zoom_out", "title": "Zoom Out", "icon": "miniword_buttons_png/help.png"},
+                  {"data_page": "view_preview", "title": "Print Preview", "icon": "miniword_buttons_png/view_preview.png"}
+                ]
+              },
+              "view_layout": {
+                "data_group": "view-layout",
+                "buttons": [
+                  {"data_page": "layout_page_setup", "title": "Page Setup", "icon": "miniword_buttons_png/layout_page_setup.png"}
+                ]
+              },
+              "view_display": {
+                "data_group": "view-display",
+                "buttons": [
+                  {"data_page": "mw2_sidebar_toggle", "title": "Toggle Sidebar", "icon": "miniword_icons_set2/mw2_sidebar_toggle.png"},
+                  {"data_page": "mw2_ruler_toggle", "title": "Toggle Ruler", "icon": "miniword_icons_set2/mw2_ruler_toggle.png"},
+                  {"data_page": "mw2_show_invisibles", "title": "Show Invisibles", "icon": "miniword_icons_set2/mw2_show_invisibles.png"},
+                  {"data_page": "mw2_focus_mode", "title": "Focus Mode", "icon": "miniword_icons_set2/mw2_focus_mode.png"},
+                  {"data_page": "mw2_night_mode", "title": "Night Mode", "icon": "miniword_icons_set2/mw2_night_mode.png"}
+                ]
+              }
+            }
+          },
+          "insert_toolbar": {
+            "id": "insert-toolbar",
+            "data_group": "insert",
+            "style": "display: none",
+            "groups": {
+              "insert_content": {
+                "data_group": "insert-content",
+                "buttons": [
+                  {"data_page": "insert_image", "title": "Insert Image", "icon": "miniword_buttons_png/insert_image.png"},
+                  {"data_page": "insert_table", "title": "Insert Table", "icon": "miniword_buttons_png/insert_table.png"},
+                  {"data_page": "insert_chart", "title": "Insert Chart", "icon": "miniword_buttons_png/insert_chart.png"},
+                  {"data_page": "insert_link", "title": "Insert Link", "icon": "miniword_buttons_png/insert_link.png"}
+                ]
+              },
+              "insert_math": {
+                "data_group": "insert-math",
+                "buttons": [
+                  {"data_page": "insert_equation", "title": "Insert Equation", "icon": "miniword_buttons_png/insert_equation.png"},
+                  {"data_page": "insert_symbol", "title": "Insert Symbol", "icon": "miniword_buttons_png/insert_symbol.png"}
+                ]
+              },
+              "insert_layout": {
+                "data_group": "insert-layout",
+                "buttons": [
+                  {"data_page": "mw2_section_break", "title": "Section Break", "icon": "miniword_icons_set2/mw2_section_break.png"},
+                  {"data_page": "mw2_template_library", "title": "Template Library", "icon": "miniword_icons_set2/mw2_template_library.png"}
+                ]
+              }
+            }
+          },
+          "format_toolbar": {
+            "id": "format-toolbar",
+            "data_group": "format",
+            "style": "display: none",
+            "groups": {
+              "format_text": {
+                "data_group": "format-text",
+                "buttons": [
+                  {"data_page": "bold", "title": "Bold", "icon": "miniword_buttons_png/bold.png"},
+                  {"data_page": "italic", "title": "Italic", "icon": "miniword_buttons_png/italic.png"},
+                  {"data_page": "underline", "title": "Underline", "icon": "miniword_buttons_png/underline.png"},
+                  {"data_page": "strikethrough", "title": "Strikethrough", "icon": "miniword_buttons_png/strikethrough.png"}
+                ]
+              },
+              "format_align": {
+                "buttons": [
+                  {"data_page": "align_left", "title": "Align Left", "icon": "miniword_buttons_png/align_left.png"},
+                  {"data_page": "align_center", "title": "Center", "icon": "miniword_buttons_png/align_center.png"},
+                  {"data_page": "align_right", "title": "Align Right", "icon": "miniword_buttons_png/align_right.png"},
+                  {"data_page": "align_justify", "title": "Justify", "icon": "miniword_buttons_png/align_justify.png"}
+                ]
+              },
+              "format_color": {
+                "buttons": [
+                  {"data_page": "text_color", "title": "Text Color", "icon": "miniword_buttons_png/text_color.png"},
+                  {"data_page": "highlight", "title": "Highlight", "icon": "miniword_buttons_png/highlight.png"},
+                  {"data_page": "format_painter", "title": "Format Painter", "icon": "miniword_buttons_png/format_painter.png"},
+                  {"data_page": "clear_format", "title": "Clear Format", "icon": "miniword_buttons_png/clear_format.png"}
+                ]
+              },
+              "format_advanced": {
+                "buttons": [
+                  {"data_page": "mw2_superscript", "title": "Superscript", "icon": "miniword_icons_set2/mw2_superscript.png"},
+                  {"data_page": "mw2_subscript", "title": "Subscript", "icon": "miniword_icons_set2/mw2_subscript.png"},
+                  {"data_page": "mw2_line_spacing", "title": "Line Spacing", "icon": "miniword_icons_set2/mw2_line_spacing.png"}
+                ]
+              },
+              "format_layout": {
+                "buttons": [
+                  {"data_page": "mw2_page_setup", "title": "Page Setup", "icon": "miniword_icons_set2/mw2_page_setup.png"},
+                  {"data_page": "mw2_header_footer", "title": "Header & Footer", "icon": "miniword_icons_set2/mw2_header_footer.png"}
+                ]
+              }
+            }
+          },
+          "tools_toolbar": {
+            "id": "tools-toolbar",
+            "style": "display: none",
+            "groups": {
+              "tools_review": {
+                "buttons": [
+                  {"data_page": "review_spelling", "title": "Spell Check", "icon": "miniword_buttons_png/review_spelling.png"},
+                  {"data_page": "review_comment", "title": "New Comment", "icon": "miniword_buttons_png/review_comment.png"}
+                ]
+              },
+              "tools_lists": {
+                "buttons": [
+                  {"data_page": "bulleted_list", "title": "Bulleted List", "icon": "miniword_buttons_png/bulleted_list.png"},
+                  {"data_page": "numbered_list", "title": "Numbered List", "icon": "miniword_buttons_png/numbered_list.png"},
+                  {"data_page": "indent_increase", "title": "Increase Indent", "icon": "miniword_buttons_png/indent_increase.png"},
+                  {"data_page": "indent_decrease", "title": "Decrease Indent", "icon": "miniword_buttons_png/indent_decrease.png"}
+                ]
+              },
+              "tools_utilities": {
+                "buttons": [
+                  {"data_page": "mw2_char_count", "title": "Character Count", "icon": "miniword_icons_set2/mw2_char_count.png"}
+                ]
+              }
+            }
+          },
+          "help_toolbar": {
+            "id": "help-toolbar",
+            "style": "display: none",
+            "groups": {
+              "help_settings": {
+                "buttons": [
+                  {"data_page": "app_settings", "title": "Settings", "icon": "miniword_buttons_png/app_settings.png"}
+                ]
+              },
+              "help_layout": {
+                "buttons": [
+                  {"data_page": "layout_page_break", "title": "Page Break", "icon": "miniword_buttons_png/layout_page_break.png"}
+                ]
+              },
+              "help_share": {
+                "buttons": [
+                  {"data_page": "mw2_share", "title": "Share Document", "icon": "miniword_icons_set2/mw2_share.png"}
+                ]
+              }
+            }
+          }
+        }
+      },
+      "sidebar": {
+        "css_class": ".sidebar",
+        "id": "sidebar",
+        "position": "left side of main content",
+        "width": "350px",
+        "min_width": "350px",
+        "background_color": "#f8f9fa",
+        "border_right": "1px solid #e1e5e9",
+        "display": "flex",
+        "flex_direction": "column",
+        "transition": "transform 0.3s ease",
+        "flex_shrink": "0",
+        "elements": {
+          "sidebar_header": {
+            "css_class": ".sidebar-header",
+            "id": "sidebar-header",
+            "padding": "12px",
+            "border_bottom": "1px solid #e1e5e9",
+            "display": "flex",
+            "justify_content": "space-between",
+            "align_items": "center",
+            "background_color": "#ffffff",
+            "elements": {
+              "title": {
+                "id": "sidebar-title", 
+                "content": "Function Panel",
+                "font_size": "14px",
+                "color": "#333",
+                "margin": "0"
+              },
+              "close_button": {
+                "css_class": ".sidebar-close",
+                "id": "sidebar-close", 
+                "content": "×",
+                "font_size": "20px",
+                "color": "#666",
+                "background": "none",
+                "border": "none",
+                "cursor": "pointer",
+                "padding": "4px",
+                "border_radius": "4px",
+                "transition": "background-color 0.2s"
+              }
+            }
+          },
+          "sidebar_content": {
+            "css_class": ".sidebar-content",
+            "id": "sidebar-content",
+            "flex": "1",
+            "padding": "16px",
+            "overflow_y": "auto",
+            "content": "Select a function to get started"
+          }
+        }
+      },
+      "editor_area": {
+        "css_class": ".editor-container",
+        "position": "right side of sidebar",
+        "flex": "1",
+        "display": "flex",
+        "flex_direction": "column",
+        "min_height": "0",
+        "max_height": "100%",
+        "background_color": "white",
+        "max_width": "100%",
+        "width": "100%",
+        "box_sizing": "border-box",
+        "overflow_y": "auto",
+        "overflow_x": "hidden",
+        "elements": {
+          "ruler_container": {
+            "css_class": ".ruler-container",
+            "id": "ruler-container",
+            "position": "relative",
+            "background_color": "#f8f9fa",
+            "border_bottom": "1px solid #d1d5da",
+            "border_right": "1px solid #d1d5da",
+            "display": "none",
+            "elements": {
+              "vertical_ruler": {
+                "css_class": ".vertical-ruler",
+                "width": "20px",
+                "background": "linear-gradient(to bottom, transparent 0%, #d1d5da 0%, #d1d5da 1px, transparent 1px, transparent 100%)",
+                "background_size": "1px 10px",
+                "position": "absolute",
+                "left": "0",
+                "top": "0",
+                "bottom": "0",
+                "border_right": "1px solid #d1d5da"
+              },
+              "horizontal_ruler": {
+                "css_class": ".horizontal-ruler",
+                "height": "20px",
+                "background": "linear-gradient(to right, transparent 0%, #d1d5da 0%, #d1d5da 1px, transparent 1px, transparent 100%)",
+                "background_size": "10px 1px",
+                "position": "relative",
+                "border_bottom": "1px solid #d1d5da"
+              },
+              "horizontal_marks": {
+                "id": "horizontal-marks",
+                "css_class": ".ruler-marks horizontal-marks",
+                "position": "absolute",
+                "font_size": "10px",
+                "color": "#6c757d",
+                "font_family": "monospace",
+                "top": "2px",
+                "height": "16px",
+                "line_height": "16px"
+              },
+              "vertical_marks": {
+                "id": "vertical-marks",
+                "css_class": ".ruler-marks vertical-marks",
+                "position": "absolute",
+                "font_size": "10px",
+                "color": "#6c757d",
+                "font_family": "monospace",
+                "left": "2px",
+                "width": "16px",
+                "text_align": "center",
+                "writing_mode": "vertical-rl",
+                "text_orientation": "mixed"
+              }
+            }
+          },
+          "editor": {
+            "css_class": ".editor",
+            "id": "editor",
+            "contenteditable": "true",
+            "spellcheck": "false",
+            "flex": "1",
+            "padding": "0",
+            "font_size": "14px",
+            "line_height": "1.6",
+            "outline": "none",
+            "overflow": "visible",
+            "background_color": "#f5f5f5",
+            "min_height": "auto",
+            "max_height": "none",
+            "word_wrap": "break-word",
+            "word_break": "break-word",
+            "white_space": "normal",
+            "max_width": "100%",
+            "width": "100%",
+            "box_sizing": "border-box",
+            "position": "relative",
+            "content": "Welcome to MiniWord! Click the toolbar buttons to start using various features."
+          }
+        }
+      },
+      "status_bar": {
+        "css_class": ".status-bar",
+        "position": "bottom",
+        "background_color": "#f8f9fa",
+        "border_top": "1px solid #e1e5e9",
+        "height": "24px",
+        "display": "flex",
+        "justify_content": "space-between",
+        "align_items": "center",
+        "padding": "0 16px",
+        "font_size": "12px",
+        "color": "#666",
+        "elements": {
+          "status_left": {
+            "css_class": ".status-left",
+            "display": "flex",
+            "gap": "16px",
+            "elements": {
+              "page_info": {"id": "page-info", "content": "Page 1 of 1"},
+              "word_count": {"id": "word-count", "content": "Words: 0"}
+            }
+          },
+          "status_right": {
+            "css_class": ".status-right",
+            "elements": {
+              "zoom_level": {"id": "zoom-level", "content": "100%"}
+            }
+          }
+        }
+      },
+      "modals": {
+        "submenu_container": {
+          "id": "submenu-container",
+          "style": "display: none",
+          "elements": {
+            "submenu_content": {
+              "id": "submenu-content",
+              "submenus": {
+                "copy_submenu": {
+                  "id": "copy_submenu",
+                  "style": "display: none",
+                  "items": [
+                    {"data_page": "copy_plain", "icon": "miniword_buttons_png/edit_copy.png", "text": "Direct Copy"},
+                    {"data_page": "copy_formatted", "icon": "miniword_icons_set2/mw2_styles.png", "text": "Formatted Copy"}
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "chart_insert_modal": {
+          "id": "chart-insert-modal",
+          "elements": {
+            "modal_header": {
+              "title": "Insert Chart",
+              "close_button": {"onclick": "miniWord.closeChartModal()", "content": "×"}
+            },
+            "modal_body": {
+              "input_groups": [
+                {"label": "Insert various types of charts in document"},
+                {"label": "Chart Type:", "select_id": "chart-type", "options": ["Bar Chart", "Pie Chart"]},
+                {"label": "Chart Title:", "input_id": "chart-title", "placeholder": "Enter chart title"},
+                {"label": "Data Source:", "radio_options": ["Auto-detect table data", "Manual data entry"]},
+                {"label": "Manual Data Entry:", "textarea_id": "manual-data"},
+                {"label": "Detected Tables:", "div_id": "detected-tables-list"}
+              ]
+            },
+            "modal_footer": {
+              "buttons": [
+                {"class": "btn btn-secondary", "onclick": "miniWord.closeChartModal()", "text": "Cancel"},
+                {"class": "btn btn-primary", "id": "insert-chart-btn", "onclick": "miniWord.insertSelectedChart()", "text": "Insert Chart"}
+              ]
+            }
+          }
+        }
+      }
+    },
+    "positioning_guide": {
+      "description": "How to recreate MiniWord layout using actual CSS and HTML",
+      "layout_system": "CSS Flexbox - NO absolute positioning",
+      "key_principles": {
+        "1": "All positioning is relative and automatic via flexbox",
+        "2": "Button order determined by HTML structure in index.html",
+        "3": "Spacing controlled by CSS gap and margin properties",
+        "4": "No pixel coordinates exist in the CSS",
+        "5": "Layout is responsive and adapts to content"
+      },
+      "css_properties_used": {
+        "toolbar": {
+          "display": "flex",
+          "flex_wrap": "wrap", 
+          "gap": "8px",
+          "padding": "16px"
+        },
+        "toolbar_group": {
+          "display": "flex",
+          "gap": "2px",
+          "padding": "2px",
+          "border_right": "1px solid #d1d5da",
+          "margin_right": "8px"
+        },
+        "toolbar_btn": {
+          "width": "48px",
+          "height": "48px",
+          "display": "flex",
+          "align_items": "center",
+          "justify_content": "center"
+        }
+      },
+      "html_structure_order": {
+        "file_toolbar": [
+          "file_new", "file_open", "file_save", "file_print",
+          "web_refresh", "web_close", "new_tab", "toggle_pagination"
+        ],
+        "edit_toolbar": [
+          "edit_undo", "edit_redo", "edit_cut", "edit_copy", "edit_paste",
+          "find", "replace",
+          "mw2_clear_all", "mw2_format_painter"
+        ],
+        "view_toolbar": [
+          "view_zoom_in", "view_zoom_out", "view_preview",
+          "layout_page_setup",
+          "mw2_sidebar_toggle", "mw2_ruler_toggle", "mw2_show_invisibles", "mw2_focus_mode", "mw2_night_mode"
+        ],
+        "insert_toolbar": [
+          "insert_image", "insert_table", "insert_chart", "insert_link",
+          "insert_equation", "insert_symbol",
+          "mw2_section_break", "mw2_template_library"
+        ],
+        "format_toolbar": [
+          "bold", "italic", "underline", "strikethrough",
+          "align_left", "align_center", "align_right", "align_justify",
+          "text_color", "highlight", "format_painter", "clear_format",
+          "mw2_superscript", "mw2_subscript", "mw2_line_spacing",
+          "mw2_page_setup", "mw2_header_footer"
+        ],
+        "tools_toolbar": [
+          "review_spelling", "review_comment",
+          "bulleted_list", "numbered_list", "indent_increase", "indent_decrease",
+          "mw2_char_count"
+        ],
+        "help_toolbar": [
+          "app_settings",
+          "layout_page_break",
+          "mw2_share"
+        ]
+      },
+      "recreation_steps": {
+        "step_1": "Create HTML structure exactly as in index.html",
+        "step_2": "Apply CSS flexbox properties from styles.css",
+        "step_3": "Buttons will automatically position based on HTML order",
+        "step_4": "Use toolbar-group divs to separate button groups",
+        "step_5": "CSS gap and margin properties handle spacing automatically"
+      }
+    },
+    "visual_layout_guide": {
+      "description": "How to recreate the MiniWord visual layout",
+      "page_structure": {
+        "title_bar": {
+          "position": "top",
+          "height": "32px",
+          "content": "App title on left, window controls on right",
+          "background": "linear-gradient(135deg, #0078d4, #106ebe)"
+        },
+        "menu_bar": {
+          "position": "below title bar",
+          "height": "24px", 
+          "content": "7 menu items: File, Edit, View, Insert, Format, Tools, Help",
+          "layout": "horizontal flex layout"
+        },
+        "toolbar": {
+          "position": "below menu bar",
+          "content": "Dynamic toolbar that changes based on selected menu",
+          "layout": "flex layout with groups",
+          "groups": {
+            "file-basic": ["file_new", "file_open", "file_save", "file_print"],
+            "file-web": ["web_refresh", "web_close", "new_tab", "toggle_pagination"],
+            "edit-basic": ["edit_undo", "edit_redo", "edit_cut", "edit_copy", "edit_paste"],
+            "edit-search": ["find", "replace"],
+            "edit-format": ["mw2_clear_all", "mw2_format_painter"]
+          }
+        },
+        "main_content": {
+          "position": "below toolbar",
+          "layout": "flex layout with sidebar and editor",
+          "sidebar": {
+            "width": "350px",
+            "position": "left side",
+            "content": "Function panel with close button"
+          },
+          "editor": {
+            "position": "right side of sidebar",
+            "content": "Main editing area with ruler and contenteditable div"
+          }
+        },
+        "status_bar": {
+          "position": "bottom",
+          "height": "24px",
+          "content": "Page info, word count, zoom level"
+        }
+      },
+      "button_arrangement": {
+        "toolbar_groups": "Separated by visual dividers (border-right)",
+        "button_spacing": "2px gap between buttons in same group",
+        "group_spacing": "8px gap between groups",
+        "button_size": "48x48px with 24x24px icons"
+      },
+      "example_calculations": {
+          "file_toolbar": {
+            "group_1_file_basic": {
+              "start_x": 16,
+              "buttons": [
+                {"id": "file_new", "x": 16, "y": 72, "width": 48, "height": 48},
+                {"id": "file_open", "x": 66, "y": 72, "width": 48, "height": 48},
+                {"id": "file_save", "x": 116, "y": 72, "width": 48, "height": 48},
+                {"id": "file_print", "x": 166, "y": 72, "width": 48, "height": 48}
+              ]
+            },
+            "group_2_file_web": {
+              "start_x": 216,
+              "buttons": [
+                {"id": "web_refresh", "x": 216, "y": 72, "width": 48, "height": 48},
+                {"id": "web_close", "x": 266, "y": 72, "width": 48, "height": 48},
+                {"id": "new_tab", "x": 316, "y": 72, "width": 48, "height": 48},
+                {"id": "toggle_pagination", "x": 366, "y": 72, "width": 48, "height": 48}
+              ]
+            }
+          }
+        }
+      },
+      "html_structure_guide": {
+        "description": "Exact HTML structure that determines button positioning",
+        "file_toolbar": {
+          "toolbar_id": "file-toolbar",
+          "groups": [
+            {
+              "group_name": "file-basic",
+              "buttons": ["file_new", "file_open", "file_save", "file_print"]
+            },
+            {
+              "group_name": "file-web", 
+              "buttons": ["web_refresh", "web_close", "new_tab", "toggle_pagination"]
+            }
+          ]
+        },
+        "edit_toolbar": {
+          "toolbar_id": "edit-toolbar",
+          "groups": [
+            {
+              "group_name": "edit-basic",
+              "buttons": ["edit_undo", "edit_redo", "edit_cut", "edit_copy", "edit_paste"]
+            },
+            {
+              "group_name": "edit-search",
+              "buttons": ["find", "replace"]
+            },
+            {
+              "group_name": "edit-format",
+              "buttons": ["mw2_clear_all", "mw2_format_painter"]
+            }
+          ]
+        },
+        "view_toolbar": {
+          "toolbar_id": "view-toolbar", 
+          "groups": [
+            {
+              "group_name": "view-zoom",
+              "buttons": ["view_zoom_in", "view_zoom_out", "view_preview"]
+            },
+            {
+              "group_name": "view-layout",
+              "buttons": ["layout_page_setup"]
+            },
+            {
+              "group_name": "view-display",
+              "buttons": ["mw2_sidebar_toggle", "mw2_ruler_toggle", "mw2_show_invisibles", "mw2_focus_mode", "mw2_night_mode"]
+            }
+          ]
+        },
+        "insert_toolbar": {
+          "toolbar_id": "insert-toolbar",
+          "groups": [
+            {
+              "group_name": "insert-content",
+              "buttons": ["insert_image", "insert_table", "insert_chart", "insert_link"]
+            },
+            {
+              "group_name": "insert-math",
+              "buttons": ["insert_equation", "insert_symbol"]
+            },
+            {
+              "group_name": "insert-layout",
+              "buttons": ["mw2_section_break", "mw2_template_library"]
+            }
+          ]
+        },
+        "format_toolbar": {
+          "toolbar_id": "format-toolbar",
+          "groups": [
+            {
+              "group_name": "format-text",
+              "buttons": ["bold", "italic", "underline", "strikethrough"]
+            },
+            {
+              "group_name": "format-align",
+              "buttons": ["align_left", "align_center", "align_right", "align_justify"]
+            },
+            {
+              "group_name": "format-color",
+              "buttons": ["text_color", "highlight", "format_painter", "clear_format"]
+            },
+            {
+              "group_name": "format-advanced",
+              "buttons": ["mw2_superscript", "mw2_subscript", "mw2_line_spacing"]
+            },
+            {
+              "group_name": "format-layout",
+              "buttons": ["mw2_page_setup", "mw2_header_footer"]
+            }
+          ]
+        },
+        "tools_toolbar": {
+          "toolbar_id": "tools-toolbar",
+          "groups": [
+            {
+              "group_name": "tools-review",
+              "buttons": ["review_spelling", "review_comment"]
+            },
+            {
+              "group_name": "tools-lists",
+              "buttons": ["bulleted_list", "numbered_list", "indent_increase", "indent_decrease"]
+            },
+            {
+              "group_name": "tools-utilities",
+              "buttons": ["mw2_char_count"]
+            }
+          ]
+        },
+        "help_toolbar": {
+          "toolbar_id": "help-toolbar",
+          "groups": [
+            {
+              "group_name": "help-settings",
+              "buttons": ["app_settings"]
+            },
+            {
+              "group_name": "help-layout",
+              "buttons": ["layout_page_break"]
+            },
+            {
+              "group_name": "help-share",
+              "buttons": ["mw2_share"]
+            }
+          ]
+        }
+      }
+    },
+    "sections": {
+      "file": {
+        "name": "File",
+        "description": "File management and document operations",
+        "toolbar_id": "file-toolbar",
+        "functions": [
+          {
+            "id": "file_new",
+            "name": "New Document",
+            "icon": "miniword_buttons_png/file_new.png",
+            "icon_size": "24x24px",
+            "shortcut": "Ctrl+N",
+            "description": "Create a new document",
+            "toolbar_group": "file-basic",
+            "button_order": 1
+          },
+          {
+            "id": "file_open",
+            "name": "Open Document", 
+            "icon": "miniword_buttons_png/file_open.png",
+            "icon_size": "24x24px",
+            "shortcut": "Ctrl+O",
+            "description": "Open an existing document",
+            "toolbar_group": "file-basic",
+            "button_order": 2
+          },
+          {
+            "id": "file_save",
+            "name": "Save Document",
+            "icon": "miniword_buttons_png/file_save.png", 
+            "icon_size": "24x24px",
+            "shortcut": "Ctrl+S",
+            "description": "Save the current document"
+          },
+          {
+            "id": "file_print",
+            "name": "Print Document",
+            "icon": "miniword_buttons_png/file_print.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "124px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "file-basic",
+              "order": 4
+            },
+            "shortcut": "Ctrl+P",
+            "description": "Print the current document"
+          },
+          {
+            "id": "web_refresh",
+            "name": "Refresh Page",
+            "icon": "miniword_icons_set2/mw2_track_on.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "160px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "file-web",
+              "order": 5
+            },
+            "description": "Refresh the webpage"
+          },
+          {
+            "id": "web_close", 
+            "name": "Close Page",
+            "icon": "miniword_icons_set2/mw2_table_merge.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "196px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "file-web",
+              "order": 6
+            },
+            "description": "Close the current page"
+          },
+          {
+            "id": "new_tab",
+            "name": "Open New Tab",
+            "icon": "miniword_icons_set2/mw2_table_split.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "232px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "file-web",
+              "order": 7
+            },
+            "shortcut": "Ctrl+T",
+            "description": "Open a new browser tab"
+          },
+          {
+            "id": "toggle_pagination",
+            "name": "Toggle Pagination",
+            "icon": "miniword_icons_set2/mw2_password.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "268px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "file-web",
+              "order": 8
+            },
+            "description": "Toggle pagination view"
+          }
+        ]
+      },
+      "edit": {
+        "name": "Edit",
+        "description": "Text editing and manipulation tools",
+        "toolbar_id": "edit-toolbar",
+        "functions": [
+          {
+            "id": "edit_undo",
+            "name": "Undo Operation",
+            "icon": "miniword_buttons_png/edit_undo.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "16px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "edit-basic",
+              "order": 1
+            },
+            "shortcut": "Ctrl+Z",
+            "description": "Undo the last action"
+          },
+          {
+            "id": "edit_redo",
+            "name": "Redo Operation",
+            "icon": "miniword_buttons_png/edit_redo.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "52px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "edit-basic",
+              "order": 2
+            },
+            "shortcut": "Ctrl+Y",
+            "description": "Redo the last undone action"
+          },
+          {
+            "id": "edit_cut",
+            "name": "Cut Content",
+            "icon": "miniword_buttons_png/edit_cut.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "88px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "edit-basic",
+              "order": 3
+            },
+            "shortcut": "Ctrl+X",
+            "description": "Cut selected text to clipboard"
+          },
+          {
+            "id": "edit_copy",
+            "name": "Direct Copy",
+            "icon": "miniword_buttons_png/edit_copy.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "124px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "edit-basic",
+              "order": 4
+            },
+            "shortcut": "Ctrl+C",
+            "description": "Copy selected text to clipboard"
+          },
+          {
+            "id": "edit_paste",
+            "name": "Paste",
+            "icon": "miniword_buttons_png/edit_paste.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "160px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "edit-basic",
+              "order": 5
+            },
+            "shortcut": "Ctrl+V",
+            "description": "Paste content from clipboard"
+          },
+          {
+            "id": "find",
+            "name": "Find Text",
+            "icon": "miniword_buttons_png/find.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "196px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "edit-search",
+              "order": 6
+            },
+            "shortcut": "Ctrl+F",
+            "description": "Find text in the document"
+          },
+          {
+            "id": "replace",
+            "name": "Find and Replace",
+            "icon": "miniword_buttons_png/replace.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "232px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "edit-search",
+              "order": 7
+            },
+            "shortcut": "Ctrl+H",
+            "description": "Find and replace text in the document"
+          },
+          {
+            "id": "mw2_clear_all",
+            "name": "Clear All Formatting",
+            "icon": "miniword_icons_set2/mw2_clear_all.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "268px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "edit-format",
+              "order": 8
+            },
+            "description": "Clear all formatting from selected text"
+          },
+          {
+            "id": "mw2_format_painter",
+            "name": "Format Painter",
+            "icon": "miniword_icons_set2/mw2_format_painter.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "304px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "edit-format",
+              "order": 9
+            },
+            "description": "Copy formatting from one text to another"
+          }
+        ]
+      },
+      "view": {
+        "name": "View",
+        "description": "Document viewing and display options",
+        "toolbar_id": "view-toolbar",
+        "functions": [
+          {
+            "id": "view_zoom_in",
+            "name": "Zoom In View",
+            "icon": "miniword_buttons_png/view_zoom_in.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "16px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "view-zoom",
+              "order": 1
+            },
+            "shortcut": "Ctrl++",
+            "description": "Zoom in on the document"
+          },
+          {
+            "id": "view_zoom_out",
+            "name": "Zoom Out View",
+            "icon": "miniword_buttons_png/help.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "52px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "view-zoom",
+              "order": 2
+            },
+            "shortcut": "Ctrl+-",
+            "description": "Zoom out on the document"
+          },
+          {
+            "id": "view_preview",
+            "name": "Print Preview",
+            "icon": "miniword_buttons_png/view_preview.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "88px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "view-zoom",
+              "order": 3
+            },
+            "description": "Preview how the document will look when printed"
+          },
+          {
+            "id": "layout_page_setup",
+            "name": "Page Setup",
+            "icon": "miniword_buttons_png/layout_page_setup.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "124px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "view-layout",
+              "order": 4
+            },
+            "description": "Configure page settings"
+          },
+          {
+            "id": "mw2_sidebar_toggle",
+            "name": "Toggle Sidebar",
+            "icon": "miniword_icons_set2/mw2_sidebar_toggle.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "160px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "view-display",
+              "order": 5
+            },
+            "description": "Show or hide the sidebar"
+          },
+          {
+            "id": "mw2_ruler_toggle",
+            "name": "Toggle Ruler",
+            "icon": "miniword_icons_set2/mw2_ruler_toggle.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "196px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "view-display",
+              "order": 6
+            },
+            "description": "Show or hide the ruler"
+          },
+          {
+            "id": "mw2_show_invisibles",
+            "name": "Show Hidden Characters",
+            "icon": "miniword_icons_set2/mw2_show_invisibles.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "232px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "view-display",
+              "order": 7
+            },
+            "description": "Show or hide hidden characters"
+          },
+          {
+            "id": "mw2_focus_mode",
+            "name": "Focus Mode",
+            "icon": "miniword_icons_set2/mw2_focus_mode.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "268px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "view-display",
+              "order": 8
+            },
+            "description": "Toggle focus mode for distraction-free writing"
+          },
+          {
+            "id": "mw2_night_mode",
+            "name": "Night Mode",
+            "icon": "miniword_icons_set2/mw2_night_mode.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "304px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "view-display",
+              "order": 9
+            },
+            "description": "Toggle between light and dark theme"
+          }
+        ]
+      },
+      "insert": {
+        "name": "Insert",
+        "description": "Insert various content into the document",
+        "toolbar_id": "insert-toolbar",
+        "functions": [
+          {
+            "id": "insert_image",
+            "name": "Insert Image",
+            "icon": "miniword_buttons_png/insert_image.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "16px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "insert-content",
+              "order": 1
+            },
+            "description": "Insert an image into the document"
+          },
+          {
+            "id": "insert_table",
+            "name": "Insert Table",
+            "icon": "miniword_buttons_png/insert_table.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "52px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "insert-content",
+              "order": 2
+            },
+            "description": "Insert a table into the document"
+          },
+          {
+            "id": "insert_chart",
+            "name": "Insert Chart",
+            "icon": "miniword_buttons_png/insert_chart.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "88px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "insert-content",
+              "order": 3
+            },
+            "description": "Insert a chart into the document"
+          },
+          {
+            "id": "insert_link",
+            "name": "Insert Link",
+            "icon": "miniword_buttons_png/insert_link.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "124px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "insert-content",
+              "order": 4
+            },
+            "description": "Insert a hyperlink into the document"
+          },
+          {
+            "id": "insert_equation",
+            "name": "Insert Equation",
+            "icon": "miniword_buttons_png/insert_equation.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "160px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "insert-math",
+              "order": 5
+            },
+            "description": "Insert a mathematical equation"
+          },
+          {
+            "id": "insert_symbol",
+            "name": "Insert Symbol",
+            "icon": "miniword_buttons_png/insert_symbol.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "196px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "insert-math",
+              "order": 6
+            },
+            "description": "Insert special symbols and characters"
+          },
+          {
+            "id": "mw2_section_break",
+            "name": "Section Break",
+            "icon": "miniword_icons_set2/mw2_section_break.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "232px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "insert-layout",
+              "order": 7
+            },
+            "description": "Insert a section break"
+          },
+          {
+            "id": "mw2_template_library",
+            "name": "Template Library",
+            "icon": "miniword_icons_set2/mw2_template_library.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "268px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "insert-layout",
+              "order": 8
+            },
+            "description": "Access and insert document templates"
+          }
+        ]
+      },
+      "format": {
+        "name": "Format",
+        "description": "Text and paragraph formatting options",
+        "toolbar_id": "format-toolbar",
+        "functions": [
+          {
+            "id": "bold",
+            "name": "Bold Format",
+            "icon": "miniword_buttons_png/bold.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "16px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "format-text",
+              "order": 1
+            },
+            "shortcut": "Ctrl+B",
+            "description": "Make text bold"
+          },
+          {
+            "id": "italic",
+            "name": "Italic Format",
+            "icon": "miniword_buttons_png/italic.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "52px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "format-text",
+              "order": 2
+            },
+            "shortcut": "Ctrl+I",
+            "description": "Make text italic"
+          },
+          {
+            "id": "underline",
+            "name": "Underline Format",
+            "icon": "miniword_buttons_png/underline.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "88px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "format-text",
+              "order": 3
+            },
+            "shortcut": "Ctrl+U",
+            "description": "Underline text"
+          },
+          {
+            "id": "strikethrough",
+            "name": "Strikethrough",
+            "icon": "miniword_buttons_png/strikethrough.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "124px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "format-text",
+              "order": 4
+            },
+            "description": "Add strikethrough to text"
+          },
+          {
+            "id": "align_left",
+            "name": "Left Align",
+            "icon": "miniword_buttons_png/align_left.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "160px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "format-align",
+              "order": 5
+            },
+            "description": "Align text to the left"
+          },
+          {
+            "id": "align_center",
+            "name": "Center Align",
+            "icon": "miniword_buttons_png/align_center.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "196px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "format-align",
+              "order": 6
+            },
+            "description": "Center align text"
+          },
+          {
+            "id": "align_right",
+            "name": "Right Align",
+            "icon": "miniword_buttons_png/align_right.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "232px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "format-align",
+              "order": 7
+            },
+            "description": "Align text to the right"
+          },
+          {
+            "id": "align_justify",
+            "name": "Justify Align",
+            "icon": "miniword_buttons_png/align_justify.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "268px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "format-align",
+              "order": 8
+            },
+            "description": "Justify text alignment"
+          },
+          {
+            "id": "text_color",
+            "name": "Text Color",
+            "icon": "miniword_buttons_png/text_color.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "304px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "format-color",
+              "order": 9
+            },
+            "description": "Change text color"
+          },
+          {
+            "id": "highlight",
+            "name": "Highlight",
+            "icon": "miniword_buttons_png/highlight.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "340px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "format-color",
+              "order": 10
+            },
+            "description": "Highlight text with color"
+          },
+          {
+            "id": "format_painter",
+            "name": "Format Painter",
+            "icon": "miniword_buttons_png/format_painter.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "376px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "format-color",
+              "order": 11
+            },
+            "description": "Copy formatting from one text to another"
+          },
+          {
+            "id": "clear_format",
+            "name": "Clear Format",
+            "icon": "miniword_buttons_png/clear_format.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "412px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "format-color",
+              "order": 12
+            },
+            "description": "Clear formatting from selected text"
+          },
+          {
+            "id": "mw2_superscript",
+            "name": "Superscript",
+            "icon": "miniword_icons_set2/mw2_superscript.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "448px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "format-advanced",
+              "order": 13
+            },
+            "description": "Make text superscript"
+          },
+          {
+            "id": "mw2_subscript",
+            "name": "Subscript",
+            "icon": "miniword_icons_set2/mw2_subscript.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "484px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "format-advanced",
+              "order": 14
+            },
+            "description": "Make text subscript"
+          },
+          {
+            "id": "mw2_line_spacing",
+            "name": "Line Spacing",
+            "icon": "miniword_icons_set2/mw2_line_spacing.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "520px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "format-advanced",
+              "order": 15
+            },
+            "description": "Adjust line spacing"
+          },
+          {
+            "id": "mw2_page_setup",
+            "name": "Page Setup",
+            "icon": "miniword_icons_set2/mw2_page_setup.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "556px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "format-layout",
+              "order": 16
+            },
+            "description": "Configure page settings"
+          },
+          {
+            "id": "mw2_header_footer",
+            "name": "Header & Footer",
+            "icon": "miniword_icons_set2/mw2_header_footer.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "592px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "format-layout",
+              "order": 17
+            },
+            "description": "Add headers and footers to the document"
+          }
+        ]
+      },
+      "tools": {
+        "name": "Tools",
+        "description": "Document tools and utilities",
+        "toolbar_id": "tools-toolbar",
+        "functions": [
+          {
+            "id": "review_spelling",
+            "name": "Spell Check",
+            "icon": "miniword_buttons_png/review_spelling.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "16px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "tools-review",
+              "order": 1
+            },
+            "description": "Check spelling in the document"
+          },
+          {
+            "id": "review_comment",
+            "name": "New Comment",
+            "icon": "miniword_buttons_png/review_comment.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "52px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "tools-review",
+              "order": 2
+            },
+            "description": "Add comments to the document"
+          },
+          {
+            "id": "bulleted_list",
+            "name": "Bulleted List",
+            "icon": "miniword_buttons_png/bulleted_list.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "88px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "tools-lists",
+              "order": 3
+            },
+            "description": "Create a bulleted list"
+          },
+          {
+            "id": "numbered_list",
+            "name": "Numbered List",
+            "icon": "miniword_buttons_png/numbered_list.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "124px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "tools-lists",
+              "order": 4
+            },
+            "description": "Create a numbered list"
+          },
+          {
+            "id": "indent_increase",
+            "name": "Increase Indent",
+            "icon": "miniword_buttons_png/indent_increase.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "160px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "tools-lists",
+              "order": 5
+            },
+            "description": "Increase paragraph indentation"
+          },
+          {
+            "id": "indent_decrease",
+            "name": "Decrease Indent",
+            "icon": "miniword_buttons_png/indent_decrease.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "196px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "tools-lists",
+              "order": 6
+            },
+            "description": "Decrease paragraph indentation"
+          },
+          {
+            "id": "mw2_char_count",
+            "name": "Character Count",
+            "icon": "miniword_icons_set2/mw2_char_count.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "232px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "tools-utilities",
+              "order": 7
+            },
+            "description": "Show character count in the document"
+          }
+        ]
+      },
+      "help": {
+        "name": "Help",
+        "description": "Application settings and help functions",
+        "toolbar_id": "help-toolbar",
+        "functions": [
+          {
+            "id": "app_settings",
+            "name": "Application Settings",
+            "icon": "miniword_buttons_png/app_settings.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "16px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "help-settings",
+              "order": 1
+            },
+            "description": "Configure application settings"
+          },
+          {
+            "id": "layout_page_break",
+            "name": "Page Break",
+            "icon": "miniword_buttons_png/layout_page_break.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "52px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "help-layout",
+              "order": 2
+            },
+            "description": "Insert a page break"
+          },
+          {
+            "id": "mw2_share",
+            "name": "Share Document",
+            "icon": "miniword_icons_set2/mw2_share.png",
+            "icon_size": "24x24px",
+            "position": {
+              "x": "88px",
+              "y": "72px",
+              "width": "48px",
+              "height": "48px",
+              "toolbar_group": "help-share",
+              "order": 3
+            },
+            "description": "Share the document with others"
+          }
+        ]
+      }
+    },
+    "automation_script": {
+      "script_name": "auto_screenshot_full_all_functions.py",
+      "description": "Automated screenshot capture for all 62 MiniWord functions",
+      "requirements": [
+        "selenium>=4.0.0",
+        "requests>=2.25.0",
+        "Pillow>=8.0.0"
+      ],
+      "usage": [
+        "1. Install requirements: pip install -r requirements_screenshot.txt",
+        "2. Start MiniWord server: python3 -m http.server 8000",
+        "3. Run automation: python3 auto_screenshot_full_all_functions.py"
+      ],
+      "output_structure": {
+        "base_directory": "function_screenshots/",
+        "categories": [
+          "file/",
+          "edit/",
+          "view/",
+          "insert/",
+          "format/",
+          "tools/",
+          "help/"
+        ],
+        "screenshot_format": "PNG",
+        "naming_convention": "{function_id}.png"
+      },
+      "automation_features": [
+        "Automatic browser control using Selenium WebDriver",
+        "Smart button detection with multiple selectors",
+        "Modal dialog management and cleanup",
+        "Section-based toolbar switching",
+        "Full-page screenshot capture",
+        "Organized output by function categories",
+        "Progress tracking and error handling",
+        "Summary report generation"
+      ]
+    },
+    "development_guidelines": {
+      "file_structure": {
+        "main_files": [
+          "index.html - Main application interface",
+          "script.js - Core JavaScript functionality", 
+          "styles.css - Application styling",
+          "explainations_for_botton.json - Function documentation"
+        ],
+        "asset_directories": [
+          "miniword_buttons_png/ - Primary button icons",
+          "miniword_icons_set2/ - Secondary icon set",
+          "function_screenshots/ - Generated screenshots"
+        ]
+      },
+      "browser_compatibility": {
+        "supported_browsers": [
+          "Chrome 90+",
+          "Firefox 88+",
+          "Safari 14+",
+          "Edge 90+"
+        ],
+        "required_features": [
+          "CSS Grid",
+          "Flexbox",
+          "ES6 JavaScript",
+          "HTML5 ContentEditable"
+        ]
+      },
+      "deployment_requirements": {
+        "server": "Any HTTP server (Python, Node.js, Apache, Nginx)",
+        "port": "8000 (configurable)",
+        "dependencies": "None (pure HTML/CSS/JS)",
+        "file_permissions": "Read access to all files"
+      }
+    }
+  }
