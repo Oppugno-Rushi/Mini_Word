@@ -24,12 +24,12 @@ else
 fi
 
 # Check if port 8000 is free
-echo "Checking port 8000..."
-PORT_CHECK=$(netstat -tlnp | grep ":8000")
+echo "Checking port 8002..."
+PORT_CHECK=$(netstat -tlnp | grep ":8002")
 if [ -z "$PORT_CHECK" ]; then
-    echo "✅ Port 8000 is now free"
+    echo "✅ Port 8002 is now free"
 else
-    echo "⚠️  Port 8000 may still be in use:"
+    echo "⚠️  Port 8002 may still be in use:"
     echo "$PORT_CHECK"
 fi
 
