@@ -14,6 +14,14 @@ class MiniWord {
             modified: false
         };
         
+        // Internal MiniWord clipboard (safer, does not depend on browser permissions)
+        this.internalClipboard = {
+            plainText: '',
+            html: '',
+            hasContent: false,
+            type: null // 'plain' | 'formatted'
+        };
+        
         this.paginationMode = true; // Default to paginated mode
         this.tempContent = null;
         
@@ -215,7 +223,8 @@ class MiniWord {
                     break;
                 case 'c':
                     e.preventDefault();
-                    this.showPage('edit_copy');
+                    // Open formatted copy page for Ctrl+C within MiniWord's help/sidebar system
+                    this.showPage('copy_formatted');
                     break;
                 case 'v':
                     e.preventDefault();
@@ -625,10 +634,15 @@ class MiniWord {
                                 <h4>Cut</h4>
                                 <p>Cut selected content</p>
                             </div>
-                            <div class="feature-card" onclick="miniWord.showPage('edit_copy')">
-                                <img src="miniword_buttons_png/edit_copy.png" alt="Copy">
-                                <h4>Copy</h4>
-                                <p>Copy selected content</p>
+                            <div class="feature-card" onclick="miniWord.showPage('copy_plain')">
+                                <img src="miniword_buttons_png/edit_copy.png" alt="Direct Copy">
+                                <h4>Direct Copy</h4>
+                                <p>Copy selected text without formatting</p>
+                            </div>
+                            <div class="feature-card" onclick="miniWord.showPage('copy_formatted')">
+                                <img src="miniword_icons_set2/mw2_styles.png" alt="Formatted Copy">
+                                <h4>Formatted Copy</h4>
+                                <p>Copy selected text with all formatting</p>
                             </div>
                             <div class="feature-card" onclick="miniWord.showPage('edit_paste')">
                                 <img src="miniword_buttons_png/edit_paste.png" alt="Paste">
@@ -676,20 +690,6 @@ class MiniWord {
                         <p>Cut selected content to clipboard</p>
                         <div class="button-group">
                             <button class="btn btn-primary" onclick="miniWord.cut()">Cut (Ctrl+X)</button>
-                            <button class="btn" onclick="miniWord.showPage('edit')">Back to Edit</button>
-                        </div>
-                    </div>
-                `
-            },
-            
-            'edit_copy': {
-                title: 'Copy Content',
-                content: `
-                    <div class="page-content">
-                        <h2>Copy Content</h2>
-                        <p>Copy selected content to clipboard</p>
-                        <div class="button-group">
-                            <button class="btn btn-primary" onclick="miniWord.copy()">Copy (Ctrl+C)</button>
                             <button class="btn" onclick="miniWord.showPage('edit')">Back to Edit</button>
                         </div>
                     </div>
@@ -3636,23 +3636,27 @@ Thank you for your business!
             }
             
             const selectedText = selection.toString();
+            // Update internal MiniWord clipboard (plain text only for cut)
+            this.internalClipboard = {
+                plainText: selectedText,
+                html: '',
+                hasContent: true,
+                type: 'plain'
+            };
             
-            // Copy to clipboard first, then remove selection
+            // Best-effort: also try to write to system clipboard, but internal clipboard is the source of truth
             if (navigator.clipboard && navigator.clipboard.writeText) {
-                navigator.clipboard.writeText(selectedText).then(() => {
-                    selection.deleteFromDocument();
-                    this.showMessage('Text cut to clipboard');
-                }).catch(() => {
-                    document.execCommand('cut');
-                    this.showMessage('Text cut');
+                navigator.clipboard.writeText(selectedText).catch(() => {
+                    // Ignore failures – internal clipboard still works
                 });
-            } else {
-                document.execCommand('cut');
-                this.showMessage('Text cut');
             }
+            
+            // Remove the selected content from the document
+            selection.deleteFromDocument();
+            this.showMessage('Text cut (stored in MiniWord clipboard)');
         } catch (error) {
-            document.execCommand('cut');
-            this.showMessage('Text cut');
+            console.error('Cut error:', error);
+            this.showMessage('Cut failed', 'error');
         }
     }
     
@@ -3665,22 +3669,27 @@ Thank you for your business!
             }
             
             const selectedText = selection.toString();
+            // Update internal MiniWord clipboard (plain text)
+            this.internalClipboard = {
+                plainText: selectedText,
+                html: '',
+                hasContent: true,
+                type: 'plain'
+            };
             
-            // Copy to clipboard
+            // Best-effort: also try to write to system clipboard
             if (navigator.clipboard && navigator.clipboard.writeText) {
                 navigator.clipboard.writeText(selectedText).then(() => {
-                    this.showMessage('Text copied to clipboard');
+                    this.showMessage('Text copied (MiniWord clipboard + system clipboard)');
                 }).catch(() => {
-                    document.execCommand('copy');
-                    this.showMessage('Text copied');
+                    this.showMessage('Text copied (MiniWord clipboard only)');
                 });
             } else {
-                document.execCommand('copy');
-                this.showMessage('Text copied');
+                this.showMessage('Text copied (MiniWord clipboard only)');
             }
         } catch (error) {
-            document.execCommand('copy');
-            this.showMessage('Text copied');
+            console.error('Copy error:', error);
+            this.showMessage('Copy failed', 'error');
         }
     }
     
@@ -3688,24 +3697,40 @@ Thank you for your business!
         try {
             this.editor.focus();
             
-            // Check if we're in a secure context (HTTPS or localhost)
+            // First, try MiniWord's internal clipboard (reliable, no browser permissions)
+            if (this.internalClipboard && this.internalClipboard.hasContent) {
+                if (this.internalClipboard.html) {
+                    this.insertHTMLAtCursor(this.internalClipboard.html);
+                } else if (this.internalClipboard.plainText) {
+                    this.insertTextAtCursor(this.internalClipboard.plainText);
+                } else {
+                    this.showMessage('MiniWord clipboard is empty');
+                    return;
+                }
+                
+                this.showMessage('Content pasted from MiniWord clipboard');
+                this.currentDocument.modified = true;
+                this.updateStatus();
+                return;
+            }
+            
+            // If internal clipboard is empty, best-effort: try system clipboard (may be blocked by browser)
             if (navigator.clipboard && navigator.clipboard.readText && window.isSecureContext) {
                 try {
                     const text = await navigator.clipboard.readText();
                     if (text && text.trim()) {
                         this.insertTextAtCursor(text);
-                        this.showMessage('Text pasted successfully');
+                        this.showMessage('Text pasted from system clipboard');
                         this.currentDocument.modified = true;
                         this.updateStatus();
                     } else {
-                        this.showMessage('No text found in clipboard');
+                        this.showMessage('No text found in system clipboard');
                     }
                 } catch (clipboardError) {
                     console.log('Clipboard API failed, trying fallback:', clipboardError);
                     this.showPasteFallback();
                 }
             } else {
-                // Fallback for non-secure contexts or when clipboard API is not available
                 this.showPasteFallback();
             }
         } catch (error) {
@@ -3854,16 +3879,26 @@ Thank you for your business!
         try {
             this.editor.focus();
             
+            // Prefer MiniWord internal clipboard
+            if (this.internalClipboard && this.internalClipboard.hasContent && this.internalClipboard.plainText) {
+                this.insertTextAtCursor(this.internalClipboard.plainText);
+                this.showMessage('Plain text pasted from MiniWord clipboard');
+                this.currentDocument.modified = true;
+                this.updateStatus();
+                return;
+            }
+            
+            // Fallback: try system clipboard (may be blocked)
             if (navigator.clipboard && navigator.clipboard.readText && window.isSecureContext) {
                 try {
                     const text = await navigator.clipboard.readText();
                     if (text && text.trim()) {
                         this.insertTextAtCursor(text);
-                        this.showMessage('Plain text pasted successfully');
+                        this.showMessage('Plain text pasted from system clipboard');
                         this.currentDocument.modified = true;
                         this.updateStatus();
                     } else {
-                        this.showMessage('No text found in clipboard');
+                        this.showMessage('No text found in system clipboard');
                     }
                 } catch (clipboardError) {
                     this.showPasteFallback();
@@ -4011,6 +4046,25 @@ Thank you for your business!
         try {
             this.editor.focus();
             
+            // Prefer MiniWord internal clipboard (formatted HTML if available)
+            if (this.internalClipboard && this.internalClipboard.hasContent) {
+                if (this.internalClipboard.html) {
+                    this.insertHTMLAtCursor(this.internalClipboard.html);
+                    this.showMessage('Formatted content pasted from MiniWord clipboard');
+                } else if (this.internalClipboard.plainText) {
+                    this.insertTextAtCursor(this.internalClipboard.plainText);
+                    this.showMessage('Plain text pasted from MiniWord clipboard (no formatting available)');
+                } else {
+                    this.showMessage('MiniWord clipboard is empty');
+                    return;
+                }
+                
+                this.currentDocument.modified = true;
+                this.updateStatus();
+                return;
+            }
+            
+            // Fallback: try system clipboard with HTML support (may be blocked)
             if (navigator.clipboard && navigator.clipboard.read && window.isSecureContext) {
                 try {
                     const clipboardItems = await navigator.clipboard.read();
@@ -4020,18 +4074,18 @@ Thank you for your business!
                         const htmlBlob = await clipboardItem.getType('text/html');
                         const html = await htmlBlob.text();
                         this.insertHTMLAtCursor(html);
-                        this.showMessage('Formatted content pasted successfully');
+                        this.showMessage('Formatted content pasted from system clipboard');
                         this.currentDocument.modified = true;
                         this.updateStatus();
                     } else if (clipboardItem.types.includes('text/plain')) {
                         const textBlob = await clipboardItem.getType('text/plain');
                         const text = await textBlob.text();
                         this.insertTextAtCursor(text);
-                        this.showMessage('Text content pasted successfully');
+                        this.showMessage('Text content pasted from system clipboard');
                         this.currentDocument.modified = true;
                         this.updateStatus();
                     } else {
-                        this.showMessage('No content available in clipboard');
+                        this.showMessage('No content available in system clipboard');
                     }
                 } catch (clipboardError) {
                     console.log('Clipboard API failed, trying fallback with HTML support:', clipboardError);
@@ -5061,25 +5115,24 @@ Thank you for your business!
         }
         
         const text = selection.toString();
-        console.log('=== DIRECT COPY DEBUG ===');
-        console.log('Selected text:', text);
-        console.log('Text length:', text.length);
         
-        if (navigator.clipboard) {
+        // Store in internal MiniWord clipboard
+        this.internalClipboard = {
+            plainText: text,
+            html: '',
+            hasContent: true,
+            type: 'plain'
+        };
+        
+        // Best-effort: also try to write to system clipboard
+        if (navigator.clipboard && navigator.clipboard.writeText) {
             navigator.clipboard.writeText(text).then(() => {
-                this.showMessage('Plain text copied to clipboard');
-                console.log('Plain text copied successfully');
+                this.showMessage('Plain text copied (MiniWord clipboard + system clipboard)');
             }).catch(() => {
-                // Fallback to execCommand
-                document.execCommand('copy');
-                this.showMessage('Plain text copied to clipboard');
-                console.log('Plain text copied via fallback');
+                this.showMessage('Plain text copied (MiniWord clipboard only)');
             });
         } else {
-            // Fallback to execCommand
-            document.execCommand('copy');
-            this.showMessage('Plain text copied to clipboard');
-            console.log('Plain text copied via execCommand');
+            this.showMessage('Plain text copied (MiniWord clipboard only)');
         }
     }
     
@@ -5189,16 +5242,13 @@ Thank you for your business!
         tempDiv.appendChild(contents);
         const html = tempDiv.innerHTML;
         
-        // Debug: Log the HTML content to see what's being copied
-        console.log('=== COPY DEBUG ===');
-        console.log('Selected text:', selectedText);
-        console.log('Copied HTML content:', html);
-        console.log('HTML length:', html.length);
-        console.log('Contains bold:', html.includes('font-weight: bold') || html.includes('font-weight:bold'));
-        console.log('Contains italic:', html.includes('font-style: italic') || html.includes('font-style:italic'));
-        
-        // Store the HTML in a global variable for debugging
-        window.lastCopiedHTML = html;
+        // Store in internal MiniWord clipboard (formatted)
+        this.internalClipboard = {
+            plainText: selectedText,
+            html,
+            hasContent: true,
+            type: 'formatted'
+        };
         
         if (navigator.clipboard && navigator.clipboard.write) {
             // Create a clipboard item with both HTML and plain text
@@ -5208,19 +5258,13 @@ Thank you for your business!
             });
             
             navigator.clipboard.write([clipboardItem]).then(() => {
-                this.showMessage('Formatted text copied to clipboard');
-                console.log('Clipboard API success');
+                this.showMessage('Formatted text copied (MiniWord clipboard + system clipboard)');
             }).catch((error) => {
                 console.log('Clipboard API failed:', error);
-                // Fallback to execCommand
-                document.execCommand('copy');
-                this.showMessage('Formatted text copied (fallback)');
+                this.showMessage('Formatted text copied (MiniWord clipboard only)');
             });
         } else {
-            console.log('Clipboard API not available, using execCommand');
-            // Fallback to execCommand
-            document.execCommand('copy');
-            this.showMessage('Formatted text copied (execCommand)');
+            this.showMessage('Formatted text copied (MiniWord clipboard only)');
         }
     }
     
