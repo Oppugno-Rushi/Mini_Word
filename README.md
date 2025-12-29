@@ -115,3 +115,4 @@ This application is developed using pure HTML, CSS and JavaScript with no extern
 - Documents are saved in HTML format and can be opened in any modern browser
 - Some advanced features (such as spell check) are demonstration features
 - It is recommended to save documents regularly to avoid data loss
+# Mini_Word
