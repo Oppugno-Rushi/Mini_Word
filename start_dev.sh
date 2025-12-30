@@ -7,7 +7,7 @@ echo "🚀 Starting MiniWord server in DEVELOPMENT MODE (foreground)..."
 cd /shared/nas/data/m1/jiateng5/Mini_Word
 
 # Use port 8001 since 8000 is in use by another user's vLLM server
-PORT=8002
+PORT=8004
 
 # Check if port 8001 is already in use
 echo "Checking port $PORT..."

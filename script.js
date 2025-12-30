@@ -5906,18 +5906,18 @@ Thank you for your business!
         // Handle data source radio buttons
         const dataSourceRadios = document.querySelectorAll('input[name="data-source"]');
         const detectedTablesSection = document.getElementById('detected-tables-section');
+        const manualDataSection = document.getElementById('manual-data-section');
         
         dataSourceRadios.forEach(radio => {
             radio.addEventListener('change', () => {
                 // Hide all sections first
-                const manualTableSection = document.getElementById('manual-table-section');
-                if (manualTableSection) manualTableSection.style.display = 'none';
+                if (manualDataSection) manualDataSection.style.display = 'none';
                 if (detectedTablesSection) detectedTablesSection.style.display = 'none';
                 
                 // Show appropriate section based on selection
-                if (radio.value === 'table') {
-                    if (manualTableSection) manualTableSection.style.display = 'block';
-                } else {
+                if (radio.value === 'manual') {
+                    if (manualDataSection) manualDataSection.style.display = 'block';
+                } else if (radio.value === 'auto') {
                     if (detectedTablesSection) detectedTablesSection.style.display = 'block';
                 }
             });
@@ -6091,15 +6091,22 @@ Thank you for your business!
         
         let chartData;
         
-        if (dataSource === 'table') {
-            const tableHeaders = document.getElementById('table-headers').value;
-            const tableData = document.getElementById('table-data').value;
-            if (!tableHeaders.trim() || !tableData.trim()) {
-                this.showMessage('Please enter both table headers and data');
+        if (dataSource === 'manual') {
+            const manualData = document.getElementById('manual-data');
+            const manualText = manualData ? manualData.value : '';
+            
+            if (!manualText.trim()) {
+                this.showMessage('Please enter data in the manual data field');
                 return;
             }
-            chartData = this.parseManualTableData(tableHeaders, tableData);
-        } else {
+
+            // Expect first line to be headers, remaining lines to be data rows
+            const lines = manualText.trim().split('\n');
+            const headersLine = lines.shift() || '';
+            const dataLines = lines.join('\n');
+            
+            chartData = this.parseManualTableData(headersLine, dataLines);
+        } else { // auto-detect mode
             // Auto-detect mode - check if any table is selected
             const selectedTableItem = document.querySelector('#detected-tables-list .table-item[style*="background-color: #e3f2fd"]');
             if (!selectedTableItem && !this.selectedTableData) {
@@ -6208,33 +6215,132 @@ Thank you for your business!
         return chartHTML;
     }
 
-    generateBarChart(data) {
-        if (data.length < 2) return '<p>Insufficient data for chart</p>';
+    // Normalize 2-column table data (label, value) into an array of { label, value }
+    normalizeTwoColumnChartData(data) {
+        if (!data || data.length === 0) return [];
         
-        const headers = data[0];
-        const values = data.slice(1);
+        const normalized = [];
+        data.forEach((row) => {
+            if (!row || row.length < 2) return;
+            
+            const rawLabel = (row[0] || '').toString().trim();
+            const rawValue = (row[1] || '').toString();
+            
+            // Extract numeric part from string (e.g., "10Chart" -> 10, "10%" -> 10)
+            const numericValue = parseFloat(rawValue.replace(/[^0-9.-]/g, ''));
+            
+            // Skip rows that don't have a numeric value in the second column
+            if (isNaN(numericValue)) return;
+            const label = rawLabel || `Item ${normalized.length + 1}`;
+            
+            normalized.push({
+                label,
+                value: numericValue
+            });
+        });
+        
+        return normalized;
+    }
+
+    // Helper: check if a cell contains a numeric value after cleaning
+    isNumericCell(value) {
+        if (value == null) return false;
+        const cleaned = value.toString().replace(/[^0-9.-]/g, '');
+        if (cleaned === '') return false;
+        return !isNaN(parseFloat(cleaned));
+    }
+
+    // For 2-column tables, decide if we should treat each *row* as (label, value)
+    // or treat the first numeric row as a list of values by *column*.
+    getTwoColumnOrientation(data) {
+        if (!data || data.length === 0) return 'row';
+        
+        // If we ever see: first col non-numeric, second col numeric => row-based (Category, Value)
+        for (const row of data) {
+            if (!row || row.length < 2) continue;
+            const v0 = row[0];
+            const v1 = row[1];
+            const num0 = this.isNumericCell(v0);
+            const num1 = this.isNumericCell(v1);
+            if (!num0 && num1) {
+                return 'row';
+            }
+        }
+        
+        // Otherwise, fall back to column-based for purely numeric 2×N tables
+        return 'column';
+    }
+
+    // Build points from a 2-column table by treating columns as separate categories,
+    // using the first row that has at least one numeric value.
+    normalizeTwoColumnColumnBased(data) {
+        if (!data || data.length === 0) return [];
+        
+        let targetRow = null;
+        for (const row of data) {
+            if (!row || row.length < 2) continue;
+            const v0 = row[0];
+            const v1 = row[1];
+            if (this.isNumericCell(v0) || this.isNumericCell(v1)) {
+                targetRow = row;
+                break;
+            }
+        }
+        
+        if (!targetRow) return [];
+        
+        const points = [];
+        const v0 = targetRow[0] != null ? targetRow[0].toString() : '';
+        const v1 = targetRow[1] != null ? targetRow[1].toString() : '';
+        
+        const n0 = parseFloat(v0.replace(/[^0-9.-]/g, ''));
+        const n1 = parseFloat(v1.replace(/[^0-9.-]/g, ''));
+        
+        if (!isNaN(n0)) {
+            points.push({ label: 'Item 1', value: n0 });
+        }
+        if (!isNaN(n1)) {
+            points.push({ label: 'Item 2', value: n1 });
+        }
+        
+        return points;
+    }
+
+    generateBarChart(data) {
+        if (!data || data.length === 0) return '<p>Insufficient data for chart</p>';
+        
+        const headers = data[0] || [];
         
         // If we have multiple columns, treat each column as a separate series
         if (headers.length > 2) {
             return this.generateMultiSeriesBarChart(data);
         }
         
-        // Single series bar chart (original logic)
-        let chartHTML = '<div style="display: flex; align-items: end; justify-content: center; gap: 20px; padding: 20px;">';
-        const maxValue = Math.max(...values.map(row => 
-            Math.max(...row.slice(1).map(val => parseFloat(val) || 0))
-        ));
+        // Two-column table:
+        // Decide between row-based (Category, Value) vs column-based (pure numeric table)
+        let points;
+        const orientation = this.getTwoColumnOrientation(data);
+        if (orientation === 'row') {
+            points = this.normalizeTwoColumnChartData(data);
+        } else {
+            points = this.normalizeTwoColumnColumnBased(data);
+        }
+
+        if (points.length === 0) {
+            return '<p>No numeric data available for chart</p>';
+        }
         
-        values.forEach(row => {
-            const label = row[0];
-            const value = parseFloat(row[1]) || 0;
-            const height = (value / maxValue) * 200;
+        let chartHTML = '<div style="display: flex; align-items: end; justify-content: center; gap: 20px; padding: 20px;">';
+        const maxValue = Math.max(...points.map(p => p.value));
+        
+        points.forEach(point => {
+            const height = maxValue === 0 ? 0 : (point.value / maxValue) * 200;
             
             chartHTML += `
                 <div style="display: flex; flex-direction: column; align-items: center; margin: 0 10px;">
                     <div style="width: 40px; height: ${height}px; background: linear-gradient(to top, #2196f3, #64b5f6); border-radius: 4px 4px 0 0; margin-bottom: 8px;"></div>
-                    <div style="font-size: 12px; color: #666; text-align: center; max-width: 60px; word-wrap: break-word;">${label}</div>
-                    <div style="font-size: 10px; color: #999; margin-top: 2px;">${value}</div>
+                    <div style="font-size: 12px; color: #666; text-align: center; max-width: 60px; word-wrap: break-word;">${point.label}</div>
+                    <div style="font-size: 10px; color: #999; margin-top: 2px;">${point.value}</div>
                 </div>
             `;
         });
@@ -6297,33 +6403,53 @@ Thank you for your business!
     }
 
     generatePieChart(data) {
-        if (data.length < 2) return '<p>Insufficient data for pie chart</p>';
+        if (!data || data.length === 0) return '<p>Insufficient data for pie chart</p>';
         
-        const headers = data[0];
-        const values = data.slice(1);
-        
-        // For pie chart, we'll use the first row of data and treat each column as a slice
-        if (values.length === 0) return '<p>No data available for pie chart</p>';
-        
-        const firstRow = values[0];
-        const numericColumns = headers.slice(1);
+        const headers = data[0] || [];
         const colors = ['#2196f3', '#4caf50', '#ff9800', '#f44336', '#9c27b0', '#00bcd4'];
         
-        // Clean and parse numeric values
-        const cleanData = [];
-        numericColumns.forEach((header, colIndex) => {
-            const rawValue = firstRow[colIndex + 1];
-            // Extract numeric part from string (e.g., "10Chart" -> 10)
-            const numericValue = parseFloat(rawValue.toString().replace(/[^0-9.-]/g, '')) || 0;
-            cleanData.push({
-                label: header,
-                value: numericValue
+        let cleanData = [];
+        
+        if (headers.length === 2) {
+            // Two-column table: same orientation logic as bar chart
+            const orientation = this.getTwoColumnOrientation(data);
+            if (orientation === 'row') {
+                // Each row is (label, value)
+                cleanData = this.normalizeTwoColumnChartData(data);
+            } else {
+                // Pure numeric table: treat first numeric row as two slices (columns)
+                const points = this.normalizeTwoColumnColumnBased(data);
+                cleanData = points;
+            }
+        } else {
+            // Multi-column table: keep existing behaviour (first data row, columns as slices)
+            const values = data.slice(1);
+            if (values.length === 0) return '<p>No data available for pie chart</p>';
+            
+            const firstRow = values[0];
+            const numericColumns = headers.slice(1);
+            
+            numericColumns.forEach((header, colIndex) => {
+                const rawValue = firstRow[colIndex + 1];
+                const numericValue = parseFloat(
+                    rawValue != null ? rawValue.toString().replace(/[^0-9.-]/g, '') : ''
+                );
+                
+                if (!isNaN(numericValue)) {
+                    cleanData.push({
+                        label: header,
+                        value: numericValue
+                    });
+                }
             });
-        });
+        }
+        
+        if (!cleanData || cleanData.length === 0) {
+            return '<p>No numeric data available for pie chart</p>';
+        }
         
         // Calculate total for percentage calculation
         const total = cleanData.reduce((sum, item) => sum + item.value, 0);
-        
         if (total === 0) return '<p>No numeric data available for pie chart</p>';
         
         // Create SVG pie chart
